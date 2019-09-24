@@ -13,7 +13,8 @@
     "codemod-cli"
   ],
   "dependencies": {
-    "codemod-cli": "^2.1.0"
+    "codemod-cli": "^2.1.0",
+    "execa": "^2.0.4"
   },
   "devDependencies": {
     "coveralls": "^3.0.6",
