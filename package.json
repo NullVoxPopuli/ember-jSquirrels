@@ -13,8 +13,11 @@
     "codemod-cli"
   ],
   "dependencies": {
+    "@octokit/rest": "^16.30.1",
     "codemod-cli": "^2.1.0",
-    "execa": "^2.0.4"
+    "execa": "^2.0.4",
+    "node-fetch": "^2.6.0",
+    "tmp": "^0.1.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.6",
