@@ -246,14 +246,19 @@ async function runCodemods({ cwd }) {
   if (fs.existsSync(path.join(cwd, 'test-support'))) {
     await run(`npx ember-3x-codemods jquery-apis ./test-support`, { cwd });
   }
+
+  if (fs.existsSync(path.join(cwd, 'tests', 'unit'))) {
+    await run(`npx ember-test-helpers-codemod native-dom tests/unit`, { cwd });
+  }
+
   if (fs.existsSync(path.join(cwd, 'tests', 'integration'))) {
     await run(`npx ember-test-helpers-codemod integration tests/integration`, { cwd });
+    await run(`npx ember-test-helpers-codemod native-dom tests/integration`, { cwd });
   }
+
   if (fs.existsSync(path.join(cwd, 'tests', 'acceptance'))) {
-  await run(`npx ember-test-helpers-codemod acceptance tests/acceptance`, { cwd });
-  }
-  if (fs.existsSync(path.join(cwd, 'tests'))) {
-    await run(`npx ember-test-helpers-codemod native-dom tests --ext js,ts`, { cwd });
+    await run(`npx ember-test-helpers-codemod acceptance tests/acceptance`, { cwd });
+    await run(`npx ember-test-helpers-codemod native-dom tests/acceptance`, { cwd });
   }
 }
 
