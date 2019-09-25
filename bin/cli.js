@@ -13,6 +13,7 @@ const Octokit = require("@octokit/rest");
 const tmp = require('tmp');
 const path = require('path');
 const fetch = require('node-fetch');
+const fs = require('fs');
 
 const branchName = 'remove-jquery----ember-jSquirrels';
 const { GITHUB_TOKEN } = process.env;
@@ -24,7 +25,7 @@ if (!GITHUB_TOKEN) {
 
 const octokit = new Octokit({ auth: GITHUB_TOKEN });
 
-const GITHUB_REGEX = /\/([\w]+)\/([\w-]+)/
+const GITHUB_REGEX = /\/([\w-_]+)\/([\w-_]+)/
 
 // TODO:
 //
@@ -46,9 +47,28 @@ const GITHUB_REGEX = /\/([\w]+)\/([\w-]+)/
 // - Push Code
 // - Open PR
 async function removeJQuery() {
-  let userName = await getUserName();
+  try {
+    // await getRepo();
+  } catch (e) {
+    console.error(e);
+    process.exit(1);
+  }
 
-  let theirs = await getRepo();
+  let progress = progressFile();
+
+  let repos = Object.keys(progress);
+
+  for (let i = 0; i < repos.length; i++) {
+    let key = repos[i];
+    let info = progress[key];
+
+    await removeJQueryFor(info);
+    break;
+  }
+}
+
+async function removeJQueryFor(theirs) {
+  let userName = await getUserName();
   let { repo } = theirs;
   let mine = { owner: userName, repo };
 
@@ -73,6 +93,23 @@ async function removeJQuery() {
     cleanTmp();
   }
 
+
+}
+
+function progressFile() {
+  try {
+    let rawdata = fs.readFileSync('progress.json');
+    let json = JSON.parse(rawdata);
+
+    return json;
+  } catch (e) {
+    return {};
+  }
+
+}
+
+function writeProgressFile(json) {
+  fs.writeFileSync('progress.json', JSON.stringify(json));
 }
 
 async function createPR({ base, upstream, repo }) {
@@ -97,45 +134,99 @@ async function createPR({ base, upstream, repo }) {
 }
 
 async function getRepo() {
-  let url = 'https://emberobserver.com/api/v2/addons?filter%5Btop%5D=true&include=categories&page%5Blimit%5D=100&sort=ranking';
+  let progress = progressFile();
+  let alreadyVisited = Object.keys(progress);
 
-  let response = await fetch(url);
-  let json = await response.json();
+  for (let i = 0; i < 1; i++) {
+    let offset = i;
+    let url = `https://emberobserver.com/api/v2/addons?page%5Blimit%5D=100&page%5Boffset%5D=${offset}&sort=ranking`;
 
-  let { data } = json;
+    console.log(url);
 
-  let result = {};
+    let data = [];
 
-  for (let i = 0; i < data.length; i++) {
-    let { attributes } = data[i];
-    let gitUrl = attributes['repository-url'];
-    let rawUrl = gitUrl.replace(`://github`, `://raw.githubusercontent`);
-    let packageUrl = `${rawUrl}/master/package.json`;
-
-    let packageJson;
-
-    console.log(packageUrl);
     try {
-      let packageResponse = await fetch(packageUrl);
-      packageJson = await packageResponse.text();
+      let response = await fetch(url);
+      let json = await response.json();
+
+      if (!json.data) {
+        console.log('empty response', json);
+      }
+      data = json.data || [];
     } catch (e) {
-      console.error(e);
-      process.exit(1);
+      console.log(e);
     }
 
-    if (packageJson.includes('jQuery') || packageJson.includes('jquery')) {
-      let [_match, owner, repo] = gitUrl.match(GITHUB_REGEX);
+    for (let i = 0; i < data.length; i++) {
+      let { attributes } = data[i];
+      let gitUrl = attributes['repository-url'];
+      let isInvalid = attributes['has-invalid-github-url'];
 
-      result = { owner, repo };
-      break;
+      if (isInvalid) {
+        console.log(attributes);
+        process.exit(1);
+      }
+
+      if (!gitUrl) {
+        // shame!
+        continue;
+      }
+
+      let rawUrl = gitUrl.replace(`://github`, `://raw.githubusercontent`);
+      let packageUrl = `${rawUrl}/master/package.json`;
+
+      let packageJson;
+
+      try {
+        let packageResponse = await fetch(packageUrl);
+        packageJson = await packageResponse.text();
+      } catch (e) {
+        console.error(e);
+        process.exit(1);
+      }
+
+      if (packageJson.includes('jQuery') || packageJson.includes('jquery')) {
+        let matches = gitUrl.match(GITHUB_REGEX);
+
+        if (!matches) {
+
+          console.log('no matches for url:', gitUrl);
+          continue;
+        }
+
+        let [_match, owner, repo] = matches;
+
+        let key = `${owner}/${repo}`
+
+        console.log(key);
+        if (!alreadyVisited.includes(key)) {
+          progress[key] = {
+            owner, repo
+          };
+
+        }
+      }
     }
+
   }
 
-  return result;
+  console.log(progress);
+  writeProgressFile(progress);
 }
 
 async function run(command, options = {}) {
-  return await execa(command, { stdio: "inherit", ...options });
+  console.log(`
+    Running:
+      ${command}
+  `)
+  return await execa(command, {
+    stdio: "inherit",
+    shell: true,
+    env: {
+      SSH_AUTH_SOCK: '/run/user/1000/keyring/ssh'
+    },
+    ...options
+  });
 }
 
 async function pushBranch({ cwd }) {
@@ -146,10 +237,24 @@ async function pushBranch({ cwd }) {
 }
 
 async function runCodemods({ cwd }) {
-  await run(`npx ember-3x-codemods jquery-apis .`, { cwd });
-  await run(`npx ember-test-helpers-codemod integration tests/integration`, { cwd });
+  if (fs.existsSync(path.join(cwd, 'addon'))) {
+    await run(`npx ember-3x-codemods jquery-apis ./addon`, { cwd });
+  }
+  if (fs.existsSync(path.join(cwd, 'addon-test-support'))) {
+    await run(`npx ember-3x-codemods jquery-apis ./addon-test-support`, { cwd });
+  }
+  if (fs.existsSync(path.join(cwd, 'test-support'))) {
+    await run(`npx ember-3x-codemods jquery-apis ./test-support`, { cwd });
+  }
+  if (fs.existsSync(path.join(cwd, 'tests', 'integration'))) {
+    await run(`npx ember-test-helpers-codemod integration tests/integration`, { cwd });
+  }
+  if (fs.existsSync(path.join(cwd, 'tests', 'acceptance'))) {
   await run(`npx ember-test-helpers-codemod acceptance tests/acceptance`, { cwd });
-  await run(`npx ember-test-helpers-codemod native-dom tests`, { cwd });
+  }
+  if (fs.existsSync(path.join(cwd, 'tests'))) {
+    await run(`npx ember-test-helpers-codemod native-dom tests --ext js,ts`, { cwd });
+  }
 }
 
 async function getUserName() {
