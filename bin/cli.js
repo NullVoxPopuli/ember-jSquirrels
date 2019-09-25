@@ -82,6 +82,7 @@ async function removeJQueryFor(theirs) {
     let repoPath = await clone({ owner: userName, repo, cwd: tmpPath });
 
     await runCodemods({ cwd: repoPath });
+    await runRemainingTransforms({ cwd: repoPath });
 
     await pushBranch({ cwd: repoPath });
 
@@ -233,6 +234,7 @@ async function pushBranch({ cwd }) {
   await run(`git checkout -b ${branchName}`, { cwd });
   await run(`git add .`, { cwd });
   await run(`git commit -m "Ran codemods to remove jQuery"`, { cwd });
+  await run(`git status`, { cwd });
   await run(`git push origin ${branchName}`, { cwd });
 }
 
