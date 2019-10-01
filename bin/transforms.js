@@ -21,18 +21,18 @@ async function runCommunityCodemods({ cwd, updateState }) {
   }
 
   if (fs.existsSync(path.join(cwd, 'tests', 'unit'))) {
-    await runAndCapture(`npx ember-qunit-codemod convert-module-for-to-setup-test tests/unit`);
+    await runAndCapture(`npx ember-qunit-codemod convert-module-for-to-setup-test tests/unit`, { cwd, updateState });
     await runAndCapture(`npx ember-test-helpers-codemod native-dom tests/unit`, { cwd, updateState });
   }
 
   if (fs.existsSync(path.join(cwd, 'tests', 'integration'))) {
-    await runAndCapture(`npx ember-qunit-codemod convert-module-for-to-setup-test tests/integration`);
+    await runAndCapture(`npx ember-qunit-codemod convert-module-for-to-setup-test tests/integration`, { cwd, updateState });
     await runAndCapture(`npx ember-test-helpers-codemod integration tests/integration`, { cwd, updateState });
     await runAndCapture(`npx ember-test-helpers-codemod native-dom tests/integration`, { cwd, updateState });
   }
 
   if (fs.existsSync(path.join(cwd, 'tests', 'acceptance'))) {
-    await runAndCapture(`npx ember-qunit-codemod convert-module-for-to-setup-test tests/acceptance`);
+    await runAndCapture(`npx ember-qunit-codemod convert-module-for-to-setup-test tests/acceptance`, { cwd, updateState });
     await runAndCapture(`npx ember-test-helpers-codemod acceptance tests/acceptance`, { cwd, updateState });
     await runAndCapture(`npx ember-test-helpers-codemod native-dom tests/acceptance`, { cwd, updateState });
   }

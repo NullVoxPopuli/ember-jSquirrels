@@ -24,37 +24,22 @@ async function getUserName() {
 async function checkoutBranch({ cwd }) {
   console.log('switching branches...');
   try {
-    await execa(`git checkout -b ${branchName}`, options);
+    await run(`git checkout -b ${branchName}`, { cwd });
   } catch (e) {
     // branch exists?
   }
 
-  await execa(`git checkout ${branchName}`, options);
+  await run(`git checkout ${branchName}`, { cwd });
 
   console.log('fetching remote changes...');
-  await execa(`git pull origin ${branchName}`, options);
+  await run(`git pull origin ${branchName}`, { cwd });
 }
 
 
 async function pushBranch({ cwd, updateState, repo, owner }) {
-  let options = {
-    shell: true,
-    cwd,
-    stdio: 'inherit',
-    // env: {
-    //   GIT_SSH_COMMAND: `ssh -i ${process.env.HOME}/.ssh/id_rsa`,
-    // }
-  };
-
-  console.log('adding changes...');
-  await execa(`git`, ['add', '.'], options);
-  console.log('committing...');
-  await execa(`git commit -m"Ran codemods to remove jQuery" --allow-empty`, options);
-  // console.log('updating origin crap....');
-  // await execa(`git remote rm origin`, options);
-  // await execa(`git remote add origin git@github.com:${owner}/${repo}.git`, options);
-  console.log('pushing...');
-  await execa(`git push --set-upstream origin ${branchName}`, options);
+  await run(`git add .`, { cwd });
+  await run(`git commit -m"Ran codemods to remove jQuery" --allow-empty`, { cwd });
+  await run(`git push --set-upstream origin ${branchName}`, { cwd });
 
   updateState({
     pushed: true,
