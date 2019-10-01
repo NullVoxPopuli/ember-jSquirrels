@@ -21,11 +21,18 @@ async function getUserName() {
 }
 
 
-async function updateBranch({ cwd }) {
+async function checkoutBranch({ cwd }) {
   console.log('switching branches...');
-  await execa(`git`, ['checkout', '-b', branchName], options);
+  try {
+    await execa(`git checkout -b ${branchName}`, options);
+  } catch (e) {
+    // branch exists?
+  }
+
+  await execa(`git checkout ${branchName}`, options);
+
   console.log('fetching remote changes...');
-  await execa(`git pull origin ${branchName}`);
+  await execa(`git pull origin ${branchName}`, options);
 }
 
 
@@ -138,4 +145,5 @@ module.exports = {
   pushBranch,
   GITHUB_REGEX,
   createPR,
+  checkoutBranch,
 }

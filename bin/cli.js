@@ -15,7 +15,8 @@ const { runCodemods } = require('./transforms');
 const {
   getUserName,
   repoExists, fork, clone,
-  pushBranch, createPR
+  pushBranch, createPR,
+  checkoutBranch
 } = require('./git');
 
 // TODO:
@@ -88,6 +89,7 @@ async function removeJQueryFor(theirs, updateState) {
     let repoPath = await clone({ owner: userName, repo, cwd: tmpPath });
 
     // let repoPath = `/home/lprestonsegoiii/Development/OpenSource/cardstack-auth0`
+    await checkoutBranch({ cwd });
 
     await runCodemods({ cwd: repoPath, updateState });
 
