@@ -11,7 +11,7 @@ async function runCodemods({ cwd, updateState }) {
 }
 
 async function runCommunityCodemods({ cwd, updateState }) {
-  await runAndCapture(`volta install ember-3x-codemods ember-qunit-codemod ember-test-helpers-codemod`);
+  await runAndCapture(`volta install ember-3x-codemods ember-qunit-codemod ember-test-helpers-codemod`, { cwd, updateState });
 
   if (fs.existsSync(path.join(cwd, 'addon'))) {
     await runAndCapture(`ember-3x-codemods jquery-apis ./addon/**/*.js`, { cwd, updateState });

@@ -54,9 +54,10 @@ async function removeJQuery() {
     let key = repos[i];
     let info = progress[key];
 
-    if (info.prCreated) {
-      continue;
-    }
+    // if (info.prCreated) {
+    //   console.log(`${key} already has a PR created.`);
+    //   continue;
+    // }
 
     let updateState = (dataForRepo = {}) => {
       progress[key] = {
