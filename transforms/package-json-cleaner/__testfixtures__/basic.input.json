@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@ember/jquery": "*",
+    "jquery": "*"
+  }
+}
