@@ -93,7 +93,7 @@ async function removeJQueryFor(theirs, updateState) {
 
     let repoPath = await clone({ owner: userName, repo, cwd: tmpPath });
 
-    // let repoPath = `/home/lprestonsegoiii/Development/OpenSource/cardstack-auth0`
+    // let repoPath = `${process.env.HOME}/Development/NullVoxPopuli/cardstack-auth0`
     await checkoutBranch({ cwd: repoPath });
 
     await runCodemods({ cwd: repoPath, updateState });

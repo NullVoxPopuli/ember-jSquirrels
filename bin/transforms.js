@@ -10,7 +10,7 @@ async function runCodemods({ cwd, updateState }) {
 }
 
 async function runCommunityCodemods({ cwd, updateState }) {
-  // await runAndCapture(`volta install ember-3x-codemods ember-qunit-codemod ember-test-helpers-codemod`, { cwd, updateState });
+  await runAndCapture(`volta install jscodeshift ember-3x-codemods ember-qunit-codemod ember-test-helpers-codemod`, { cwd, updateState });
 
   if (fs.existsSync(path.join(cwd, 'addon'))) {
     await runAndCapture(`ember-3x-codemods jquery-apis ./addon/**/*.js`, { cwd, updateState });
@@ -83,8 +83,9 @@ async function runAndCapture(command, { cwd, updateState }) {
   });
 }
 
-function runCustomTransforms({ cwd }) {
-  codemodCli.runTransform(cwd, 'package-json-cleaner', path.join('package.json'));
+async function runCustomTransforms({ cwd }) {
+  console.log('Running custom transforms...');
+  await codemodCli.runTransform(__dirname, 'package-json-cleaner', path.join(cwd, 'package.json'));
 }
 
 module.exports = {

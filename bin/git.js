@@ -123,6 +123,7 @@ async function createPR({ base, upstream, repo, updateState }) {
 let currentPRs = [];
 
 async function prExists({ user, repo }) {
+  return true;
   if (currentPRs.length === 0) {
 
     let prData = await getPullRequests(user, 'all', { oAuthToken: GITHUB_TOKEN });
