@@ -1,17 +1,20 @@
 const execa = require('execa');
 
 async function run(command, options = {}) {
-    console.log(`
+  console.log(`
       Running:
         ${command}
-    `)
-    return await execa(command, {
-      stdio: "inherit",
-      shell: true,
-      ...options
-    });
-  }
+    `);
+  return await execa(`source $HOME/.bash_profile && ${command}`, {
+    stdio: 'inherit',
+    shell: '/bin/bash',
+    env: {
+      PATH: process.env.PATH,
+    },
+    ...options,
+  });
+}
 
-  module.exports = {
-      run,
-  }
+module.exports = {
+  run,
+};

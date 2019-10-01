@@ -14,9 +14,13 @@ const { progressFile, writeProgressFile } = require('./cache');
 const { runCodemods } = require('./transforms');
 const {
   getUserName,
-  repoExists, fork, clone,
-  pushBranch, createPR,
-  checkoutBranch
+  repoExists,
+  fork,
+  clone,
+  pushBranch,
+  createPR,
+  prExists,
+  checkoutBranch,
 } = require('./git');
 
 // TODO:
@@ -66,7 +70,7 @@ async function removeJQuery() {
       };
 
       writeProgressFile(progress);
-    }
+    };
 
     await removeJQueryFor(info, updateState);
     // break;
@@ -78,10 +82,10 @@ async function removeJQueryFor(theirs, updateState) {
   let { repo } = theirs;
   let mine = { owner: userName, repo };
 
-  let { name: tmpPath, removeCallback: cleanTmp } = tmp.dirSync({template: '/home/lprestonsegoiii/Development/tmp/tmp-XXXXXX' });
+  let { name: tmpPath, removeCallback: cleanTmp } = tmp.dirSync();
 
   try {
-    if (!await repoExists(mine)) {
+    if (!(await repoExists(mine))) {
       await fork(theirs);
     }
 
@@ -96,20 +100,20 @@ async function removeJQueryFor(theirs, updateState) {
 
     await pushBranch({ cwd: repoPath, repo, owner: userName, updateState });
 
-    await createPR({
-      base: userName,
-      upstream: theirs.owner,
-      repo,
-      updateState
-    });
+    if (!(await prExists({ user: userName, repo }))) {
+      await createPR({
+        base: userName,
+        upstream: theirs.owner,
+        repo,
+        updateState,
+      });
+    }
   } catch (e) {
     console.log('sadness');
     console.error(e);
   } finally {
     cleanTmp();
   }
-
-
 }
 
 async function begin() {
@@ -118,5 +122,3 @@ async function begin() {
 }
 
 begin();
-
-

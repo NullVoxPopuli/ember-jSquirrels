@@ -1,6 +1,8 @@
 const Octokit = require("@octokit/rest");
 const path = require('path');
 const execa = require('execa');
+const getPullRequests = require('github-pull-requests');
+
 const { run } = require('./shell');
 
 const branchName = 'remove-jquery----ember-jSquirrels';
@@ -118,6 +120,28 @@ async function createPR({ base, upstream, repo, updateState }) {
   });
 }
 
+let currentPRs = [];
+
+async function prExists({ user, repo }) {
+  if (currentPRs.length === 0) {
+
+    let prData = await getPullRequests(user, 'all', { oAuthToken: GITHUB_TOKEN });
+
+    currentPRs = prData.map(pr => pr.url);
+  }
+
+  for (let i = 0; i < currentPRs.length; i++) {
+    let current = currentPRs[i];
+
+    // this is flawed, use regex match
+    if (current.includes(user) && current.includes(repo)) {
+      return true;
+    }
+  }
+
+  return false
+}
+
 
 
 module.exports = {
@@ -131,4 +155,5 @@ module.exports = {
   GITHUB_REGEX,
   createPR,
   checkoutBranch,
+  prExists,
 }

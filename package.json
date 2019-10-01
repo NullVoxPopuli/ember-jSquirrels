@@ -16,6 +16,7 @@
     "@octokit/rest": "^16.30.1",
     "codemod-cli": "^2.1.0",
     "execa": "^2.0.4",
+    "github-pull-requests": "^0.4.3",
     "node-fetch": "^2.6.0",
     "tmp": "^0.1.0"
   },
