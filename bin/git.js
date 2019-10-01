@@ -1,4 +1,7 @@
 const Octokit = require("@octokit/rest");
+const path = require('path');
+const execa = require('execa');
+const { run } = require('./shell');
 
 const branchName = 'remove-jquery----ember-jSquirrels';
 const { GITHUB_TOKEN } = process.env;
@@ -18,12 +21,37 @@ async function getUserName() {
 }
 
 
-async function pushBranch({ cwd }) {
-  await run(`git checkout -b ${branchName}`, { cwd });
-  await run(`git add .`, { cwd });
-  await run(`git commit -m "Ran codemods to remove jQuery"`, { cwd });
-  await run(`git status`, { cwd });
-  await run(`git push origin ${branchName}`, { cwd });
+async function updateBranch({ cwd }) {
+  console.log('switching branches...');
+  await execa(`git`, ['checkout', '-b', branchName], options);
+  console.log('fetching remote changes...');
+  await execa(`git pull origin ${branchName}`);
+}
+
+
+async function pushBranch({ cwd, updateState, repo, owner }) {
+  let options = {
+    shell: true,
+    cwd,
+    stdio: 'inherit',
+    // env: {
+    //   GIT_SSH_COMMAND: `ssh -i ${process.env.HOME}/.ssh/id_rsa`,
+    // }
+  };
+
+  console.log('adding changes...');
+  await execa(`git`, ['add', '.'], options);
+  console.log('committing...');
+  await execa(`git commit -m"Ran codemods to remove jQuery" --allow-empty`, options);
+  // console.log('updating origin crap....');
+  // await execa(`git remote rm origin`, options);
+  // await execa(`git remote add origin git@github.com:${owner}/${repo}.git`, options);
+  console.log('pushing...');
+  await execa(`git push --set-upstream origin ${branchName}`, options);
+
+  updateState({
+    pushed: true,
+  });
 }
 
 
@@ -32,7 +60,8 @@ async function gitUrlFor({ owner, repo }) {
   console.log(`getting git Url: ${owner}/${repo}`);
   let response = await octokit.repos.get({ owner, repo });
 
-  return response.data.git_url;
+  // console.log(response.data);
+  return response.data.ssh_url;
 }
 
 async function repoExists({ owner, repo }) {
@@ -54,8 +83,8 @@ async function hasFork({ owner, repo }) {
   let forks = await octokit.repos.listForks({ owner, repo });
   let hasFork = forks.data.find(fork => fork.owner.login === user.data.login);
 
-   return hasFork;
- }
+  return hasFork;
+}
 
 
 async function fork({ owner, repo }) {
@@ -72,14 +101,14 @@ async function clone({ owner, repo, cwd }) {
 }
 
 
-async function createPR({ base, upstream, repo }) {
+async function createPR({ base, upstream, repo, updateState }) {
   console.log(`creating PR: ${upstream} <- ${base} with ${repo}`);
 
   await octokit.pulls.create({
     owner: upstream,
     repo,
-    head: `${base}:${head}`,
-    base,
+    head: `${base}:${branchName}`,
+    base: 'master', // todo, fix for repos who have a different default
     title: 'Remove jQuery',
     body: `
      This is an automated PR from: https://github.com/NullVoxPopuli/ember-jSquirrels
@@ -90,6 +119,10 @@ async function createPR({ base, upstream, repo }) {
 
      Removing jQuery will reduce everyone's app vendor size by 30-80kb after min+gzip, depending on the jQuery version.
     `
+  });
+
+  updateState({
+    prCreated: true,
   });
 }
 
@@ -104,4 +137,5 @@ module.exports = {
   hasFork,
   pushBranch,
   GITHUB_REGEX,
+  createPR,
 }

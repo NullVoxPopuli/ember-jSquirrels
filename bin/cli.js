@@ -10,7 +10,7 @@
 const tmp = require('tmp');
 
 const { scrapeEverything } = require('./ember-observer-scraper');
-const { progressFile } = require('./cache');
+const { progressFile, writeProgressFile } = require('./cache');
 const { runCodemods } = require('./transforms');
 const {
   getUserName,
@@ -49,34 +49,56 @@ async function removeJQuery() {
 
   let repos = Object.keys(progress);
 
-  for (let i = 0; i < repos.length; i++) {
+  for (let i = 0; i < 10 /* repos.length */; i++) {
     let key = repos[i];
     let info = progress[key];
 
-    await removeJQueryFor(info);
-    break;
+    if (info.prCreated) {
+      continue;
+    }
+
+    let updateState = (dataForRepo = {}) => {
+      progress[key] = {
+        ...dataForRepo,
+        ...info,
+      };
+
+      writeProgressFile(progress);
+    }
+
+    await removeJQueryFor(info, updateState);
+    // break;
   }
 }
 
-async function removeJQueryFor(theirs) {
+async function removeJQueryFor(theirs, updateState) {
   let userName = await getUserName();
   let { repo } = theirs;
   let mine = { owner: userName, repo };
 
-  let { name: tmpPath, removeCallback: cleanTmp } = tmp.dirSync();
+  let { name: tmpPath, removeCallback: cleanTmp } = tmp.dirSync({template: '/home/lprestonsegoiii/Development/tmp/tmp-XXXXXX' });
 
   try {
     if (!await repoExists(mine)) {
       await fork(theirs);
     }
 
+    updateState({ forked: true });
+
     let repoPath = await clone({ owner: userName, repo, cwd: tmpPath });
 
-    await runCodemods({ cwd: repoPath });
+    // let repoPath = `/home/lprestonsegoiii/Development/OpenSource/cardstack-auth0`
 
-    await pushBranch({ cwd: repoPath });
+    await runCodemods({ cwd: repoPath, updateState });
 
-    await createPR({ base: userName, upstream: theirs.owner, repo });
+    await pushBranch({ cwd: repoPath, repo, owner: userName, updateState });
+
+    await createPR({
+      base: userName,
+      upstream: theirs.owner,
+      repo,
+      updateState
+    });
   } catch (e) {
     console.log('sadness');
     console.error(e);
@@ -87,6 +109,11 @@ async function removeJQueryFor(theirs) {
 
 }
 
-// removeJQuery();
+async function begin() {
+  // await scrapeEverything();
+  await removeJQuery();
+}
 
-scrapeEverything();
+begin();
+
+
