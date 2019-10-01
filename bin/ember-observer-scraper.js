@@ -1,5 +1,6 @@
 const fetch = require('node-fetch');
 
+const { GITHUB_REGEX } = require('./git');
 const { progressFile, writeProgressFile } = require('./cache');
 
 /**
@@ -33,7 +34,7 @@ async function scrapeEverything() {
 
   let reposNeedingPr = progressFile();
 
-  console.log(`There are ${reposNeedingPr.length} repos with jQuery`);
+  console.log(`There are ${Object.keys(reposNeedingPr).length} repos with jQuery`);
 
   return reposNeedingPr;
 }
@@ -77,24 +78,23 @@ async function filterByjQueryAndWriteToCache(repoList) {
   let alreadyVisited = Object.keys(progress);
 
   for (let i = 0; i < repoList.length; i++) {
-    let repo = repoList[i];
-    let gitUrl = repo.gitUrl;
+    let { gitUrl } = repoList[i];
 
-    let packageJson = await getPackageJson(gitUrl);
-    let isInNeedOfPR = hasjQuery(packageJson);
+    let { owner, repo, key } = ownerRepoFromUrl(gitUrl);
 
-     if (isInNeedOfPR) {
-       let { owner, repo, key } = ownerRepoFromUrl(gitUrl);
+    if (!owner && !repo) {
+      continue;
+    }
 
-       if (!owner && !repo) {
-         continue;
-       }
+    if (!alreadyVisited.includes(key)) {
+      let packageJson = await getPackageJson(gitUrl);
+      let isInNeedOfPR = hasjQuery(packageJson);
 
-       console.log(key);
-       if (!alreadyVisited.includes(key)) {
+      if (isInNeedOfPR) {
          progress[key] = { owner, repo };
-       }
-     }
+         writeProgressFile(progress);
+      }
+    }
   }
 
   console.log(progress);
@@ -102,8 +102,6 @@ async function filterByjQueryAndWriteToCache(repoList) {
 }
 
 async function getDataFromUrl(url) {
-  console.log(url);
-
   let data = [];
 
   try {
@@ -144,7 +142,7 @@ async function getPackageJson(gitUrl) {
     packageJson = await packageResponse.text();
   } catch (e) {
     console.error(e);
-    process.exit(1);
+    return '';
   }
 
   return packageJson;

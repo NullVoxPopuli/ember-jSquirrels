@@ -103,4 +103,5 @@ module.exports = {
   getUserName,
   hasFork,
   pushBranch,
+  GITHUB_REGEX,
 }
