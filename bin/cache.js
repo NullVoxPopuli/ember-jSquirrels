@@ -13,7 +13,7 @@ function progressFile() {
 }
 
 function writeProgressFile(json) {
-  fs.writeFileSync('progress.json', JSON.stringify(json));
+  fs.writeFileSync('progress.json', JSON.stringify(json, null, 2));
 }
 
 

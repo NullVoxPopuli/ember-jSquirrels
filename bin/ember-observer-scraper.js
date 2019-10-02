@@ -3,6 +3,24 @@ const fetch = require('node-fetch');
 const { GITHUB_REGEX } = require('./git');
 const { progressFile, writeProgressFile } = require('./cache');
 
+const jQueryPackageParts = [
+  'jquery',
+  'ajax',
+];
+
+const jQueryNameKeywords = [
+  'jquery',
+  'semantic-ui',
+  'ajax',
+  'colpick',
+  'twitter-typeahead',
+  'fotorama',
+  'froala',
+  'mousewheel',
+  'ui-dropzone',
+  'backstretch'
+];
+
 /**
  * NOTE: ember-observer doesn't have a public api
  *
@@ -73,12 +91,26 @@ async function getReposForCategory({ id }) {
   return result;
 }
 
+function containsAny(str, options) {
+  for (let i = 0; i < options.length; i++) {
+    if (str.includes(options[i])) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
 async function filterByjQueryAndWriteToCache(repoList) {
   let progress = progressFile();
   let alreadyVisited = Object.keys(progress);
 
   for (let i = 0; i < repoList.length; i++) {
     let { gitUrl } = repoList[i];
+
+    if (containsAny(gitUrl, jQueryNameKeywords)) {
+      continue;
+    }
 
     let { owner, repo, key } = ownerRepoFromUrl(gitUrl);
 
@@ -149,7 +181,9 @@ async function getPackageJson(gitUrl) {
 }
 
 function hasjQuery(packageJson) {
-  return packageJson.includes('jQuery') || packageJson.includes('jquery')
+  let json = packageJson.toLowerCase();
+
+  return containsAny(json, jQueryPackageParts);
 }
 
 function ownerRepoFromUrl(gitUrl) {

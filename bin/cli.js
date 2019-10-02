@@ -54,7 +54,7 @@ async function removeJQuery() {
 
   let repos = Object.keys(progress);
 
-  for (let i = 30; i < 60 /* repos.length */; i++) {
+  for (let i = 60; i < 90 /* repos.length */; i++) {
     let key = repos[i];
     let info = progress[key];
 
@@ -122,8 +122,8 @@ async function removeJQueryFor(theirs, updateState) {
 }
 
 async function begin() {
-  // await scrapeEverything();
-  await removeJQuery();
+  await scrapeEverything();
+  // await removeJQuery();
 }
 
 begin();
