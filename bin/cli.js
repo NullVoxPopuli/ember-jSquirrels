@@ -122,8 +122,8 @@ async function removeJQueryFor(theirs, updateState) {
 }
 
 async function begin() {
-  // await scrapeEverything();
-  await removeJQuery();
+  await scrapeEverything();
+  // await removeJQuery();
 }
 
 begin();
