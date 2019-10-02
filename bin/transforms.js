@@ -86,6 +86,14 @@ async function runAndCapture(command, { cwd, updateState }) {
 async function runCustomTransforms({ cwd }) {
   console.log('Running custom transforms...');
   await codemodCli.runTransform(__dirname, 'package-json-cleaner', path.join(cwd, 'package.json'));
+
+  if (fs.existsSync((path.join(cwd, 'yarn.lock')))) {
+    await run(`yarn`, { cwd });
+  }
+
+  if (fs.existsSync((path.join(cwd, 'package-lock.json')))) {
+    await run(`npm install`, { cwd });
+  }
 }
 
 module.exports = {

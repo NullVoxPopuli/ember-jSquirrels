@@ -34,7 +34,11 @@ async function checkoutBranch({ cwd }) {
   await run(`git checkout ${branchName}`, { cwd });
 
   console.log('fetching remote changes...');
-  await run(`git pull origin ${branchName}`, { cwd });
+  try {
+    await run(`git pull origin ${branchName}`, { cwd });
+  } catch (e) {
+    // branch does not exist
+  }
 }
 
 
@@ -122,11 +126,10 @@ async function createPR({ base, upstream, repo, updateState }) {
 
 let currentPRs = [];
 
-async function prExists({ user, repo }) {
-  return true;
+async function wasPrClosed({ user, repo }) {
   if (currentPRs.length === 0) {
 
-    let prData = await getPullRequests(user, 'all', { oAuthToken: GITHUB_TOKEN });
+    let prData = await getPullRequests(user, 'closed', { oAuthToken: GITHUB_TOKEN });
 
     currentPRs = prData.map(pr => pr.url);
   }
@@ -156,5 +159,5 @@ module.exports = {
   GITHUB_REGEX,
   createPR,
   checkoutBranch,
-  prExists,
+  wasPrClosed,
 }

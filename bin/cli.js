@@ -19,7 +19,7 @@ const {
   clone,
   pushBranch,
   createPR,
-  prExists,
+  wasPrClosed,
   checkoutBranch,
 } = require('./git');
 
@@ -54,7 +54,7 @@ async function removeJQuery() {
 
   let repos = Object.keys(progress);
 
-  for (let i = 0; i < 10 /* repos.length */; i++) {
+  for (let i = 30; i < 60 /* repos.length */; i++) {
     let key = repos[i];
     let info = progress[key];
 
@@ -85,6 +85,11 @@ async function removeJQueryFor(theirs, updateState) {
   let { name: tmpPath, removeCallback: cleanTmp } = tmp.dirSync();
 
   try {
+    if (await wasPrClosed({ user: userName, repo })) {
+      console.log(`PR for ${userName}/${repo} was closed or merged`);
+      return;
+    }
+
     if (!(await repoExists(mine))) {
       await fork(theirs);
     }
@@ -100,14 +105,14 @@ async function removeJQueryFor(theirs, updateState) {
 
     await pushBranch({ cwd: repoPath, repo, owner: userName, updateState });
 
-    if (!(await prExists({ user: userName, repo }))) {
+    // if (!(await prExists({ user: userName, repo }))) {
       await createPR({
         base: userName,
         upstream: theirs.owner,
         repo,
         updateState,
       });
-    }
+    // }
   } catch (e) {
     console.log('sadness');
     console.error(e);
