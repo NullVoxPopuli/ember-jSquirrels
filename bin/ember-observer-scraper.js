@@ -21,6 +21,8 @@ const jQueryNameKeywords = [
   'backstretch'
 ];
 
+const beginningOf2017 = new Date(2017, 0, 1);
+
 /**
  * NOTE: ember-observer doesn't have a public api
  *
@@ -85,6 +87,13 @@ async function getReposForCategory({ id }) {
       continue;
     }
 
+    let updatedAt = data[i].attributes['latest-version-date'];
+
+    // too old
+    if (new Date(updatedAt) < beginningOf2017) {
+      continue;
+    }
+
     result.push({ gitUrl });
   }
 
@@ -129,7 +138,6 @@ async function filterByjQueryAndWriteToCache(repoList) {
     }
   }
 
-  console.log(progress);
   writeProgressFile(progress);
 }
 
@@ -156,8 +164,7 @@ function gitUrlFrom({ attributes }) {
   let isInvalid = attributes['has-invalid-github-url'];
 
   if (isInvalid) {
-    console.log(attributes);
-    process.exit(1);
+    console.log('invalid repo!', attributes);
   }
 
   return gitUrl;

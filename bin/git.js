@@ -111,7 +111,8 @@ async function createPR({ base, upstream, repo, updateState }) {
     body: `
      This is an automated PR from: https://github.com/NullVoxPopuli/ember-jSquirrels
 
-     In an effort to better ready the Ember ecosystem for the modern web, jQuery must be removed.
+     In an effort to better ready the Ember ecosystem for the modern web,
+     jQuery should probably be removed.
 
      There have been native replacements for jQuery APIs for quite a few years.
 
