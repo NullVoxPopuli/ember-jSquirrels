@@ -18,7 +18,10 @@ const jQueryNameKeywords = [
   'froala',
   'mousewheel',
   'ui-dropzone',
-  'backstretch'
+  'backstretch',
+  'bootstrap',
+  // words to ignore... because these are all obsolete
+  'shim',
 ];
 
 const beginningOf2017 = new Date(2017, 0, 1);

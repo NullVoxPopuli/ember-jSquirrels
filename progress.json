@@ -447,29 +447,9 @@
     "owner": "migeorge",
     "repo": "ember-cli-flexibility"
   },
-  "kaermorchen/ember-cli-bootstrap-4": {
-    "owner": "kaermorchen",
-    "repo": "ember-cli-bootstrap-4"
-  },
-  "wizvishak/ember-cli-tachyons-shim": {
-    "owner": "wizvishak",
-    "repo": "ember-cli-tachyons-shim"
-  },
-  "cybertoothca/ember-cli-bootstrap3-sass": {
-    "owner": "cybertoothca",
-    "repo": "ember-cli-bootstrap3-sass"
-  },
   "davidpett/ember-cli-sass-variables": {
     "owner": "davidpett",
     "repo": "ember-cli-sass-variables"
-  },
-  "martinic/ember-cli-bootstrap-css": {
-    "owner": "martinic",
-    "repo": "ember-cli-bootstrap-css"
-  },
-  "martinic/ember-cli-bootstrap-fonts": {
-    "owner": "martinic",
-    "repo": "ember-cli-bootstrap-fonts"
   },
   "varoot/ember-cli-media-queries": {
     "owner": "varoot",
@@ -542,10 +522,6 @@
   "mikemunsie/ember-export-sass-variables": {
     "owner": "mikemunsie",
     "repo": "ember-export-sass-variables"
-  },
-  "rdhelms/ember-bootstrap-slim": {
-    "owner": "rdhelms",
-    "repo": "ember-bootstrap-slim"
   },
   "ryanlabouve/ember-cli-tachyons-sass": {
     "owner": "ryanlabouve",
@@ -650,10 +626,6 @@
   "ciena-frost/ember-frost-test": {
     "owner": "ciena-frost",
     "repo": "ember-frost-test"
-  },
-  "pfmmfp/ember-cli-lolex-shim": {
-    "owner": "pfmmfp",
-    "repo": "ember-cli-lolex-shim"
   },
   "workmanw/ember-qunit-assert-helpers": {
     "owner": "workmanw",
@@ -967,10 +939,6 @@
     "owner": "cibernox",
     "repo": "ember-cli-accounting"
   },
-  "lifegadget/ember-cli-bootstrap-sassy": {
-    "owner": "lifegadget",
-    "repo": "ember-cli-bootstrap-sassy"
-  },
   "yapplabs/ember-cli-bourbon": {
     "owner": "yapplabs",
     "repo": "ember-cli-bourbon"
@@ -1106,10 +1074,6 @@
   "wecatch/ember-cli-simditor": {
     "owner": "wecatch",
     "repo": "ember-cli-simditor"
-  },
-  "spieker/ember-later-shim": {
-    "owner": "spieker",
-    "repo": "ember-later-shim"
   },
   "supersabillon/ember-ag-grid": {
     "owner": "supersabillon",
@@ -2519,10 +2483,6 @@
     "owner": "akshay-kr",
     "repo": "ember-scroll-to-target"
   },
-  "smashweaver/ember-cli-animate-shim": {
-    "owner": "smashweaver",
-    "repo": "ember-cli-animate-shim"
-  },
   "sauce-consultants/ember-liquid-sauce": {
     "owner": "sauce-consultants",
     "repo": "ember-liquid-sauce"
@@ -2567,10 +2527,6 @@
     "owner": "dmcouncil",
     "repo": "ember-cli-form-errors"
   },
-  "cybertoothca/ember-data-bootstrap3-forms": {
-    "owner": "cybertoothca",
-    "repo": "ember-data-bootstrap3-forms"
-  },
   "Foodee/ember-foxy-forms": {
     "owner": "Foodee",
     "repo": "ember-foxy-forms"
@@ -2591,81 +2547,17 @@
     "owner": "Gavant",
     "repo": "ember-floating-labels"
   },
-  "soulim/ember-cli-bootstrap-datepicker": {
-    "owner": "soulim",
-    "repo": "ember-cli-bootstrap-datepicker"
-  },
   "lifegadget/ui-button": {
     "owner": "lifegadget",
     "repo": "ui-button"
-  },
-  "pierrickrouxel/ember-cli-bootstrap-colorpicker": {
-    "owner": "pierrickrouxel",
-    "repo": "ember-cli-bootstrap-colorpicker"
   },
   "aupac/ember-aupac-control": {
     "owner": "aupac",
     "repo": "ember-aupac-control"
   },
-  "btecu/ember-cli-bootstrap-datetimepicker": {
-    "owner": "btecu",
-    "repo": "ember-cli-bootstrap-datetimepicker"
-  },
-  "zoltan-nz/ember-bootstrap-nav-link": {
-    "owner": "zoltan-nz",
-    "repo": "ember-bootstrap-nav-link"
-  },
-  "knownasilya/bootstrap-modal": {
-    "owner": "knownasilya",
-    "repo": "bootstrap-modal"
-  },
-  "cybertoothca/ember-cli-bootstrap3-tooltip": {
-    "owner": "cybertoothca",
-    "repo": "ember-cli-bootstrap3-tooltip"
-  },
-  "cybertoothca/ember-cli-bootstrap3-popover": {
-    "owner": "cybertoothca",
-    "repo": "ember-cli-bootstrap3-popover"
-  },
   "ritesh83/ember-cli-wizard": {
     "owner": "ritesh83",
     "repo": "ember-cli-wizard"
-  },
-  "cybertoothca/ember-cli-bootstrap3-carousel": {
-    "owner": "cybertoothca",
-    "repo": "ember-cli-bootstrap3-carousel"
-  },
-  "bajcmartinez/bootstrap4-tooltip-activator": {
-    "owner": "bajcmartinez",
-    "repo": "bootstrap4-tooltip-activator"
-  },
-  "lobanov-vitaliy/ember-bootstrap-select": {
-    "owner": "lobanov-vitaliy",
-    "repo": "ember-bootstrap-select"
-  },
-  "onechiporenko/ember-bootstrap-modals-manager": {
-    "owner": "onechiporenko",
-    "repo": "ember-bootstrap-modals-manager"
-  },
-  "archferns/ember-cli-bootstrap-4-components": {
-    "owner": "archferns",
-    "repo": "ember-cli-bootstrap-4-components"
-  },
-  "nickschot/ember-bootstrap-model-select": {
-    "owner": "nickschot",
-    "repo": "ember-bootstrap-model-select"
-  },
-  "wildland/ember-bootstrap-controls": {
-    "owner": "wildland",
-    "repo": "ember-bootstrap-controls"
-  },
-  "markogrady1/ember-bootstrap-pagination": {
-    "owner": "markogrady1",
-    "repo": "ember-bootstrap-pagination"
-  },
-  "Gavant/gavant-ember-bootstrap-dropdown": {
-    "owner": "Gavant",
-    "repo": "gavant-ember-bootstrap-dropdown"
   },
   "adopted-ember-addons/ember-pikaday": {
     "owner": "adopted-ember-addons",
@@ -2695,10 +2587,6 @@
     "owner": "angliafarmers",
     "repo": "ember-material-design-datepicker"
   },
-  "dmcouncil/ember-bootstrap-time-input-group": {
-    "owner": "dmcouncil",
-    "repo": "ember-bootstrap-time-input-group"
-  },
   "helm-inc/ember-pikaday-time": {
     "owner": "helm-inc",
     "repo": "ember-pikaday-time"
@@ -2706,10 +2594,6 @@
   "scoutforpets/ember-timepicker": {
     "owner": "scoutforpets",
     "repo": "ember-timepicker"
-  },
-  "topaxi/ember-bootstrap-datepicker": {
-    "owner": "topaxi",
-    "repo": "ember-bootstrap-datepicker"
   },
   "ryannerd/ember-cli-time-picker": {
     "owner": "ryannerd",
@@ -2951,17 +2835,9 @@
     "owner": "AnnotationSro",
     "repo": "ember-advanced-validations"
   },
-  "ciena-blueplanet/ember-validator-shim": {
-    "owner": "ciena-blueplanet",
-    "repo": "ember-validator-shim"
-  },
   "offirgolan/ember-validators": {
     "owner": "offirgolan",
     "repo": "ember-validators"
-  },
-  "eflorit/ember-bootstrap-ds-error-validations": {
-    "owner": "eflorit",
-    "repo": "ember-bootstrap-ds-error-validations"
   },
   "cptran777/ember-form-validation": {
     "owner": "cptran777",
@@ -3731,10 +3607,6 @@
     "owner": "abcum",
     "repo": "ember-modals"
   },
-  "clairton/ember-bootbox-shim": {
-    "owner": "clairton",
-    "repo": "ember-bootbox-shim"
-  },
   "lozjackson/ember-svg-shapes": {
     "owner": "lozjackson",
     "repo": "ember-svg-shapes"
@@ -3782,10 +3654,6 @@
   "lozjackson/ember-drop-zone": {
     "owner": "lozjackson",
     "repo": "ember-drop-zone"
-  },
-  "timrourke/ember-cli-shopify-draggable-shim": {
-    "owner": "timrourke",
-    "repo": "ember-cli-shopify-draggable-shim"
   },
   "BellGasp/ember-drag-drop-multiple": {
     "owner": "BellGasp",
@@ -4106,10 +3974,6 @@
   "201-created/ember-cli-fake-server": {
     "owner": "201-created",
     "repo": "ember-cli-fake-server"
-  },
-  "dustinfarris/ember-mock-socket-shim": {
-    "owner": "dustinfarris",
-    "repo": "ember-mock-socket-shim"
   },
   "offirgolan/ember-data-mirage": {
     "owner": "offirgolan",
@@ -4479,10 +4343,6 @@
     "owner": "emberjs",
     "repo": "ember-2-legacy"
   },
-  "pzuraq/ember-legacy-class-shim": {
-    "owner": "pzuraq",
-    "repo": "ember-legacy-class-shim"
-  },
   "lupestro/ember-copy": {
     "owner": "lupestro",
     "repo": "ember-copy"
@@ -4643,10 +4503,6 @@
     "owner": "thefrontside",
     "repo": "ember-let"
   },
-  "DockYard/ember-new-modules-shim": {
-    "owner": "DockYard",
-    "repo": "ember-new-modules-shim"
-  },
   "ciena-blueplanet/ember-spread": {
     "owner": "ciena-blueplanet",
     "repo": "ember-spread"
@@ -4727,105 +4583,13 @@
     "owner": "foxnewsnetwork",
     "repo": "ember-immutable"
   },
-  "akatov/ember-cli-strophe-shim": {
-    "owner": "akatov",
-    "repo": "ember-cli-strophe-shim"
-  },
-  "ciena-blueplanet/ember-seamless-immutable-shim": {
-    "owner": "ciena-blueplanet",
-    "repo": "ember-seamless-immutable-shim"
-  },
-  "ciena-blueplanet/ember-lodash-shim": {
-    "owner": "ciena-blueplanet",
-    "repo": "ember-lodash-shim"
-  },
-  "crhayes/ember-cli-tribute-shim": {
-    "owner": "crhayes",
-    "repo": "ember-cli-tribute-shim"
-  },
-  "cesar/ember-async-shim": {
-    "owner": "cesar",
-    "repo": "ember-async-shim"
-  },
-  "foxnewsnetwork/ember-normalizr-shim": {
-    "owner": "foxnewsnetwork",
-    "repo": "ember-normalizr-shim"
-  },
-  "bgentry/ember-graphql-tools-shim": {
-    "owner": "bgentry",
-    "repo": "ember-graphql-tools-shim"
-  },
-  "dustinfarris/ember-phoenix-shim": {
-    "owner": "dustinfarris",
-    "repo": "ember-phoenix-shim"
-  },
-  "ciena-blueplanet/ember-pikaday-shim": {
-    "owner": "ciena-blueplanet",
-    "repo": "ember-pikaday-shim"
-  },
-  "dbashford/ember-redux-pack-shim": {
-    "owner": "dbashford",
-    "repo": "ember-redux-pack-shim"
-  },
-  "trabus/ember-imagesloaded-shim": {
-    "owner": "trabus",
-    "repo": "ember-imagesloaded-shim"
-  },
   "MammothHR/ember-cli-ahoy": {
     "owner": "MammothHR",
     "repo": "ember-cli-ahoy"
   },
-  "brianhjelle/ember-plotly-shim": {
-    "owner": "brianhjelle",
-    "repo": "ember-plotly-shim"
-  },
-  "joshuairl/ember-cli-videojs-shim": {
-    "owner": "joshuairl",
-    "repo": "ember-cli-videojs-shim"
-  },
-  "ember-redux/ember-cli-normalizr-shim": {
-    "owner": "ember-redux",
-    "repo": "ember-cli-normalizr-shim"
-  },
-  "tony2n2/ember-redux-undo-shim": {
-    "owner": "tony2n2",
-    "repo": "ember-redux-undo-shim"
-  },
-  "jrjohnson/ember-jwt-decode-shim": {
-    "owner": "jrjohnson",
-    "repo": "ember-jwt-decode-shim"
-  },
-  "IvyApp/ember-cli-polished-shim": {
-    "owner": "IvyApp",
-    "repo": "ember-cli-polished-shim"
-  },
-  "n1ru4l/ember-animejs-shim": {
-    "owner": "n1ru4l",
-    "repo": "ember-animejs-shim"
-  },
-  "Ticketfly/ember-mockdate-shim": {
-    "owner": "Ticketfly",
-    "repo": "ember-mockdate-shim"
-  },
   "Exelord/ember-md5": {
     "owner": "Exelord",
     "repo": "ember-md5"
-  },
-  "amiel/ember-cli-uri-templates-shim": {
-    "owner": "amiel",
-    "repo": "ember-cli-uri-templates-shim"
-  },
-  "ember-redux/ember-cli-seamless-immutable-shim": {
-    "owner": "ember-redux",
-    "repo": "ember-cli-seamless-immutable-shim"
-  },
-  "mattmazzola/ember-cli-microsoft-speech-shim": {
-    "owner": "mattmazzola",
-    "repo": "ember-cli-microsoft-speech-shim"
-  },
-  "swastik/ember-quill-shim": {
-    "owner": "swastik",
-    "repo": "ember-quill-shim"
   },
   "Exelord/ember-jwt-decode": {
     "owner": "Exelord",
@@ -4839,45 +4603,17 @@
     "owner": "systembugtj",
     "repo": "ember-highlightjs"
   },
-  "srxp10/ember-ace-shim": {
-    "owner": "srxp10",
-    "repo": "ember-ace-shim"
-  },
-  "Jbcampbe/ember-dc-shim": {
-    "owner": "Jbcampbe",
-    "repo": "ember-dc-shim"
-  },
   "ming-codes/ember-regl": {
     "owner": "ming-codes",
     "repo": "ember-regl"
-  },
-  "smashweaver/ember-cli-dragula-shim": {
-    "owner": "smashweaver",
-    "repo": "ember-cli-dragula-shim"
-  },
-  "garryyao/ember-cli-shim-select2": {
-    "owner": "garryyao",
-    "repo": "ember-cli-shim-select2"
   },
   "Exelord/ember-js-modules": {
     "owner": "Exelord",
     "repo": "ember-js-modules"
   },
-  "mikeu/ember-fuse-shim": {
-    "owner": "mikeu",
-    "repo": "ember-fuse-shim"
-  },
   "kellyselden/ember-defer": {
     "owner": "kellyselden",
     "repo": "ember-defer"
-  },
-  "maxmalov/ember-cli-jss-shims": {
-    "owner": "maxmalov",
-    "repo": "ember-cli-jss-shims"
-  },
-  "clairton/ember-normalize-shim": {
-    "owner": "clairton",
-    "repo": "ember-normalize-shim"
   },
   "navyuginfo/ember-seo-meta-tags": {
     "owner": "navyuginfo",
