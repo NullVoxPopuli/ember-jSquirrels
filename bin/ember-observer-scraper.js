@@ -20,8 +20,13 @@ const jQueryNameKeywords = [
   'ui-dropzone',
   'backstretch',
   'bootstrap',
+  'toastr',
+  'chai-jquery',
   // words to ignore... because these are all obsolete
   'shim',
+  // words to ignore... because projects are very split
+  'frost',
+  'paper',
 ];
 
 const beginningOf2017 = new Date(2017, 0, 1);
