@@ -1,0 +1,4466 @@
+{
+  "ghurlman/torii-azure-provider": {
+    "owner": "ghurlman",
+    "repo": "torii-azure-provider"
+  },
+  "simplabs/ember-simple-auth": {
+    "owner": "simplabs",
+    "repo": "ember-simple-auth"
+  },
+  "Flexberry/ember-flexberry-security": {
+    "owner": "Flexberry",
+    "repo": "ember-flexberry-security"
+  },
+  "amkirwan/ember-oauth2": {
+    "owner": "amkirwan",
+    "repo": "ember-oauth2"
+  },
+  "w-hat/ember-what-session": {
+    "owner": "w-hat",
+    "repo": "ember-what-session"
+  },
+  "whatthewhat/torii-salesforce-oauth2": {
+    "owner": "whatthewhat",
+    "repo": "torii-salesforce-oauth2"
+  },
+  "arkadiyk/torii-cordova": {
+    "owner": "arkadiyk",
+    "repo": "torii-cordova"
+  },
+  "galmi/emberfire-phone": {
+    "owner": "galmi",
+    "repo": "emberfire-phone"
+  },
+  "cardstack/cardstack-auth0": {
+    "owner": "cardstack",
+    "repo": "cardstack-auth0"
+  },
+  "shokmaster/ember-simple-auth-loopback-3": {
+    "owner": "shokmaster",
+    "repo": "ember-simple-auth-loopback-3"
+  },
+  "sutori/torii-clever": {
+    "owner": "sutori",
+    "repo": "torii-clever"
+  },
+  "williamsbdev/ember-cli-focus-input": {
+    "owner": "williamsbdev",
+    "repo": "ember-cli-focus-input"
+  },
+  "ramybenaroya/ember-cli-lightbox": {
+    "owner": "ramybenaroya",
+    "repo": "ember-cli-lightbox"
+  },
+  "maads/ember-cli-md5": {
+    "owner": "maads",
+    "repo": "ember-cli-md5"
+  },
+  "sir-dunxalot/ember-disqus": {
+    "owner": "sir-dunxalot",
+    "repo": "ember-disqus"
+  },
+  "BryanHunt/ember-split-view": {
+    "owner": "BryanHunt",
+    "repo": "ember-split-view"
+  },
+  "arenoir/ember-credit-cards": {
+    "owner": "arenoir",
+    "repo": "ember-credit-cards"
+  },
+  "alexspeller/ember-cli-active-link-wrapper": {
+    "owner": "alexspeller",
+    "repo": "ember-cli-active-link-wrapper"
+  },
+  "lifegadget/ui-expanding-textarea": {
+    "owner": "lifegadget",
+    "repo": "ui-expanding-textarea"
+  },
+  "gerard2p/ember-cli-crudtable": {
+    "owner": "gerard2p",
+    "repo": "ember-cli-crudtable"
+  },
+  "lazybensch/ember-cli-scrolling-content": {
+    "owner": "lazybensch",
+    "repo": "ember-cli-scrolling-content"
+  },
+  "rounders/ember-world-flags": {
+    "owner": "rounders",
+    "repo": "ember-world-flags"
+  },
+  "heroku/ember-sortable": {
+    "owner": "heroku",
+    "repo": "ember-sortable"
+  },
+  "tim-evans/ember-pop-over": {
+    "owner": "tim-evans",
+    "repo": "ember-pop-over"
+  },
+  "yapplabs/ember-tether": {
+    "owner": "yapplabs",
+    "repo": "ember-tether"
+  },
+  "poteto/ember-crumbly": {
+    "owner": "poteto",
+    "repo": "ember-crumbly"
+  },
+  "salsify/ember-cli-sticky": {
+    "owner": "salsify",
+    "repo": "ember-cli-sticky"
+  },
+  "asross/dynamic-link": {
+    "owner": "asross",
+    "repo": "dynamic-link"
+  },
+  "intercom/ember-href-to": {
+    "owner": "intercom",
+    "repo": "ember-href-to"
+  },
+  "alphasights/ember-scrollable": {
+    "owner": "alphasights",
+    "repo": "ember-scrollable"
+  },
+  "swastik/ember-inline-edit": {
+    "owner": "swastik",
+    "repo": "ember-inline-edit"
+  },
+  "Glavin001/ember-jsoneditor": {
+    "owner": "Glavin001",
+    "repo": "ember-jsoneditor"
+  },
+  "ember-truncate/ember-truncate": {
+    "owner": "ember-truncate",
+    "repo": "ember-truncate"
+  },
+  "shaunc/ember-declarative": {
+    "owner": "shaunc",
+    "repo": "ember-declarative"
+  },
+  "lozjackson/ember-clock-face": {
+    "owner": "lozjackson",
+    "repo": "ember-clock-face"
+  },
+  "rynam0/ember-swagger-ui": {
+    "owner": "rynam0",
+    "repo": "ember-swagger-ui"
+  },
+  "crazymykl/zoom-zone": {
+    "owner": "crazymykl",
+    "repo": "zoom-zone"
+  },
+  "davidgoli/ember-cli-pull-to-refresh": {
+    "owner": "davidgoli",
+    "repo": "ember-cli-pull-to-refresh"
+  },
+  "lifegadget/ui-download": {
+    "owner": "lifegadget",
+    "repo": "ui-download"
+  },
+  "systembugtj/ember-cli-panzoom": {
+    "owner": "systembugtj",
+    "repo": "ember-cli-panzoom"
+  },
+  "topaxi/ember-mutation-observer": {
+    "owner": "topaxi",
+    "repo": "ember-mutation-observer"
+  },
+  "knownasilya/ember-highlight": {
+    "owner": "knownasilya",
+    "repo": "ember-highlight"
+  },
+  "danmcclain/ember-deferred-content": {
+    "owner": "danmcclain",
+    "repo": "ember-deferred-content"
+  },
+  "hhff/ember-chimp": {
+    "owner": "hhff",
+    "repo": "ember-chimp"
+  },
+  "esri/ember-animated-status-label": {
+    "owner": "esri",
+    "repo": "ember-animated-status-label"
+  },
+  "mileszim/ember-cli-cloudinary": {
+    "owner": "mileszim",
+    "repo": "ember-cli-cloudinary"
+  },
+  "crodriguez1a/ember-themed-syntax": {
+    "owner": "crodriguez1a",
+    "repo": "ember-themed-syntax"
+  },
+  "lukesargeant/ember-scroll-box": {
+    "owner": "lukesargeant",
+    "repo": "ember-scroll-box"
+  },
+  "algonauti/ember-g-recaptcha": {
+    "owner": "algonauti",
+    "repo": "ember-g-recaptcha"
+  },
+  "busybusy/ember-jsignature": {
+    "owner": "busybusy",
+    "repo": "ember-jsignature"
+  },
+  "brewingcode/ember-google-publisher-tags": {
+    "owner": "brewingcode",
+    "repo": "ember-google-publisher-tags"
+  },
+  "nabaz/ember-character-counter": {
+    "owner": "nabaz",
+    "repo": "ember-character-counter"
+  },
+  "w-hat/ember-whatbars": {
+    "owner": "w-hat",
+    "repo": "ember-whatbars"
+  },
+  "lifeart/ember-hell-filters": {
+    "owner": "lifeart",
+    "repo": "ember-hell-filters"
+  },
+  "alexdiliberto/ember-cowsay": {
+    "owner": "alexdiliberto",
+    "repo": "ember-cowsay"
+  },
+  "vevix/ember-text-clipper": {
+    "owner": "vevix",
+    "repo": "ember-text-clipper"
+  },
+  "ivanvanderbyl/ember-code-block": {
+    "owner": "ivanvanderbyl",
+    "repo": "ember-code-block"
+  },
+  "MyPureCloud/ember-multi-faceted-search": {
+    "owner": "MyPureCloud",
+    "repo": "ember-multi-faceted-search"
+  },
+  "jelhan/ember-leaflet-contextmenu": {
+    "owner": "jelhan",
+    "repo": "ember-leaflet-contextmenu"
+  },
+  "alechirsch/ember-search-flow": {
+    "owner": "alechirsch",
+    "repo": "ember-search-flow"
+  },
+  "affinity-engine/affinity-engine-curtain": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-curtain"
+  },
+  "yahoo/ember-gridstack": {
+    "owner": "yahoo",
+    "repo": "ember-gridstack"
+  },
+  "ryanrishi/date-bling": {
+    "owner": "ryanrishi",
+    "repo": "date-bling"
+  },
+  "miguelcobain/ember-dynamic-render-template": {
+    "owner": "miguelcobain",
+    "repo": "ember-dynamic-render-template"
+  },
+  "BrianSipple/ember-divider-dots": {
+    "owner": "BrianSipple",
+    "repo": "ember-divider-dots"
+  },
+  "synapsemx/ember-smoother-signature": {
+    "owner": "synapsemx",
+    "repo": "ember-smoother-signature"
+  },
+  "shayanypn/ember-cli-highlighjs": {
+    "owner": "shayanypn",
+    "repo": "ember-cli-highlighjs"
+  },
+  "sergiferran/ember-expand-multiline": {
+    "owner": "sergiferran",
+    "repo": "ember-expand-multiline"
+  },
+  "Matt-Jensen/ember-js-pdf": {
+    "owner": "Matt-Jensen",
+    "repo": "ember-js-pdf"
+  },
+  "fizmo/ember-cli-dropcap": {
+    "owner": "fizmo",
+    "repo": "ember-cli-dropcap"
+  },
+  "isaurssaurav/ember-rrssb": {
+    "owner": "isaurssaurav",
+    "repo": "ember-rrssb"
+  },
+  "khornberg/expression-builder": {
+    "owner": "khornberg",
+    "repo": "expression-builder"
+  },
+  "BrunoSalgado1985/ember-text-resize": {
+    "owner": "BrunoSalgado1985",
+    "repo": "ember-text-resize"
+  },
+  "onehilltech/ember-cli-google-recaptcha": {
+    "owner": "onehilltech",
+    "repo": "ember-cli-google-recaptcha"
+  },
+  "parablesoft/shamgar-audit-trail": {
+    "owner": "parablesoft",
+    "repo": "shamgar-audit-trail"
+  },
+  "mayko780/ember-more-menu": {
+    "owner": "mayko780",
+    "repo": "ember-more-menu"
+  },
+  "dwickern/ember-link-to-wrapper": {
+    "owner": "dwickern",
+    "repo": "ember-link-to-wrapper"
+  },
+  "ntgussoni/ember-cli-google-viewer": {
+    "owner": "ntgussoni",
+    "repo": "ember-cli-google-viewer"
+  },
+  "Luinova/ember-styled-components": {
+    "owner": "Luinova",
+    "repo": "ember-styled-components"
+  },
+  "cybertoothca/cybertooth-ember-addon-components": {
+    "owner": "cybertoothca",
+    "repo": "cybertooth-ember-addon-components"
+  },
+  "temecom/ember-bpmn-io": {
+    "owner": "temecom",
+    "repo": "ember-bpmn-io"
+  },
+  "k-fish/ember-inline-component-strings": {
+    "owner": "k-fish",
+    "repo": "ember-inline-component-strings"
+  },
+  "kolybasov/ember-render-to-string": {
+    "owner": "kolybasov",
+    "repo": "ember-render-to-string"
+  },
+  "rmmmp/ember-async-let": {
+    "owner": "rmmmp",
+    "repo": "ember-async-let"
+  },
+  "steveszc/ember-focus-trapper": {
+    "owner": "steveszc",
+    "repo": "ember-focus-trapper"
+  },
+  "james1x0/ember-braintree": {
+    "owner": "james1x0",
+    "repo": "ember-braintree"
+  },
+  "peopleconnectus/ember-paypal-button": {
+    "owner": "peopleconnectus",
+    "repo": "ember-paypal-button"
+  },
+  "IG-Group/ember-data-block": {
+    "owner": "IG-Group",
+    "repo": "ember-data-block"
+  },
+  "brandontksmith/ember-blog-rss-feed-timeline": {
+    "owner": "brandontksmith",
+    "repo": "ember-blog-rss-feed-timeline"
+  },
+  "astronomersiva/ember-display-in-browser": {
+    "owner": "astronomersiva",
+    "repo": "ember-display-in-browser"
+  },
+  "rajasegar/ember-connection-aware-media": {
+    "owner": "rajasegar",
+    "repo": "ember-connection-aware-media"
+  },
+  "lukecoy/ember-csv": {
+    "owner": "lukecoy",
+    "repo": "ember-csv"
+  },
+  "tildeio/ember-async-await-helper": {
+    "owner": "tildeio",
+    "repo": "ember-async-await-helper"
+  },
+  "ahmetemrekilinc/ember-world-map": {
+    "owner": "ahmetemrekilinc",
+    "repo": "ember-world-map"
+  },
+  "edhuardotierrez/ember-visual-search": {
+    "owner": "edhuardotierrez",
+    "repo": "ember-visual-search"
+  },
+  "dknutsen/ember-needs-async": {
+    "owner": "dknutsen",
+    "repo": "ember-needs-async"
+  },
+  "SathishkumarThangavel/ember-simple-range-slider": {
+    "owner": "SathishkumarThangavel",
+    "repo": "ember-simple-range-slider"
+  },
+  "johnotander/ember-cli-material-design-icons": {
+    "owner": "johnotander",
+    "repo": "ember-cli-material-design-icons"
+  },
+  "mike-north/ember-cli-materialize": {
+    "owner": "mike-north",
+    "repo": "ember-cli-materialize"
+  },
+  "alphasights/ember-cli-paint": {
+    "owner": "alphasights",
+    "repo": "ember-cli-paint"
+  },
+  "tsharman/ember-cli-neat": {
+    "owner": "tsharman",
+    "repo": "ember-cli-neat"
+  },
+  "acoustep/ember-cli-foundation-6-sass": {
+    "owner": "acoustep",
+    "repo": "ember-cli-foundation-6-sass"
+  },
+  "salsify/ember-css-modules": {
+    "owner": "salsify",
+    "repo": "ember-css-modules"
+  },
+  "ajainvivek/ember-foundation-sass": {
+    "owner": "ajainvivek",
+    "repo": "ember-foundation-sass"
+  },
+  "huxinghai1988/ember-adminlte-theme": {
+    "owner": "huxinghai1988",
+    "repo": "ember-adminlte-theme"
+  },
+  "open-tux/ember-bulma": {
+    "owner": "open-tux",
+    "repo": "ember-bulma"
+  },
+  "migeorge/ember-cli-flexibility": {
+    "owner": "migeorge",
+    "repo": "ember-cli-flexibility"
+  },
+  "davidpett/ember-cli-sass-variables": {
+    "owner": "davidpett",
+    "repo": "ember-cli-sass-variables"
+  },
+  "varoot/ember-cli-media-queries": {
+    "owner": "varoot",
+    "repo": "ember-cli-media-queries"
+  },
+  "touren/ember-cli-sass-variables": {
+    "owner": "touren",
+    "repo": "ember-cli-sass-variables"
+  },
+  "nikityy/ember-cli-bem": {
+    "owner": "nikityy",
+    "repo": "ember-cli-bem"
+  },
+  "dfreeman/ember-css-modules-reporter": {
+    "owner": "dfreeman",
+    "repo": "ember-css-modules-reporter"
+  },
+  "dfreeman/ember-css-modules-sass": {
+    "owner": "dfreeman",
+    "repo": "ember-css-modules-sass"
+  },
+  "dfreeman/ember-css-modules-stylelint": {
+    "owner": "dfreeman",
+    "repo": "ember-css-modules-stylelint"
+  },
+  "IcaliaLabs/ember-cli-alom": {
+    "owner": "IcaliaLabs",
+    "repo": "ember-cli-alom"
+  },
+  "TheCrazyDigitalPainter/ember-cli-sass-susy": {
+    "owner": "TheCrazyDigitalPainter",
+    "repo": "ember-cli-sass-susy"
+  },
+  "alexdiliberto/ember-milligram": {
+    "owner": "alexdiliberto",
+    "repo": "ember-milligram"
+  },
+  "GerritSommer/ember-bulma-css": {
+    "owner": "GerritSommer",
+    "repo": "ember-bulma-css"
+  },
+  "ivanvanderbyl/ember-cli-critical": {
+    "owner": "ivanvanderbyl",
+    "repo": "ember-cli-critical"
+  },
+  "BrunoSalgado1985/ember-html-grid": {
+    "owner": "BrunoSalgado1985",
+    "repo": "ember-html-grid"
+  },
+  "nypublicradio/nypr-ui": {
+    "owner": "nypublicradio",
+    "repo": "nypr-ui"
+  },
+  "smashweaver/ember-cli-material-lite": {
+    "owner": "smashweaver",
+    "repo": "ember-cli-material-lite"
+  },
+  "embermap/ember-cli-tailwind": {
+    "owner": "embermap",
+    "repo": "ember-cli-tailwind"
+  },
+  "cottrellio/ember-xy": {
+    "owner": "cottrellio",
+    "repo": "ember-xy"
+  },
+  "mikemunsie/ember-export-sass-variables": {
+    "owner": "mikemunsie",
+    "repo": "ember-export-sass-variables"
+  },
+  "ryanlabouve/ember-cli-tachyons-sass": {
+    "owner": "ryanlabouve",
+    "repo": "ember-cli-tachyons-sass"
+  },
+  "tchak/ember-font-plex": {
+    "owner": "tchak",
+    "repo": "ember-font-plex"
+  },
+  "abcum/ember-visuals": {
+    "owner": "abcum",
+    "repo": "ember-visuals"
+  },
+  "smile-io/ember-polaris": {
+    "owner": "smile-io",
+    "repo": "ember-polaris"
+  },
+  "savvy-css/ember-savvy-css": {
+    "owner": "savvy-css",
+    "repo": "ember-savvy-css"
+  },
+  "minusfive/ember-cli-sass-variables-export": {
+    "owner": "minusfive",
+    "repo": "ember-cli-sass-variables-export"
+  },
+  "stonecircle/ember-ghost-attila-template": {
+    "owner": "stonecircle",
+    "repo": "ember-ghost-attila-template"
+  },
+  "nag5000/ember-cli-atomizer": {
+    "owner": "nag5000",
+    "repo": "ember-cli-atomizer"
+  },
+  "onehilltech/ember-cli-custom-properties": {
+    "owner": "onehilltech",
+    "repo": "ember-cli-custom-properties"
+  },
+  "onehilltech/ember-cli-styled": {
+    "owner": "onehilltech",
+    "repo": "ember-cli-styled"
+  },
+  "dexturr/ember-cli-dead-class-finder": {
+    "owner": "dexturr",
+    "repo": "ember-cli-dead-class-finder"
+  },
+  "abhilashlr/ember-simple-animate": {
+    "owner": "abhilashlr",
+    "repo": "ember-simple-animate"
+  },
+  "ember-cli/ember-cli-chai": {
+    "owner": "ember-cli",
+    "repo": "ember-cli-chai"
+  },
+  "matteodepalo/ember-cli-timecop": {
+    "owner": "matteodepalo",
+    "repo": "ember-cli-timecop"
+  },
+  "williamsbdev/ember-cli-patch-stripejs": {
+    "owner": "williamsbdev",
+    "repo": "ember-cli-patch-stripejs"
+  },
+  "ember-a11y/ember-a11y-testing": {
+    "owner": "ember-a11y",
+    "repo": "ember-a11y-testing"
+  },
+  "san650/ember-cli-page-object": {
+    "owner": "san650",
+    "repo": "ember-cli-page-object"
+  },
+  "Ticketfly/ember-hook": {
+    "owner": "Ticketfly",
+    "repo": "ember-hook"
+  },
+  "san650/ember-test-assets": {
+    "owner": "san650",
+    "repo": "ember-test-assets"
+  },
+  "ciena-blueplanet/ember-cli-visual-acceptance": {
+    "owner": "ciena-blueplanet",
+    "repo": "ember-cli-visual-acceptance"
+  },
+  "san650/ember-qunit-source-map": {
+    "owner": "san650",
+    "repo": "ember-qunit-source-map"
+  },
+  "ember-weekend/ember-owner-test-utils": {
+    "owner": "ember-weekend",
+    "repo": "ember-owner-test-utils"
+  },
+  "poteto/ember-test-component": {
+    "owner": "poteto",
+    "repo": "ember-test-component"
+  },
+  "kylemellander/ember-test-with-data": {
+    "owner": "kylemellander",
+    "repo": "ember-test-with-data"
+  },
+  "kaliber5/ember-fastboot-addon-tests": {
+    "owner": "kaliber5",
+    "repo": "ember-fastboot-addon-tests"
+  },
+  "workmanw/ember-qunit-assert-helpers": {
+    "owner": "workmanw",
+    "repo": "ember-qunit-assert-helpers"
+  },
+  "kaliber5/ember-fastboot-app-tests": {
+    "owner": "kaliber5",
+    "repo": "ember-fastboot-app-tests"
+  },
+  "salsify/ember-cli-dependency-lint": {
+    "owner": "salsify",
+    "repo": "ember-cli-dependency-lint"
+  },
+  "MammothHR/mammoth-test-helpers": {
+    "owner": "MammothHR",
+    "repo": "mammoth-test-helpers"
+  },
+  "fhengartner/flos-ember-test-helpers": {
+    "owner": "fhengartner",
+    "repo": "flos-ember-test-helpers"
+  },
+  "pzuraq/ember-raf-test-waiter": {
+    "owner": "pzuraq",
+    "repo": "ember-raf-test-waiter"
+  },
+  "salsify/ember-cli-pact": {
+    "owner": "salsify",
+    "repo": "ember-cli-pact"
+  },
+  "sauce-consultants/ember-mirage-sauce": {
+    "owner": "sauce-consultants",
+    "repo": "ember-mirage-sauce"
+  },
+  "mike-north/ember-qunit-decorators": {
+    "owner": "mike-north",
+    "repo": "ember-qunit-decorators"
+  },
+  "onechiporenko/ember-cli-test-generators": {
+    "owner": "onechiporenko",
+    "repo": "ember-cli-test-generators"
+  },
+  "mike-north/ember-qunit-snapshots": {
+    "owner": "mike-north",
+    "repo": "ember-qunit-snapshots"
+  },
+  "dexturr/ember-current-url": {
+    "owner": "dexturr",
+    "repo": "ember-current-url"
+  },
+  "yapplabs/ember-simulant-test-helpers": {
+    "owner": "yapplabs",
+    "repo": "ember-simulant-test-helpers"
+  },
+  "kimroen/ember-cli-coffeescript": {
+    "owner": "kimroen",
+    "repo": "ember-cli-coffeescript"
+  },
+  "Vestorly/ember-cli-emblem": {
+    "owner": "Vestorly",
+    "repo": "ember-cli-emblem"
+  },
+  "walter/ember-cli-meta-options": {
+    "owner": "walter",
+    "repo": "ember-cli-meta-options"
+  },
+  "salsify/ember-cli-svgstore": {
+    "owner": "salsify",
+    "repo": "ember-cli-svgstore"
+  },
+  "jschilli/ember-cli-file-creator": {
+    "owner": "jschilli",
+    "repo": "ember-cli-file-creator"
+  },
+  "blimmer/ember-cli-server-variables": {
+    "owner": "blimmer",
+    "repo": "ember-cli-server-variables"
+  },
+  "elidupuis/ember-cli-noindex": {
+    "owner": "elidupuis",
+    "repo": "ember-cli-noindex"
+  },
+  "ramybenaroya/ember-index": {
+    "owner": "ramybenaroya",
+    "repo": "ember-index"
+  },
+  "damiencaselli/ember-cli-google-fonts": {
+    "owner": "damiencaselli",
+    "repo": "ember-cli-google-fonts"
+  },
+  "vitch/ember-cli-webfont": {
+    "owner": "vitch",
+    "repo": "ember-cli-webfont"
+  },
+  "raikoroje/ember-derequire": {
+    "owner": "raikoroje",
+    "repo": "ember-derequire"
+  },
+  "sir-dunxalot/ember-cli-sass-lint": {
+    "owner": "sir-dunxalot",
+    "repo": "ember-cli-sass-lint"
+  },
+  "artursmirnov/ember-cli-openlayers-builder": {
+    "owner": "artursmirnov",
+    "repo": "ember-cli-openlayers-builder"
+  },
+  "kuzzmi/ember-cli-webfontloader": {
+    "owner": "kuzzmi",
+    "repo": "ember-cli-webfontloader"
+  },
+  "miguelmadero/ember-cli-bundle-loader": {
+    "owner": "miguelmadero",
+    "repo": "ember-cli-bundle-loader"
+  },
+  "jcaffey/ember-cli-inject-asset-map": {
+    "owner": "jcaffey",
+    "repo": "ember-cli-inject-asset-map"
+  },
+  "RuslanZavacky/ember-cli-ifa": {
+    "owner": "RuslanZavacky",
+    "repo": "ember-cli-ifa"
+  },
+  "TayHobbs/ember-cli-stringify": {
+    "owner": "TayHobbs",
+    "repo": "ember-cli-stringify"
+  },
+  "selvaa89/ember-cli-iframe-resizer": {
+    "owner": "selvaa89",
+    "repo": "ember-cli-iframe-resizer"
+  },
+  "jholt1/ember-yaml-cms": {
+    "owner": "jholt1",
+    "repo": "ember-yaml-cms"
+  },
+  "Cryrivers/ember-engines-dedupe-vendor": {
+    "owner": "Cryrivers",
+    "repo": "ember-engines-dedupe-vendor"
+  },
+  "dollarshaveclub/ember-cli-anybar": {
+    "owner": "dollarshaveclub",
+    "repo": "ember-cli-anybar"
+  },
+  "dzbo/ember-cli-icomoon": {
+    "owner": "dzbo",
+    "repo": "ember-cli-icomoon"
+  },
+  "ryedeer/ember-cli-markdown-templates": {
+    "owner": "ryedeer",
+    "repo": "ember-cli-markdown-templates"
+  },
+  "mbutki/ember-vendor-split": {
+    "owner": "mbutki",
+    "repo": "ember-vendor-split"
+  },
+  "draios/ember-typescript2": {
+    "owner": "draios",
+    "repo": "ember-typescript2"
+  },
+  "condenast/ember-cli-content-for-index": {
+    "owner": "condenast",
+    "repo": "ember-cli-content-for-index"
+  },
+  "mikrostew/htmlbars-comment-redactor": {
+    "owner": "mikrostew",
+    "repo": "htmlbars-comment-redactor"
+  },
+  "fauxton/ember-tachyons-sweeper": {
+    "owner": "fauxton",
+    "repo": "ember-tachyons-sweeper"
+  },
+  "willviles/ember-cli-markdown-resolver": {
+    "owner": "willviles",
+    "repo": "ember-cli-markdown-resolver"
+  },
+  "pzuraq/ember-legacy-class-transform": {
+    "owner": "pzuraq",
+    "repo": "ember-legacy-class-transform"
+  },
+  "CODDDE/ember-cli-merge-json": {
+    "owner": "CODDDE",
+    "repo": "ember-cli-merge-json"
+  },
+  "kellyselden/ember-cli-tree-shaker": {
+    "owner": "kellyselden",
+    "repo": "ember-cli-tree-shaker"
+  },
+  "progand/ember-i18n-import-export": {
+    "owner": "progand",
+    "repo": "ember-i18n-import-export"
+  },
+  "fizmo/ember-cli-emblem": {
+    "owner": "fizmo",
+    "repo": "ember-cli-emblem"
+  },
+  "trmcnvn/ember-markdown-html": {
+    "owner": "trmcnvn",
+    "repo": "ember-markdown-html"
+  },
+  "gabrielcsapo/ember-cli-storybook": {
+    "owner": "gabrielcsapo",
+    "repo": "ember-cli-storybook"
+  },
+  "BBVAEngineering/ember-cli-webcomponents-bundler": {
+    "owner": "BBVAEngineering",
+    "repo": "ember-cli-webcomponents-bundler"
+  },
+  "mitchlloyd/ember-autosave": {
+    "owner": "mitchlloyd",
+    "repo": "ember-autosave"
+  },
+  "mike-north/ember-api-actions": {
+    "owner": "mike-north",
+    "repo": "ember-api-actions"
+  },
+  "wecatch/ember-easy-orm": {
+    "owner": "wecatch",
+    "repo": "ember-easy-orm"
+  },
+  "roofstock/ember-cli-data-export": {
+    "owner": "roofstock",
+    "repo": "ember-cli-data-export"
+  },
+  "mike-north/ember-data-preload": {
+    "owner": "mike-north",
+    "repo": "ember-data-preload"
+  },
+  "joukevandermaas/ember-data-autoreload": {
+    "owner": "joukevandermaas",
+    "repo": "ember-data-autoreload"
+  },
+  "laborvoices/ember-data-save-relationships": {
+    "owner": "laborvoices",
+    "repo": "ember-data-save-relationships"
+  },
+  "lozjackson/ember-auto-save": {
+    "owner": "lozjackson",
+    "repo": "ember-auto-save"
+  },
+  "cardstack/ember-data-fastboot": {
+    "owner": "cardstack",
+    "repo": "ember-data-fastboot"
+  },
+  "dustinfarris/ember-cashay": {
+    "owner": "dustinfarris",
+    "repo": "ember-cashay"
+  },
+  "gnazarkin/ember-web3": {
+    "owner": "gnazarkin",
+    "repo": "ember-web3"
+  },
+  "foxnewsnetwork/ember-redux-orm": {
+    "owner": "foxnewsnetwork",
+    "repo": "ember-redux-orm"
+  },
+  "Exelord/ember-custom-actions": {
+    "owner": "Exelord",
+    "repo": "ember-custom-actions"
+  },
+  "foxnewsnetwork/ember-redux-data": {
+    "owner": "foxnewsnetwork",
+    "repo": "ember-redux-data"
+  },
+  "isleofcode/ember-changed-relationships": {
+    "owner": "isleofcode",
+    "repo": "ember-changed-relationships"
+  },
+  "bajcmartinez/ember-cli-wordpress": {
+    "owner": "bajcmartinez",
+    "repo": "ember-cli-wordpress"
+  },
+  "TomHeatwole/ember-emberfire-find-query": {
+    "owner": "TomHeatwole",
+    "repo": "ember-emberfire-find-query"
+  },
+  "acquia/ember-drupal-waterwheel": {
+    "owner": "acquia",
+    "repo": "ember-drupal-waterwheel"
+  },
+  "EnotPoloskun/ember-unchanged-attributes": {
+    "owner": "EnotPoloskun",
+    "repo": "ember-unchanged-attributes"
+  },
+  "bellgasp/ember-data-model-proxy": {
+    "owner": "bellgasp",
+    "repo": "ember-data-model-proxy"
+  },
+  "embermap/ember-data-storefront": {
+    "owner": "embermap",
+    "repo": "ember-data-storefront"
+  },
+  "mogball/ember-localforage": {
+    "owner": "mogball",
+    "repo": "ember-localforage"
+  },
+  "tchak/ember-dataloader": {
+    "owner": "tchak",
+    "repo": "ember-dataloader"
+  },
+  "pswai/ember-simple-redux": {
+    "owner": "pswai",
+    "repo": "ember-simple-redux"
+  },
+  "rmmmp/ember-daux": {
+    "owner": "rmmmp",
+    "repo": "ember-daux"
+  },
+  "pauln/ember-spreadsheet-export": {
+    "owner": "pauln",
+    "repo": "ember-spreadsheet-export"
+  },
+  "cibernox/ember-cli-accounting": {
+    "owner": "cibernox",
+    "repo": "ember-cli-accounting"
+  },
+  "yapplabs/ember-cli-bourbon": {
+    "owner": "yapplabs",
+    "repo": "ember-cli-bourbon"
+  },
+  "josemarluedke/ember-cli-numeral": {
+    "owner": "josemarluedke",
+    "repo": "ember-cli-numeral"
+  },
+  "rwjblue/ember-cli-pretender": {
+    "owner": "rwjblue",
+    "repo": "ember-cli-pretender"
+  },
+  "miguelcobain/ember-cli-selectize": {
+    "owner": "miguelcobain",
+    "repo": "ember-cli-selectize"
+  },
+  "vsymguysung/ember-cli-summernote": {
+    "owner": "vsymguysung",
+    "repo": "ember-cli-summernote"
+  },
+  "altrim/ember-cli-tooltipster": {
+    "owner": "altrim",
+    "repo": "ember-cli-tooltipster"
+  },
+  "bgentry/ember-currency": {
+    "owner": "bgentry",
+    "repo": "ember-currency"
+  },
+  "mysterlune/ember-pdfjs": {
+    "owner": "mysterlune",
+    "repo": "ember-pdfjs"
+  },
+  "minutebase/ember-sanitize": {
+    "owner": "minutebase",
+    "repo": "ember-sanitize"
+  },
+  "rsschermer/ember-spectrum-color-picker": {
+    "owner": "rsschermer",
+    "repo": "ember-spectrum-color-picker"
+  },
+  "rsschermer/ember-spin-spinner": {
+    "owner": "rsschermer",
+    "repo": "ember-spin-spinner"
+  },
+  "binhums/ember-cli-bugsnag": {
+    "owner": "binhums",
+    "repo": "ember-cli-bugsnag"
+  },
+  "davewasmer/ember-cli-rollbar": {
+    "owner": "davewasmer",
+    "repo": "ember-cli-rollbar"
+  },
+  "mhretab/ember-cli-image-cropper": {
+    "owner": "mhretab",
+    "repo": "ember-cli-image-cropper"
+  },
+  "ritesh83/ember-cli-jstree": {
+    "owner": "ritesh83",
+    "repo": "ember-cli-jstree"
+  },
+  "Twinkletoes/ember-cli-browser-update": {
+    "owner": "Twinkletoes",
+    "repo": "ember-cli-browser-update"
+  },
+  "thiagoc7/ember-onboarding": {
+    "owner": "thiagoc7",
+    "repo": "ember-onboarding"
+  },
+  "pitchtarget/ember-cli-facebook-js-sdk": {
+    "owner": "pitchtarget",
+    "repo": "ember-cli-facebook-js-sdk"
+  },
+  "ChrisHonniball/ember-chosen": {
+    "owner": "ChrisHonniball",
+    "repo": "ember-chosen"
+  },
+  "ChrisHonniball/ember-highlight-code": {
+    "owner": "ChrisHonniball",
+    "repo": "ember-highlight-code"
+  },
+  "imgix/ember-cli-imgix": {
+    "owner": "imgix",
+    "repo": "ember-cli-imgix"
+  },
+  "Matt-Jensen/ember-cli-g-maps": {
+    "owner": "Matt-Jensen",
+    "repo": "ember-cli-g-maps"
+  },
+  "FutoRicky/ember-cli-dropzonejs": {
+    "owner": "FutoRicky",
+    "repo": "ember-cli-dropzonejs"
+  },
+  "lifegadget/ui-slider": {
+    "owner": "lifegadget",
+    "repo": "ui-slider"
+  },
+  "kellyselden/ember-datetimepicker": {
+    "owner": "kellyselden",
+    "repo": "ember-datetimepicker"
+  },
+  "joebartels/ember-cli-js-cookie": {
+    "owner": "joebartels",
+    "repo": "ember-cli-js-cookie"
+  },
+  "suchitadoshi1987/ember-papaparse": {
+    "owner": "suchitadoshi1987",
+    "repo": "ember-papaparse"
+  },
+  "clairton/ember-maskmoney": {
+    "owner": "clairton",
+    "repo": "ember-maskmoney"
+  },
+  "ryanlabouve/ember-cli-rangesliderjs": {
+    "owner": "ryanlabouve",
+    "repo": "ember-cli-rangesliderjs"
+  },
+  "TailorBrands/ember-cli-heap": {
+    "owner": "TailorBrands",
+    "repo": "ember-cli-heap"
+  },
+  "Esri/ember-cli-cedar": {
+    "owner": "Esri",
+    "repo": "ember-cli-cedar"
+  },
+  "weskinner/ember-cli-underscore": {
+    "owner": "weskinner",
+    "repo": "ember-cli-underscore"
+  },
+  "wecatch/ember-cli-simditor": {
+    "owner": "wecatch",
+    "repo": "ember-cli-simditor"
+  },
+  "supersabillon/ember-ag-grid": {
+    "owner": "supersabillon",
+    "repo": "ember-ag-grid"
+  },
+  "Ember-Swiper/ember-cli-swiper": {
+    "owner": "Ember-Swiper",
+    "repo": "ember-cli-swiper"
+  },
+  "offirgolan/ember-cli-jsoneditor": {
+    "owner": "offirgolan",
+    "repo": "ember-cli-jsoneditor"
+  },
+  "bttf/ember-normalize-url": {
+    "owner": "bttf",
+    "repo": "ember-normalize-url"
+  },
+  "andyklimczak/ember-countdown": {
+    "owner": "andyklimczak",
+    "repo": "ember-countdown"
+  },
+  "hoodiehq/ember-hoodie": {
+    "owner": "hoodiehq",
+    "repo": "ember-hoodie"
+  },
+  "Charizard/ember-cli-lunr": {
+    "owner": "Charizard",
+    "repo": "ember-cli-lunr"
+  },
+  "ciena-blueplanet/ember-z-schema": {
+    "owner": "ciena-blueplanet",
+    "repo": "ember-z-schema"
+  },
+  "busy-web/ember-cli-chartjs": {
+    "owner": "busy-web",
+    "repo": "ember-cli-chartjs"
+  },
+  "ciena-blueplanet/ember-graphlib": {
+    "owner": "ciena-blueplanet",
+    "repo": "ember-graphlib"
+  },
+  "ciena-blueplanet/ember-dagre": {
+    "owner": "ciena-blueplanet",
+    "repo": "ember-dagre"
+  },
+  "akatov/ember-bowser": {
+    "owner": "akatov",
+    "repo": "ember-bowser"
+  },
+  "travelbank/ember-flickity": {
+    "owner": "travelbank",
+    "repo": "ember-flickity"
+  },
+  "crowdcompass/ember-cli-clamp": {
+    "owner": "crowdcompass",
+    "repo": "ember-cli-clamp"
+  },
+  "Keeo/ember-cli-scrollbar": {
+    "owner": "Keeo",
+    "repo": "ember-cli-scrollbar"
+  },
+  "patience-tema-baron/ember-createjs": {
+    "owner": "patience-tema-baron",
+    "repo": "ember-createjs"
+  },
+  "cspanring/ember-wufoo-form": {
+    "owner": "cspanring",
+    "repo": "ember-wufoo-form"
+  },
+  "BrianSipple/ember-web-animations-next-polyfill": {
+    "owner": "BrianSipple",
+    "repo": "ember-web-animations-next-polyfill"
+  },
+  "JennieJi/ember-form-validate": {
+    "owner": "JennieJi",
+    "repo": "ember-form-validate"
+  },
+  "ecraft/ember-cli-opbeat": {
+    "owner": "ecraft",
+    "repo": "ember-cli-opbeat"
+  },
+  "cogniteev/ember-cli-rison": {
+    "owner": "cogniteev",
+    "repo": "ember-cli-rison"
+  },
+  "smith-carson/ember-pdf-js": {
+    "owner": "smith-carson",
+    "repo": "ember-pdf-js"
+  },
+  "martinic/ember-cli-marked": {
+    "owner": "martinic",
+    "repo": "ember-cli-marked"
+  },
+  "eflexsystems/ember-cli-raygun": {
+    "owner": "eflexsystems",
+    "repo": "ember-cli-raygun"
+  },
+  "cogniteev/ember-cli-file-saver": {
+    "owner": "cogniteev",
+    "repo": "ember-cli-file-saver"
+  },
+  "willviles/ember-gsap": {
+    "owner": "willviles",
+    "repo": "ember-gsap"
+  },
+  "willviles/ember-scrollmagic": {
+    "owner": "willviles",
+    "repo": "ember-scrollmagic"
+  },
+  "sukima/ember-onsenui": {
+    "owner": "sukima",
+    "repo": "ember-onsenui"
+  },
+  "very-geek/ember-baidu-map": {
+    "owner": "very-geek",
+    "repo": "ember-baidu-map"
+  },
+  "foxnewsnetwork/ember-redux-reselect": {
+    "owner": "foxnewsnetwork",
+    "repo": "ember-redux-reselect"
+  },
+  "brandnewio/ember-intercom-api": {
+    "owner": "brandnewio",
+    "repo": "ember-intercom-api"
+  },
+  "GCheung55/ember-vega": {
+    "owner": "GCheung55",
+    "repo": "ember-vega"
+  },
+  "null-null-null/ember-animejs": {
+    "owner": "null-null-null",
+    "repo": "ember-animejs"
+  },
+  "vevix/ember-tinycon": {
+    "owner": "vevix",
+    "repo": "ember-tinycon"
+  },
+  "busybusy/ember-cli-launch-darkly": {
+    "owner": "busybusy",
+    "repo": "ember-cli-launch-darkly"
+  },
+  "foxnewsnetwork/ember-redux-batched-actions": {
+    "owner": "foxnewsnetwork",
+    "repo": "ember-redux-batched-actions"
+  },
+  "Esri/ember-esri-loader": {
+    "owner": "Esri",
+    "repo": "ember-esri-loader"
+  },
+  "LucasHill/ember-print-this": {
+    "owner": "LucasHill",
+    "repo": "ember-print-this"
+  },
+  "aboveproperty/ember-drag-drop-polyfill": {
+    "owner": "aboveproperty",
+    "repo": "ember-drag-drop-polyfill"
+  },
+  "vyobukhov/ember-sanitize-html": {
+    "owner": "vyobukhov",
+    "repo": "ember-sanitize-html"
+  },
+  "bgentry/ember-common-tags": {
+    "owner": "bgentry",
+    "repo": "ember-common-tags"
+  },
+  "hxbkx/ember-cli-summernote": {
+    "owner": "hxbkx",
+    "repo": "ember-cli-summernote"
+  },
+  "omarestrella/ember-xregexp": {
+    "owner": "omarestrella",
+    "repo": "ember-xregexp"
+  },
+  "willviles/ember-cli-sassdash": {
+    "owner": "willviles",
+    "repo": "ember-cli-sassdash"
+  },
+  "andrei-zhidkov/ember-simple-qrcode": {
+    "owner": "andrei-zhidkov",
+    "repo": "ember-simple-qrcode"
+  },
+  "buschtoens/ember-joda": {
+    "owner": "buschtoens",
+    "repo": "ember-joda"
+  },
+  "MammothHR/ember-jplayer": {
+    "owner": "MammothHR",
+    "repo": "ember-jplayer"
+  },
+  "cafreeman/ember-d20": {
+    "owner": "cafreeman",
+    "repo": "ember-d20"
+  },
+  "shak/ember-cli-kalendae": {
+    "owner": "shak",
+    "repo": "ember-cli-kalendae"
+  },
+  "dbouwman/ember-cli-tinycolor": {
+    "owner": "dbouwman",
+    "repo": "ember-cli-tinycolor"
+  },
+  "rastopyr/ember-cli-bricks": {
+    "owner": "rastopyr",
+    "repo": "ember-cli-bricks"
+  },
+  "byrnedo/ember-google-adwords-remarketing": {
+    "owner": "byrnedo",
+    "repo": "ember-google-adwords-remarketing"
+  },
+  "xamoom/ember-shopify": {
+    "owner": "xamoom",
+    "repo": "ember-shopify"
+  },
+  "rmmmp/ember-firebaseui": {
+    "owner": "rmmmp",
+    "repo": "ember-firebaseui"
+  },
+  "willviles/ember-code-prettify": {
+    "owner": "willviles",
+    "repo": "ember-code-prettify"
+  },
+  "shamcode/ember-cli-error-trapper": {
+    "owner": "shamcode",
+    "repo": "ember-cli-error-trapper"
+  },
+  "q2ebanking/ember-raygun": {
+    "owner": "q2ebanking",
+    "repo": "ember-raygun"
+  },
+  "devotox/ember-cli-summernote-editor": {
+    "owner": "devotox",
+    "repo": "ember-cli-summernote-editor"
+  },
+  "joshsearles/ember-google-recaptcha": {
+    "owner": "joshsearles",
+    "repo": "ember-google-recaptcha"
+  },
+  "advocately/ember-cli-advocately": {
+    "owner": "advocately",
+    "repo": "ember-cli-advocately"
+  },
+  "pauln/ember-summernote-lite": {
+    "owner": "pauln",
+    "repo": "ember-summernote-lite"
+  },
+  "BnitoBzh/ember-cli-crisp": {
+    "owner": "BnitoBzh",
+    "repo": "ember-cli-crisp"
+  },
+  "fusioncharts/ember-fusioncharts": {
+    "owner": "fusioncharts",
+    "repo": "ember-fusioncharts"
+  },
+  "syncfusion/syncfusion-ember": {
+    "owner": "syncfusion",
+    "repo": "syncfusion-ember"
+  },
+  "mileszim/ember-particle": {
+    "owner": "mileszim",
+    "repo": "ember-particle"
+  },
+  "willrax/ember-luxon": {
+    "owner": "willrax",
+    "repo": "ember-luxon"
+  },
+  "maxwondercorn/ember-cli-barcode": {
+    "owner": "maxwondercorn",
+    "repo": "ember-cli-barcode"
+  },
+  "htkm/ember-firebase-sdk": {
+    "owner": "htkm",
+    "repo": "ember-firebase-sdk"
+  },
+  "mike-north/ember-ckeditor": {
+    "owner": "mike-north",
+    "repo": "ember-ckeditor"
+  },
+  "kaliber5/ember-cli-lazysizes": {
+    "owner": "kaliber5",
+    "repo": "ember-cli-lazysizes"
+  },
+  "martinic/ember-cli-sha1": {
+    "owner": "martinic",
+    "repo": "ember-cli-sha1"
+  },
+  "kenkc/ember-cronstrue": {
+    "owner": "kenkc",
+    "repo": "ember-cronstrue"
+  },
+  "nathanclark/ember-animejs": {
+    "owner": "nathanclark",
+    "repo": "ember-animejs"
+  },
+  "funnelcloudinc/ember-cli-echarts": {
+    "owner": "funnelcloudinc",
+    "repo": "ember-cli-echarts"
+  },
+  "BBVAEngineering/ember-cli-remark": {
+    "owner": "BBVAEngineering",
+    "repo": "ember-cli-remark"
+  },
+  "schorke/ember-master-perfect-jspdf": {
+    "owner": "schorke",
+    "repo": "ember-master-perfect-jspdf"
+  },
+  "gmurphey/ember-resize-observer": {
+    "owner": "gmurphey",
+    "repo": "ember-resize-observer"
+  },
+  "esnilara/ember-conekta-service": {
+    "owner": "esnilara",
+    "repo": "ember-conekta-service"
+  },
+  "abcum/ember-quill": {
+    "owner": "abcum",
+    "repo": "ember-quill"
+  },
+  "abcum/ember-stripe": {
+    "owner": "abcum",
+    "repo": "ember-stripe"
+  },
+  "lynnetye/ember-trix-editor": {
+    "owner": "lynnetye",
+    "repo": "ember-trix-editor"
+  },
+  "redpencilio/ember-rdfstore": {
+    "owner": "redpencilio",
+    "repo": "ember-rdfstore"
+  },
+  "ollar/image-resize-util": {
+    "owner": "ollar",
+    "repo": "image-resize-util"
+  },
+  "niranjan94/ember-cli-tableau": {
+    "owner": "niranjan94",
+    "repo": "ember-cli-tableau"
+  },
+  "jbuget/ember-cli-formable": {
+    "owner": "jbuget",
+    "repo": "ember-cli-formable"
+  },
+  "onehilltech/ember-cli-vibrant": {
+    "owner": "onehilltech",
+    "repo": "ember-cli-vibrant"
+  },
+  "cogniteev/ember-cli-appcues": {
+    "owner": "cogniteev",
+    "repo": "ember-cli-appcues"
+  },
+  "Gavant/ember-shopify-draggable": {
+    "owner": "Gavant",
+    "repo": "ember-shopify-draggable"
+  },
+  "ember-fastboot/ember-cli-fastboot": {
+    "owner": "ember-fastboot",
+    "repo": "ember-cli-fastboot"
+  },
+  "dunnkers/ember-polymer": {
+    "owner": "dunnkers",
+    "repo": "ember-polymer"
+  },
+  "mitchlloyd/ember-islands": {
+    "owner": "mitchlloyd",
+    "repo": "ember-islands"
+  },
+  "willemdewit/ember-cli-java-properties-to-object": {
+    "owner": "willemdewit",
+    "repo": "ember-cli-java-properties-to-object"
+  },
+  "ahmadsoe/ember-offline": {
+    "owner": "ahmadsoe",
+    "repo": "ember-offline"
+  },
+  "elwayman02/ember-tumblr": {
+    "owner": "elwayman02",
+    "repo": "ember-tumblr"
+  },
+  "blimmer/ember-cli-shrug": {
+    "owner": "blimmer",
+    "repo": "ember-cli-shrug"
+  },
+  "sparrowj/ember-singularity": {
+    "owner": "sparrowj",
+    "repo": "ember-singularity"
+  },
+  "Vestorly/ember-ic-you": {
+    "owner": "Vestorly",
+    "repo": "ember-ic-you"
+  },
+  "dollarshaveclub/ember-route-layers": {
+    "owner": "dollarshaveclub",
+    "repo": "ember-route-layers"
+  },
+  "runspired/ember-run-raf": {
+    "owner": "runspired",
+    "repo": "ember-run-raf"
+  },
+  "alexmngn/ember-route-history": {
+    "owner": "alexmngn",
+    "repo": "ember-route-history"
+  },
+  "zzarcon/ember-cli-Mutation-Observer": {
+    "owner": "zzarcon",
+    "repo": "ember-cli-Mutation-Observer"
+  },
+  "envoy/ember-route-constraints": {
+    "owner": "envoy",
+    "repo": "ember-route-constraints"
+  },
+  "rmachielse/ember-cli-deploy-chrome-app": {
+    "owner": "rmachielse",
+    "repo": "ember-cli-deploy-chrome-app"
+  },
+  "franzliedke/ember-webcomponents": {
+    "owner": "franzliedke",
+    "repo": "ember-webcomponents"
+  },
+  "Vestorly/ember-cli-preloader": {
+    "owner": "Vestorly",
+    "repo": "ember-cli-preloader"
+  },
+  "mitchlloyd/ember-screen": {
+    "owner": "mitchlloyd",
+    "repo": "ember-screen"
+  },
+  "machty/ember-concurrency": {
+    "owner": "machty",
+    "repo": "ember-concurrency"
+  },
+  "ember-redux/ember-redux": {
+    "owner": "ember-redux",
+    "repo": "ember-redux"
+  },
+  "lrdiv/ember-tick-tock": {
+    "owner": "lrdiv",
+    "repo": "ember-tick-tock"
+  },
+  "mike-north/ember-phoenix": {
+    "owner": "mike-north",
+    "repo": "ember-phoenix"
+  },
+  "dfreeman/ember-cli-node-assets": {
+    "owner": "dfreeman",
+    "repo": "ember-cli-node-assets"
+  },
+  "ciena-blueplanet/ember-pollboy": {
+    "owner": "ciena-blueplanet",
+    "repo": "ember-pollboy"
+  },
+  "ciena-blueplanet/ember-prop-types": {
+    "owner": "ciena-blueplanet",
+    "repo": "ember-prop-types"
+  },
+  "pzuraq/liquid-wormhole": {
+    "owner": "pzuraq",
+    "repo": "liquid-wormhole"
+  },
+  "AltSchool/ember-cli-react": {
+    "owner": "AltSchool",
+    "repo": "ember-cli-react"
+  },
+  "BBVAEngineering/ember-cli-awesome-resolver": {
+    "owner": "BBVAEngineering",
+    "repo": "ember-cli-awesome-resolver"
+  },
+  "patience-tema-baron/ember-multiton-service": {
+    "owner": "patience-tema-baron",
+    "repo": "ember-multiton-service"
+  },
+  "patience-tema-baron/ember-message-bus": {
+    "owner": "patience-tema-baron",
+    "repo": "ember-message-bus"
+  },
+  "jamiebikies/ember-pusher": {
+    "owner": "jamiebikies",
+    "repo": "ember-pusher"
+  },
+  "smashweaver/ember-cli-nprogress": {
+    "owner": "smashweaver",
+    "repo": "ember-cli-nprogress"
+  },
+  "rhyek/ember-master-tab": {
+    "owner": "rhyek",
+    "repo": "ember-master-tab"
+  },
+  "offirgolan/ember-time-machine": {
+    "owner": "offirgolan",
+    "repo": "ember-time-machine"
+  },
+  "EmberSherpa/ember-element-resize-detector": {
+    "owner": "EmberSherpa",
+    "repo": "ember-element-resize-detector"
+  },
+  "eugeniodepalo/ember-popout": {
+    "owner": "eugeniodepalo",
+    "repo": "ember-popout"
+  },
+  "ef4/ember-elsewhere": {
+    "owner": "ef4",
+    "repo": "ember-elsewhere"
+  },
+  "sethbrasile/ember-audio": {
+    "owner": "sethbrasile",
+    "repo": "ember-audio"
+  },
+  "PXLbros/ember-cli-bg-music": {
+    "owner": "PXLbros",
+    "repo": "ember-cli-bg-music"
+  },
+  "rwjblue/ember-native-dom-event-dispatcher": {
+    "owner": "rwjblue",
+    "repo": "ember-native-dom-event-dispatcher"
+  },
+  "w-hat/ember-scrolled-to": {
+    "owner": "w-hat",
+    "repo": "ember-scrolled-to"
+  },
+  "mvdwg/telling-stories": {
+    "owner": "mvdwg",
+    "repo": "telling-stories"
+  },
+  "nypublicradio/ember-poll": {
+    "owner": "nypublicradio",
+    "repo": "ember-poll"
+  },
+  "Program-AR/ember-blockly": {
+    "owner": "Program-AR",
+    "repo": "ember-blockly"
+  },
+  "seawatts/ember-cli-commands": {
+    "owner": "seawatts",
+    "repo": "ember-cli-commands"
+  },
+  "baroquon/ember-daily-drip-feed": {
+    "owner": "baroquon",
+    "repo": "ember-daily-drip-feed"
+  },
+  "zestyzesty/ember-cli-zesty-app-base": {
+    "owner": "zestyzesty",
+    "repo": "ember-cli-zesty-app-base"
+  },
+  "ember-lifeline/ember-lifeline": {
+    "owner": "ember-lifeline",
+    "repo": "ember-lifeline"
+  },
+  "ember-shell/ember-shell": {
+    "owner": "ember-shell",
+    "repo": "ember-shell"
+  },
+  "BBVAEngineering/ember-wait-for-render": {
+    "owner": "BBVAEngineering",
+    "repo": "ember-wait-for-render"
+  },
+  "khornberg/ember-country-region-data": {
+    "owner": "khornberg",
+    "repo": "ember-country-region-data"
+  },
+  "rmmmp/emberfire-utils": {
+    "owner": "rmmmp",
+    "repo": "emberfire-utils"
+  },
+  "PrecisionNutrition/ember-new-version-detection": {
+    "owner": "PrecisionNutrition",
+    "repo": "ember-new-version-detection"
+  },
+  "echobind/ember-required-properties": {
+    "owner": "echobind",
+    "repo": "ember-required-properties"
+  },
+  "fedekau/ember-service-worker-race": {
+    "owner": "fedekau",
+    "repo": "ember-service-worker-race"
+  },
+  "foxnewsnetwork/ember-redux-actions": {
+    "owner": "foxnewsnetwork",
+    "repo": "ember-redux-actions"
+  },
+  "nucleartide/ember-elm": {
+    "owner": "nucleartide",
+    "repo": "ember-elm"
+  },
+  "enniel/ember-roboto-fontface": {
+    "owner": "enniel",
+    "repo": "ember-roboto-fontface"
+  },
+  "gabrielgrant/ember-computed-enum": {
+    "owner": "gabrielgrant",
+    "repo": "ember-computed-enum"
+  },
+  "CenterForOpenScience/ember-osf": {
+    "owner": "CenterForOpenScience",
+    "repo": "ember-osf"
+  },
+  "heycarsten/ember-fsm": {
+    "owner": "heycarsten",
+    "repo": "ember-fsm"
+  },
+  "affinity-engine/affinity-engine": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine"
+  },
+  "affinity-engine/affinity-engine-stage": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-stage"
+  },
+  "affinity-engine/affinity-engine-stage-direction-backdrop": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-stage-direction-backdrop"
+  },
+  "affinity-engine/affinity-engine-stage-direction-character": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-stage-direction-character"
+  },
+  "affinity-engine/affinity-engine-stage-direction-image": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-stage-direction-image"
+  },
+  "affinity-engine/affinity-engine-stage-direction-menu": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-stage-direction-menu"
+  },
+  "affinity-engine/affinity-engine-stage-direction-random": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-stage-direction-random"
+  },
+  "affinity-engine/affinity-engine-stage-direction-sound": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-stage-direction-sound"
+  },
+  "affinity-engine/affinity-engine-style-full": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-style-full"
+  },
+  "affinity-engine/affinity-engine-style-transparent": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-style-transparent"
+  },
+  "affinity-engine/affinity-engine-menu-bar-button-load": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-menu-bar-button-load"
+  },
+  "affinity-engine/affinity-engine-menu-bar-button-reset": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-menu-bar-button-reset"
+  },
+  "affinity-engine/affinity-engine-menu-bar-button-resize": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-menu-bar-button-resize"
+  },
+  "affinity-engine/affinity-engine-menu-bar-button-rewind": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-menu-bar-button-rewind"
+  },
+  "affinity-engine/affinity-engine-menu-bar-button-save": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-menu-bar-button-save"
+  },
+  "MyPureCloud/ember-subscription": {
+    "owner": "MyPureCloud",
+    "repo": "ember-subscription"
+  },
+  "minutebase/ember-contextual-services": {
+    "owner": "minutebase",
+    "repo": "ember-contextual-services"
+  },
+  "mvdwg/telling-stories-site": {
+    "owner": "mvdwg",
+    "repo": "telling-stories-site"
+  },
+  "PrinceCornNM/ember-pca-predict": {
+    "owner": "PrinceCornNM",
+    "repo": "ember-pca-predict"
+  },
+  "PrinceCornNM/emberfire-account": {
+    "owner": "PrinceCornNM",
+    "repo": "emberfire-account"
+  },
+  "michalsnik/ember-component-respo": {
+    "owner": "michalsnik",
+    "repo": "ember-component-respo"
+  },
+  "ibroadfo/ember-gnu-terry-pratchett": {
+    "owner": "ibroadfo",
+    "repo": "ember-gnu-terry-pratchett"
+  },
+  "ef4/ember-overlays": {
+    "owner": "ef4",
+    "repo": "ember-overlays"
+  },
+  "ming-codes/ember-doc-engine": {
+    "owner": "ming-codes",
+    "repo": "ember-doc-engine"
+  },
+  "fauxton/ember-tachyons-media-query-data-attrs": {
+    "owner": "fauxton",
+    "repo": "ember-tachyons-media-query-data-attrs"
+  },
+  "ryanlabouve/ember-a-b": {
+    "owner": "ryanlabouve",
+    "repo": "ember-a-b"
+  },
+  "tsteuwer/ember-speak": {
+    "owner": "tsteuwer",
+    "repo": "ember-speak"
+  },
+  "poteto/ember-pipeline": {
+    "owner": "poteto",
+    "repo": "ember-pipeline"
+  },
+  "joshuairl/ember-cli-olark": {
+    "owner": "joshuairl",
+    "repo": "ember-cli-olark"
+  },
+  "acquia/ember-http-hmac": {
+    "owner": "acquia",
+    "repo": "ember-http-hmac"
+  },
+  "acquia/ember-logging-bugsnag": {
+    "owner": "acquia",
+    "repo": "ember-logging-bugsnag"
+  },
+  "acquia/ember-logging-flash-messages": {
+    "owner": "acquia",
+    "repo": "ember-logging-flash-messages"
+  },
+  "acquia/ember-logging-service": {
+    "owner": "acquia",
+    "repo": "ember-logging-service"
+  },
+  "smashweaver/ember-cli-global-eval-patch": {
+    "owner": "smashweaver",
+    "repo": "ember-cli-global-eval-patch"
+  },
+  "netguru/ember-socket-guru": {
+    "owner": "netguru",
+    "repo": "ember-socket-guru"
+  },
+  "offirgolan/ember-parachute": {
+    "owner": "offirgolan",
+    "repo": "ember-parachute"
+  },
+  "TailorBrands/ember-cli-adroll": {
+    "owner": "TailorBrands",
+    "repo": "ember-cli-adroll"
+  },
+  "FutoRicky/ember-request-observer": {
+    "owner": "FutoRicky",
+    "repo": "ember-request-observer"
+  },
+  "Motokaptia/ember-cli-prerender": {
+    "owner": "Motokaptia",
+    "repo": "ember-cli-prerender"
+  },
+  "courajs/ember-recorded-history": {
+    "owner": "courajs",
+    "repo": "ember-recorded-history"
+  },
+  "gowthamrm/ember-scroll-preview": {
+    "owner": "gowthamrm",
+    "repo": "ember-scroll-preview"
+  },
+  "scazz010/ember-changeset-history": {
+    "owner": "scazz010",
+    "repo": "ember-changeset-history"
+  },
+  "nypublicradio/ember-previous": {
+    "owner": "nypublicradio",
+    "repo": "ember-previous"
+  },
+  "Dockbit/ember-cli-intercom-messenger": {
+    "owner": "Dockbit",
+    "repo": "ember-cli-intercom-messenger"
+  },
+  "vivekmunde/ember-m-css-loader": {
+    "owner": "vivekmunde",
+    "repo": "ember-m-css-loader"
+  },
+  "vivekmunde/ember-m-js-loader": {
+    "owner": "vivekmunde",
+    "repo": "ember-m-js-loader"
+  },
+  "PrinceCornNM/emberfire-chat": {
+    "owner": "PrinceCornNM",
+    "repo": "emberfire-chat"
+  },
+  "PrinceCornNM/ember-chat": {
+    "owner": "PrinceCornNM",
+    "repo": "ember-chat"
+  },
+  "Vestorly/ember-dom-click-listener": {
+    "owner": "Vestorly",
+    "repo": "ember-dom-click-listener"
+  },
+  "DanMonroe/ember-cli-ethnio": {
+    "owner": "DanMonroe",
+    "repo": "ember-cli-ethnio"
+  },
+  "akatov/ember-stateful": {
+    "owner": "akatov",
+    "repo": "ember-stateful"
+  },
+  "RyanNerd/ember-cli-dom-observer": {
+    "owner": "RyanNerd",
+    "repo": "ember-cli-dom-observer"
+  },
+  "Matt-Jensen/ember-service-worker-emberfire-messaging": {
+    "owner": "Matt-Jensen",
+    "repo": "ember-service-worker-emberfire-messaging"
+  },
+  "topaxi/ember-service-worker-update-notify": {
+    "owner": "topaxi",
+    "repo": "ember-service-worker-update-notify"
+  },
+  "fauxton/ember-dom-inventory": {
+    "owner": "fauxton",
+    "repo": "ember-dom-inventory"
+  },
+  "sukima/ember-confirmed": {
+    "owner": "sukima",
+    "repo": "ember-confirmed"
+  },
+  "affinity-engine/affinity-engine-plugin-animator-velocity": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-plugin-animator-velocity"
+  },
+  "affinity-engine/affinity-engine-plugin-data-manager-rewindable-lokijs": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-plugin-data-manager-rewindable-lokijs"
+  },
+  "affinity-engine/affinity-engine-plugin-icon-font-awesome": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-plugin-icon-font-awesome"
+  },
+  "affinity-engine/affinity-engine-plugin-preloader-createjs": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-plugin-preloader-createjs"
+  },
+  "affinity-engine/affinity-engine-plugin-translator-ember-intl": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-plugin-translator-ember-intl"
+  },
+  "appchance/ember-simple-qp": {
+    "owner": "appchance",
+    "repo": "ember-simple-qp"
+  },
+  "ampatspell/ember-cli-fastboot-dotenv": {
+    "owner": "ampatspell",
+    "repo": "ember-cli-fastboot-dotenv"
+  },
+  "affinity-engine/affinity-engine-style-caption": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-style-caption"
+  },
+  "lifeart/ember-cerebraljs": {
+    "owner": "lifeart",
+    "repo": "ember-cerebraljs"
+  },
+  "ef4/ember-head": {
+    "owner": "ef4",
+    "repo": "ember-head"
+  },
+  "IG-Group/ember-preloader": {
+    "owner": "IG-Group",
+    "repo": "ember-preloader"
+  },
+  "galmi/ember-history-back": {
+    "owner": "galmi",
+    "repo": "ember-history-back"
+  },
+  "BnitoBzh/ember-cli-debounce-query-params": {
+    "owner": "BnitoBzh",
+    "repo": "ember-cli-debounce-query-params"
+  },
+  "mayko780/ember-window-resize": {
+    "owner": "mayko780",
+    "repo": "ember-window-resize"
+  },
+  "mayko780/ember-element-resize": {
+    "owner": "mayko780",
+    "repo": "ember-element-resize"
+  },
+  "kiwiupover/ember-typography": {
+    "owner": "kiwiupover",
+    "repo": "ember-typography"
+  },
+  "claudiamatosa/merry-ember": {
+    "owner": "claudiamatosa",
+    "repo": "merry-ember"
+  },
+  "elwayman02/ember-is-visible": {
+    "owner": "elwayman02",
+    "repo": "ember-is-visible"
+  },
+  "elwayman02/ember-interactivity": {
+    "owner": "elwayman02",
+    "repo": "ember-interactivity"
+  },
+  "yapplabs/ember-nav-stack": {
+    "owner": "yapplabs",
+    "repo": "ember-nav-stack"
+  },
+  "andyhot/ember-cli-puppet": {
+    "owner": "andyhot",
+    "repo": "ember-cli-puppet"
+  },
+  "smfoote/ember-glimmer-component": {
+    "owner": "smfoote",
+    "repo": "ember-glimmer-component"
+  },
+  "ampatspell/ember-cli-remark-templates": {
+    "owner": "ampatspell",
+    "repo": "ember-cli-remark-templates"
+  },
+  "knownasilya/ember-action-services": {
+    "owner": "knownasilya",
+    "repo": "ember-action-services"
+  },
+  "abcum/ember-internet": {
+    "owner": "abcum",
+    "repo": "ember-internet"
+  },
+  "abcum/ember-location": {
+    "owner": "abcum",
+    "repo": "ember-location"
+  },
+  "busy-web/graylog": {
+    "owner": "busy-web",
+    "repo": "graylog"
+  },
+  "chattermill/ember-cli-index-redirect": {
+    "owner": "chattermill",
+    "repo": "ember-cli-index-redirect"
+  },
+  "Gavant/gavant-ember-app-version-update": {
+    "owner": "Gavant",
+    "repo": "gavant-ember-app-version-update"
+  },
+  "Gavant/gavant-ember-websockets": {
+    "owner": "Gavant",
+    "repo": "gavant-ember-websockets"
+  },
+  "joshsearles/ember-detect-tracking-protection": {
+    "owner": "joshsearles",
+    "repo": "ember-detect-tracking-protection"
+  },
+  "outdoorsy/ember-experiments": {
+    "owner": "outdoorsy",
+    "repo": "ember-experiments"
+  },
+  "GavinJoyce/ember-present-ember-concurrency": {
+    "owner": "GavinJoyce",
+    "repo": "ember-present-ember-concurrency"
+  },
+  "madnificent/ember-public-dom-interface": {
+    "owner": "madnificent",
+    "repo": "ember-public-dom-interface"
+  },
+  "dexturr/ember-contextual-back": {
+    "owner": "dexturr",
+    "repo": "ember-contextual-back"
+  },
+  "andrewpye/ember-context": {
+    "owner": "andrewpye",
+    "repo": "ember-context"
+  },
+  "lenrsmith/ember-ghost-w3css-blog-template": {
+    "owner": "lenrsmith",
+    "repo": "ember-ghost-w3css-blog-template"
+  },
+  "lenrsmith/empress-blog-w3css-blog-template": {
+    "owner": "lenrsmith",
+    "repo": "empress-blog-w3css-blog-template"
+  },
+  "elidupuis/ember-cli-build-info": {
+    "owner": "elidupuis",
+    "repo": "ember-cli-build-info"
+  },
+  "cibernox/ember-cli-yuidoc": {
+    "owner": "cibernox",
+    "repo": "ember-cli-yuidoc"
+  },
+  "rwjblue/ember-git-version": {
+    "owner": "rwjblue",
+    "repo": "ember-git-version"
+  },
+  "samselikoff/ember-cli-mirage": {
+    "owner": "samselikoff",
+    "repo": "ember-cli-mirage"
+  },
+  "cibernox/ember-disable-proxy-controllers": {
+    "owner": "cibernox",
+    "repo": "ember-disable-proxy-controllers"
+  },
+  "trabus/ember-cli-mv": {
+    "owner": "trabus",
+    "repo": "ember-cli-mv"
+  },
+  "softlayer/ember-cli-jsdoc": {
+    "owner": "softlayer",
+    "repo": "ember-cli-jsdoc"
+  },
+  "asakusuma/ember-local-config": {
+    "owner": "asakusuma",
+    "repo": "ember-local-config"
+  },
+  "vivekanandan/ember-i18n-yaml-to-json": {
+    "owner": "vivekanandan",
+    "repo": "ember-i18n-yaml-to-json"
+  },
+  "onechiporenko/ember-to-string": {
+    "owner": "onechiporenko",
+    "repo": "ember-to-string"
+  },
+  "ryanlabouve/ember-cli-randoport": {
+    "owner": "ryanlabouve",
+    "repo": "ember-cli-randoport"
+  },
+  "spham92/ember-performance-tracking": {
+    "owner": "spham92",
+    "repo": "ember-performance-tracking"
+  },
+  "skaterdav85/ember-share": {
+    "owner": "skaterdav85",
+    "repo": "ember-share"
+  },
+  "offirgolan/ember-addon-genie": {
+    "owner": "offirgolan",
+    "repo": "ember-addon-genie"
+  },
+  "healthsparq/ember-component-playground": {
+    "owner": "healthsparq",
+    "repo": "ember-component-playground"
+  },
+  "Keeo/ember-cli-logger": {
+    "owner": "Keeo",
+    "repo": "ember-cli-logger"
+  },
+  "healthsparq/ember-fountainhead": {
+    "owner": "healthsparq",
+    "repo": "ember-fountainhead"
+  },
+  "offirgolan/ember-require-module": {
+    "owner": "offirgolan",
+    "repo": "ember-require-module"
+  },
+  "thoov/ember-cli-search": {
+    "owner": "thoov",
+    "repo": "ember-cli-search"
+  },
+  "aboveproperty/ember-i18n-yaml": {
+    "owner": "aboveproperty",
+    "repo": "ember-i18n-yaml"
+  },
+  "miguelcobain/ember-empathy": {
+    "owner": "miguelcobain",
+    "repo": "ember-empathy"
+  },
+  "rs253046/ember-cli-scaffold": {
+    "owner": "rs253046",
+    "repo": "ember-cli-scaffold"
+  },
+  "tzellman/ember-prototype": {
+    "owner": "tzellman",
+    "repo": "ember-prototype"
+  },
+  "shamcode/ember-debug-cp": {
+    "owner": "shamcode",
+    "repo": "ember-debug-cp"
+  },
+  "crystal-ball/ember-cli-prop-types": {
+    "owner": "crystal-ball",
+    "repo": "ember-cli-prop-types"
+  },
+  "stefanpenner/ember-console": {
+    "owner": "stefanpenner",
+    "repo": "ember-console"
+  },
+  "dwickern/ember-chrome-devtools": {
+    "owner": "dwickern",
+    "repo": "ember-chrome-devtools"
+  },
+  "queenvictoria/ember-cli-openapi-generate": {
+    "owner": "queenvictoria",
+    "repo": "ember-cli-openapi-generate"
+  },
+  "intercom/ember-cli-detergent": {
+    "owner": "intercom",
+    "repo": "ember-cli-detergent"
+  },
+  "mvdwg/ember-cli-updater": {
+    "owner": "mvdwg",
+    "repo": "ember-cli-updater"
+  },
+  "urbany/ember-cli-single-file-components": {
+    "owner": "urbany",
+    "repo": "ember-cli-single-file-components"
+  },
+  "MaxCodeDE/ember-clean-project": {
+    "owner": "MaxCodeDE",
+    "repo": "ember-clean-project"
+  },
+  "ef4/prember-middleware": {
+    "owner": "ef4",
+    "repo": "prember-middleware"
+  },
+  "dfreeman/ember-cli-addon-versions": {
+    "owner": "dfreeman",
+    "repo": "ember-cli-addon-versions"
+  },
+  "donaldwasserman/ember-test-free-g": {
+    "owner": "donaldwasserman",
+    "repo": "ember-test-free-g"
+  },
+  "heroku/ember-trace": {
+    "owner": "heroku",
+    "repo": "ember-trace"
+  },
+  "ef4/ember-strict-warnings": {
+    "owner": "ef4",
+    "repo": "ember-strict-warnings"
+  },
+  "yohanmishkin/ember-cli-alex": {
+    "owner": "yohanmishkin",
+    "repo": "ember-cli-alex"
+  },
+  "ember-redux/ember-redux-hot-loader": {
+    "owner": "ember-redux",
+    "repo": "ember-redux-hot-loader"
+  },
+  "typed-ember/ember-cli-typescript-blueprints": {
+    "owner": "typed-ember",
+    "repo": "ember-cli-typescript-blueprints"
+  },
+  "lifejuggler/ember-cli-json-license": {
+    "owner": "lifejuggler",
+    "repo": "ember-cli-json-license"
+  },
+  "rwjblue/log-lint-times": {
+    "owner": "rwjblue",
+    "repo": "log-lint-times"
+  },
+  "happycollision/ember-typescript-utils": {
+    "owner": "happycollision",
+    "repo": "ember-typescript-utils"
+  },
+  "arenoir/ember-cli-deploy-rsync": {
+    "owner": "arenoir",
+    "repo": "ember-cli-deploy-rsync"
+  },
+  "GavinJoyce/ember-backoff": {
+    "owner": "GavinJoyce",
+    "repo": "ember-backoff"
+  },
+  "yapplabs/ember-buffered-proxy": {
+    "owner": "yapplabs",
+    "repo": "ember-buffered-proxy"
+  },
+  "jerel/ember-cli-clock": {
+    "owner": "jerel",
+    "repo": "ember-cli-clock"
+  },
+  "mharris717/ember-cli-pagination": {
+    "owner": "mharris717",
+    "repo": "ember-cli-pagination"
+  },
+  "toranb/ember-cli-thymeleaf-csrf": {
+    "owner": "toranb",
+    "repo": "ember-cli-thymeleaf-csrf"
+  },
+  "GavinJoyce/ember-component-inbound-actions": {
+    "owner": "GavinJoyce",
+    "repo": "ember-component-inbound-actions"
+  },
+  "GavinJoyce/ember-delay": {
+    "owner": "GavinJoyce",
+    "repo": "ember-delay"
+  },
+  "minutebase/ember-inject-script": {
+    "owner": "minutebase",
+    "repo": "ember-inject-script"
+  },
+  "thoov/ember-redirect": {
+    "owner": "thoov",
+    "repo": "ember-redirect"
+  },
+  "stefanpenner/ember-state-services": {
+    "owner": "stefanpenner",
+    "repo": "ember-state-services"
+  },
+  "trentmwillis/ember-singularity-mixins": {
+    "owner": "trentmwillis",
+    "repo": "ember-singularity-mixins"
+  },
+  "stonecircle/ember-body-class": {
+    "owner": "stonecircle",
+    "repo": "ember-body-class"
+  },
+  "lifegadget/ember-cli-stylist": {
+    "owner": "lifegadget",
+    "repo": "ember-cli-stylist"
+  },
+  "thoov/ember-weakmap": {
+    "owner": "thoov",
+    "repo": "ember-weakmap"
+  },
+  "DockYard/ember-route-action-helper": {
+    "owner": "DockYard",
+    "repo": "ember-route-action-helper"
+  },
+  "topaxi/ember-pad": {
+    "owner": "topaxi",
+    "repo": "ember-pad"
+  },
+  "mnowik/ember-countries": {
+    "owner": "mnowik",
+    "repo": "ember-countries"
+  },
+  "mike-north/ember-windowscroll": {
+    "owner": "mike-north",
+    "repo": "ember-windowscroll"
+  },
+  "smashweaver/ember-cli-jwt-decode": {
+    "owner": "smashweaver",
+    "repo": "ember-cli-jwt-decode"
+  },
+  "LocusEnergy/ember-d3-helpers": {
+    "owner": "LocusEnergy",
+    "repo": "ember-d3-helpers"
+  },
+  "cibernox/ember-text-measurer": {
+    "owner": "cibernox",
+    "repo": "ember-text-measurer"
+  },
+  "curtisgr/ember-cli-moment-business": {
+    "owner": "curtisgr",
+    "repo": "ember-cli-moment-business"
+  },
+  "turtleguyy/ember-cli-ie-detect": {
+    "owner": "turtleguyy",
+    "repo": "ember-cli-ie-detect"
+  },
+  "lukesargeant/ember-box-utils": {
+    "owner": "lukesargeant",
+    "repo": "ember-box-utils"
+  },
+  "cafreeman/ember-object-update": {
+    "owner": "cafreeman",
+    "repo": "ember-object-update"
+  },
+  "treywood/ember-cli-rxjs": {
+    "owner": "treywood",
+    "repo": "ember-cli-rxjs"
+  },
+  "etuchscherer/ember-hex-string": {
+    "owner": "etuchscherer",
+    "repo": "ember-hex-string"
+  },
+  "mnowik/ember-currencies": {
+    "owner": "mnowik",
+    "repo": "ember-currencies"
+  },
+  "toranb/ember-shallow-equal": {
+    "owner": "toranb",
+    "repo": "ember-shallow-equal"
+  },
+  "kellyselden/ember-each-of": {
+    "owner": "kellyselden",
+    "repo": "ember-each-of"
+  },
+  "alexlafroscia/ember-hash-params": {
+    "owner": "alexlafroscia",
+    "repo": "ember-hash-params"
+  },
+  "cardstack/ember-inject-optional": {
+    "owner": "cardstack",
+    "repo": "ember-inject-optional"
+  },
+  "BrunoSalgado1985/ember-compose-methods": {
+    "owner": "BrunoSalgado1985",
+    "repo": "ember-compose-methods"
+  },
+  "ef4/ember-set-body-class": {
+    "owner": "ef4",
+    "repo": "ember-set-body-class"
+  },
+  "AdamWard1995/ember-online-status": {
+    "owner": "AdamWard1995",
+    "repo": "ember-online-status"
+  },
+  "offirgolan/ember-buffered-array-proxy": {
+    "owner": "offirgolan",
+    "repo": "ember-buffered-array-proxy"
+  },
+  "offirgolan/ember-state-manager": {
+    "owner": "offirgolan",
+    "repo": "ember-state-manager"
+  },
+  "ecraft/ember-query-params-proxy": {
+    "owner": "ecraft",
+    "repo": "ember-query-params-proxy"
+  },
+  "prakashchokalingam/ember-inject-scripts": {
+    "owner": "prakashchokalingam",
+    "repo": "ember-inject-scripts"
+  },
+  "ahmetemrekilinc/ember-route-action-helper": {
+    "owner": "ahmetemrekilinc",
+    "repo": "ember-route-action-helper"
+  },
+  "gaurav0/ember-buffered-array-promise-proxy": {
+    "owner": "gaurav0",
+    "repo": "ember-buffered-array-promise-proxy"
+  },
+  "britishgas-engineering/ember-router-meta": {
+    "owner": "britishgas-engineering",
+    "repo": "ember-router-meta"
+  },
+  "ef4/ember-root-url": {
+    "owner": "ef4",
+    "repo": "ember-root-url"
+  },
+  "abcum/ember-storage": {
+    "owner": "abcum",
+    "repo": "ember-storage"
+  },
+  "abcum/ember-domain": {
+    "owner": "abcum",
+    "repo": "ember-domain"
+  },
+  "ecraft/ember-objectify": {
+    "owner": "ecraft",
+    "repo": "ember-objectify"
+  },
+  "mtoygar/ember-poller": {
+    "owner": "mtoygar",
+    "repo": "ember-poller"
+  },
+  "ember-animation/liquid-fire": {
+    "owner": "ember-animation",
+    "repo": "liquid-fire"
+  },
+  "peec/ember-css-transitions": {
+    "owner": "peec",
+    "repo": "ember-css-transitions"
+  },
+  "kpfefferle/liquid-fire-reveal": {
+    "owner": "kpfefferle",
+    "repo": "liquid-fire-reveal"
+  },
+  "eliksir/ember-css-animation-triggers": {
+    "owner": "eliksir",
+    "repo": "ember-css-animation-triggers"
+  },
+  "mike-north/ember-parallax": {
+    "owner": "mike-north",
+    "repo": "ember-parallax"
+  },
+  "patience-tema-baron/ember-letter-by-letter": {
+    "owner": "patience-tema-baron",
+    "repo": "ember-letter-by-letter"
+  },
+  "jakeleboeuf/ember-cli-bodymovin": {
+    "owner": "jakeleboeuf",
+    "repo": "ember-cli-bodymovin"
+  },
+  "patience-tema-baron/ember-animation-box": {
+    "owner": "patience-tema-baron",
+    "repo": "ember-animation-box"
+  },
+  "foxnewsnetwork/ember-gen-helpers": {
+    "owner": "foxnewsnetwork",
+    "repo": "ember-gen-helpers"
+  },
+  "foxnewsnetwork/ember-slow-motion": {
+    "owner": "foxnewsnetwork",
+    "repo": "ember-slow-motion"
+  },
+  "devotox/ember-cli-liquid-fire-events": {
+    "owner": "devotox",
+    "repo": "ember-cli-liquid-fire-events"
+  },
+  "mshafir/liquid-fire-flip": {
+    "owner": "mshafir",
+    "repo": "liquid-fire-flip"
+  },
+  "akshay-kr/ember-scroll-to-target": {
+    "owner": "akshay-kr",
+    "repo": "ember-scroll-to-target"
+  },
+  "sauce-consultants/ember-liquid-sauce": {
+    "owner": "sauce-consultants",
+    "repo": "ember-liquid-sauce"
+  },
+  "Emerson/ember-form-master-2000": {
+    "owner": "Emerson",
+    "repo": "ember-form-master-2000"
+  },
+  "piceaTech/ember-rapid-forms": {
+    "owner": "piceaTech",
+    "repo": "ember-rapid-forms"
+  },
+  "Fabriquartz/ember-railio-form-components": {
+    "owner": "Fabriquartz",
+    "repo": "ember-railio-form-components"
+  },
+  "dollarshaveclub/ember-uni-form": {
+    "owner": "dollarshaveclub",
+    "repo": "ember-uni-form"
+  },
+  "toddjordan/ember-cli-dynamic-forms": {
+    "owner": "toddjordan",
+    "repo": "ember-cli-dynamic-forms"
+  },
+  "rtablada/ember-simple-form": {
+    "owner": "rtablada",
+    "repo": "ember-simple-form"
+  },
+  "jbandura/ember-legit-forms": {
+    "owner": "jbandura",
+    "repo": "ember-legit-forms"
+  },
+  "shipshapecode/ember-x-editable": {
+    "owner": "shipshapecode",
+    "repo": "ember-x-editable"
+  },
+  "ivanvanderbyl/flood-simple-form": {
+    "owner": "ivanvanderbyl",
+    "repo": "flood-simple-form"
+  },
+  "dmcouncil/ember-cli-form-errors": {
+    "owner": "dmcouncil",
+    "repo": "ember-cli-form-errors"
+  },
+  "Foodee/ember-foxy-forms": {
+    "owner": "Foodee",
+    "repo": "ember-foxy-forms"
+  },
+  "CrushedPixel/ember-semantic-validated-form": {
+    "owner": "CrushedPixel",
+    "repo": "ember-semantic-validated-form"
+  },
+  "jbescoyez/ember-light-form": {
+    "owner": "jbescoyez",
+    "repo": "ember-light-form"
+  },
+  "projectcaluma/ember-caluma": {
+    "owner": "projectcaluma",
+    "repo": "ember-caluma"
+  },
+  "Gavant/ember-floating-labels": {
+    "owner": "Gavant",
+    "repo": "ember-floating-labels"
+  },
+  "lifegadget/ui-button": {
+    "owner": "lifegadget",
+    "repo": "ui-button"
+  },
+  "aupac/ember-aupac-control": {
+    "owner": "aupac",
+    "repo": "ember-aupac-control"
+  },
+  "ritesh83/ember-cli-wizard": {
+    "owner": "ritesh83",
+    "repo": "ember-cli-wizard"
+  },
+  "adopted-ember-addons/ember-pikaday": {
+    "owner": "adopted-ember-addons",
+    "repo": "ember-pikaday"
+  },
+  "swastik/ember-daypicker": {
+    "owner": "swastik",
+    "repo": "ember-daypicker"
+  },
+  "aravindranath/ember-cli-datepicker": {
+    "owner": "aravindranath",
+    "repo": "ember-cli-datepicker"
+  },
+  "lozjackson/ember-time-tools": {
+    "owner": "lozjackson",
+    "repo": "ember-time-tools"
+  },
+  "wearemolecule/date-range-picker": {
+    "owner": "wearemolecule",
+    "repo": "date-range-picker"
+  },
+  "angliafarmers/ember-material-design-datepicker": {
+    "owner": "angliafarmers",
+    "repo": "ember-material-design-datepicker"
+  },
+  "helm-inc/ember-pikaday-time": {
+    "owner": "helm-inc",
+    "repo": "ember-pikaday-time"
+  },
+  "scoutforpets/ember-timepicker": {
+    "owner": "scoutforpets",
+    "repo": "ember-timepicker"
+  },
+  "ryannerd/ember-cli-time-picker": {
+    "owner": "ryannerd",
+    "repo": "ember-cli-time-picker"
+  },
+  "ethanrubio/ember-pikaday-time": {
+    "owner": "ethanrubio",
+    "repo": "ember-pikaday-time"
+  },
+  "ryannerd/ember-power-timepicker": {
+    "owner": "ryannerd",
+    "repo": "ember-power-timepicker"
+  },
+  "prashanth-cpaul/ember-cli-tethered-calendar": {
+    "owner": "prashanth-cpaul",
+    "repo": "ember-cli-tethered-calendar"
+  },
+  "busy-web/ember-date-time": {
+    "owner": "busy-web",
+    "repo": "ember-date-time"
+  },
+  "edgycircle/ember-pikaday": {
+    "owner": "edgycircle",
+    "repo": "ember-pikaday"
+  },
+  "akshaypatil1/ember-pick-time": {
+    "owner": "akshaypatil1",
+    "repo": "ember-pick-time"
+  },
+  "lukesargeant/ember-cli-sparkline": {
+    "owner": "lukesargeant",
+    "repo": "ember-cli-sparkline"
+  },
+  "Glavin001/ember-c3": {
+    "owner": "Glavin001",
+    "repo": "ember-c3"
+  },
+  "sir-dunxalot/ember-google-charts": {
+    "owner": "sir-dunxalot",
+    "repo": "ember-google-charts"
+  },
+  "LocusEnergy/ember-sparkles": {
+    "owner": "LocusEnergy",
+    "repo": "ember-sparkles"
+  },
+  "nightsh/elvis-network": {
+    "owner": "nightsh",
+    "repo": "elvis-network"
+  },
+  "reflect/ember-cli-reflect": {
+    "owner": "reflect",
+    "repo": "ember-cli-reflect"
+  },
+  "svkangal/ember-tutorial-component": {
+    "owner": "svkangal",
+    "repo": "ember-tutorial-component"
+  },
+  "AnyChart/anychart-ember": {
+    "owner": "AnyChart",
+    "repo": "anychart-ember"
+  },
+  "kevinkucharczyk/ember-enchant": {
+    "owner": "kevinkucharczyk",
+    "repo": "ember-enchant"
+  },
+  "willviles/ember-google-analytics-embed": {
+    "owner": "willviles",
+    "repo": "ember-google-analytics-embed"
+  },
+  "saztul/ember-basic-charts": {
+    "owner": "saztul",
+    "repo": "ember-basic-charts"
+  },
+  "ember-visualization/ember-primer": {
+    "owner": "ember-visualization",
+    "repo": "ember-primer"
+  },
+  "doublestranded/ember-sigmajs": {
+    "owner": "doublestranded",
+    "repo": "ember-sigmajs"
+  },
+  "lukesargeant/ember-sparkline": {
+    "owner": "lukesargeant",
+    "repo": "ember-sparkline"
+  },
+  "bruckwubete/echarts-ember": {
+    "owner": "bruckwubete",
+    "repo": "echarts-ember"
+  },
+  "abcum/ember-charts": {
+    "owner": "abcum",
+    "repo": "ember-charts"
+  },
+  "thefrontside/emberx-select": {
+    "owner": "thefrontside",
+    "repo": "emberx-select"
+  },
+  "klclee/ember-cli-dropdown": {
+    "owner": "klclee",
+    "repo": "ember-cli-dropdown"
+  },
+  "novafloss/ember-simple-select": {
+    "owner": "novafloss",
+    "repo": "ember-simple-select"
+  },
+  "tedconf/ember-searchable-select": {
+    "owner": "tedconf",
+    "repo": "ember-searchable-select"
+  },
+  "cibernox/ember-power-select-blockless": {
+    "owner": "cibernox",
+    "repo": "ember-power-select-blockless"
+  },
+  "cibernox/ember-power-select-sortable": {
+    "owner": "cibernox",
+    "repo": "ember-power-select-sortable"
+  },
+  "tedconf/ember-ted-select": {
+    "owner": "tedconf",
+    "repo": "ember-ted-select"
+  },
+  "cibernox/ember-power-select-with-fallback": {
+    "owner": "cibernox",
+    "repo": "ember-power-select-with-fallback"
+  },
+  "AnnotationSro/ember-advanced-combobox": {
+    "owner": "AnnotationSro",
+    "repo": "ember-advanced-combobox"
+  },
+  "britishgas-engineering/bg-select": {
+    "owner": "britishgas-engineering",
+    "repo": "bg-select"
+  },
+  "ember-sparks/select-spark": {
+    "owner": "ember-sparks",
+    "repo": "select-spark"
+  },
+  "rajasegar/ember-custom-select": {
+    "owner": "rajasegar",
+    "repo": "ember-custom-select"
+  },
+  "shayanypn/ember-cli-selectpicker": {
+    "owner": "shayanypn",
+    "repo": "ember-cli-selectpicker"
+  },
+  "jiangti/emberx-select": {
+    "owner": "jiangti",
+    "repo": "emberx-select"
+  },
+  "IliasDeros/ember-data-power-select": {
+    "owner": "IliasDeros",
+    "repo": "ember-data-power-select"
+  },
+  "abcum/ember-select": {
+    "owner": "abcum",
+    "repo": "ember-select"
+  },
+  "Gavant/ember-power-select-infinity": {
+    "owner": "Gavant",
+    "repo": "ember-power-select-infinity"
+  },
+  "nickschot/ember-model-select": {
+    "owner": "nickschot",
+    "repo": "ember-model-select"
+  },
+  "aupac/ember-aupac-typeahead": {
+    "owner": "aupac",
+    "repo": "ember-aupac-typeahead"
+  },
+  "poteto/ember-hypersearch": {
+    "owner": "poteto",
+    "repo": "ember-hypersearch"
+  },
+  "timjcook/ember-cli-autocomplete-input": {
+    "owner": "timjcook",
+    "repo": "ember-cli-autocomplete-input"
+  },
+  "yakmada/ember-cli-mentionable": {
+    "owner": "yakmada",
+    "repo": "ember-cli-mentionable"
+  },
+  "cph/ember-search-with-modifiers": {
+    "owner": "cph",
+    "repo": "ember-search-with-modifiers"
+  },
+  "rwclarke/awesome-autocomplete": {
+    "owner": "rwclarke",
+    "repo": "awesome-autocomplete"
+  },
+  "jerel/ember-cli-loading-slider": {
+    "owner": "jerel",
+    "repo": "ember-cli-loading-slider"
+  },
+  "ajainvivek/ember-cli-spinner": {
+    "owner": "ajainvivek",
+    "repo": "ember-cli-spinner"
+  },
+  "eliksir/ember-progress": {
+    "owner": "eliksir",
+    "repo": "ember-progress"
+  },
+  "rhlowe/ember-text-placeholder": {
+    "owner": "rhlowe",
+    "repo": "ember-text-placeholder"
+  },
+  "rajasegar/ember-flip-preloader": {
+    "owner": "rajasegar",
+    "repo": "ember-flip-preloader"
+  },
+  "GerritSommer/svg-progress-circle": {
+    "owner": "GerritSommer",
+    "repo": "svg-progress-circle"
+  },
+  "klclee/ember-cli-ohmyval": {
+    "owner": "klclee",
+    "repo": "ember-cli-ohmyval"
+  },
+  "ember-furnace/ember-cli-furnace-validation": {
+    "owner": "ember-furnace",
+    "repo": "ember-cli-furnace-validation"
+  },
+  "esbanarango/ember-model-validator": {
+    "owner": "esbanarango",
+    "repo": "ember-model-validator"
+  },
+  "simplabs/ember-validated-form-buffer": {
+    "owner": "simplabs",
+    "repo": "ember-validated-form-buffer"
+  },
+  "AnnotationSro/ember-advanced-validations": {
+    "owner": "AnnotationSro",
+    "repo": "ember-advanced-validations"
+  },
+  "offirgolan/ember-validators": {
+    "owner": "offirgolan",
+    "repo": "ember-validators"
+  },
+  "cptran777/ember-form-validation": {
+    "owner": "cptran777",
+    "repo": "ember-form-validation"
+  },
+  "BellGasp/ember-promise-validations": {
+    "owner": "BellGasp",
+    "repo": "ember-promise-validations"
+  },
+  "alvarocastro/ember-validate": {
+    "owner": "alvarocastro",
+    "repo": "ember-validate"
+  },
+  "GTWelsh/emvalid": {
+    "owner": "GTWelsh",
+    "repo": "emvalid"
+  },
+  "abhinav098/ember-form-validator": {
+    "owner": "abhinav098",
+    "repo": "ember-form-validator"
+  },
+  "jpadilla/ember-simple-auth-token": {
+    "owner": "jpadilla",
+    "repo": "ember-simple-auth-token"
+  },
+  "rmachielse/ember-simple-auth-chrome-app": {
+    "owner": "rmachielse",
+    "repo": "ember-simple-auth-chrome-app"
+  },
+  "ahmadsoe/ember-simple-auth-devise-token": {
+    "owner": "ahmadsoe",
+    "repo": "ember-simple-auth-devise-token"
+  },
+  "martinic/ember-simple-auth-pouch": {
+    "owner": "martinic",
+    "repo": "ember-simple-auth-pouch"
+  },
+  "auth0-community/ember-simple-auth-auth0": {
+    "owner": "auth0-community",
+    "repo": "ember-simple-auth-auth0"
+  },
+  "danieldent/ember-simple-auth-envoy": {
+    "owner": "danieldent",
+    "repo": "ember-simple-auth-envoy"
+  },
+  "myartsev/ember-simple-auth-jwt": {
+    "owner": "myartsev",
+    "repo": "ember-simple-auth-jwt"
+  },
+  "adfinis-sygroup/ember-simple-auth-oidc": {
+    "owner": "adfinis-sygroup",
+    "repo": "ember-simple-auth-oidc"
+  },
+  "bartam/ember-simple-auth-keycloak": {
+    "owner": "bartam",
+    "repo": "ember-simple-auth-keycloak"
+  },
+  "cybertooth-io/ember-simple-auth-aws-amplify": {
+    "owner": "cybertooth-io",
+    "repo": "ember-simple-auth-aws-amplify"
+  },
+  "201-created/ember-data-hal-9000": {
+    "owner": "201-created",
+    "repo": "ember-data-hal-9000"
+  },
+  "dustinfarris/ember-django-adapter": {
+    "owner": "dustinfarris",
+    "repo": "ember-django-adapter"
+  },
+  "firebase/emberfire": {
+    "owner": "firebase",
+    "repo": "emberfire"
+  },
+  "pouchdb-community/ember-pouch": {
+    "owner": "pouchdb-community",
+    "repo": "ember-pouch"
+  },
+  "bitzesty/ember-sqlite-adapter": {
+    "owner": "bitzesty",
+    "repo": "ember-sqlite-adapter"
+  },
+  "alphasights/ember-graphql-adapter": {
+    "owner": "alphasights",
+    "repo": "ember-graphql-adapter"
+  },
+  "oskarrough/ember-wordpress": {
+    "owner": "oskarrough",
+    "repo": "ember-wordpress"
+  },
+  "davidpett/ember-data-contentful": {
+    "owner": "davidpett",
+    "repo": "ember-data-contentful"
+  },
+  "patience-tema-baron/ember-lokijs": {
+    "owner": "patience-tema-baron",
+    "repo": "ember-lokijs"
+  },
+  "Flexberry/ember-flexberry-data": {
+    "owner": "Flexberry",
+    "repo": "ember-flexberry-data"
+  },
+  "zachgarwood/ember-socrata": {
+    "owner": "zachgarwood",
+    "repo": "ember-socrata"
+  },
+  "ubuntuvim/wildember": {
+    "owner": "ubuntuvim",
+    "repo": "wildember"
+  },
+  "boztek/ember-data-drupal": {
+    "owner": "boztek",
+    "repo": "ember-data-drupal"
+  },
+  "astorise/ember-adresse-data-gouv-fr": {
+    "owner": "astorise",
+    "repo": "ember-adresse-data-gouv-fr"
+  },
+  "huafu/ember-data-feathers": {
+    "owner": "huafu",
+    "repo": "ember-data-feathers"
+  },
+  "davekago/ember-fhir": {
+    "owner": "davekago",
+    "repo": "ember-fhir"
+  },
+  "HarenBroog/ember-graph-data": {
+    "owner": "HarenBroog",
+    "repo": "ember-graph-data"
+  },
+  "rmmmp/ember-firebase-adapter": {
+    "owner": "rmmmp",
+    "repo": "ember-firebase-adapter"
+  },
+  "Duke-GCB/drf-ember-frontend": {
+    "owner": "Duke-GCB",
+    "repo": "drf-ember-frontend"
+  },
+  "betocantu93/ember-twitch-normalizer": {
+    "owner": "betocantu93",
+    "repo": "ember-twitch-normalizer"
+  },
+  "gutschik/ember-data-sails": {
+    "owner": "gutschik",
+    "repo": "ember-data-sails"
+  },
+  "funtusov/ember-cli-form-data": {
+    "owner": "funtusov",
+    "repo": "ember-cli-form-data"
+  },
+  "thaume/ember-cli-uuid": {
+    "owner": "thaume",
+    "repo": "ember-cli-uuid"
+  },
+  "amiel/ember-data-url-templates": {
+    "owner": "amiel",
+    "repo": "ember-data-url-templates"
+  },
+  "kellyselden/ember-data-fetch-support": {
+    "owner": "kellyselden",
+    "repo": "ember-data-fetch-support"
+  },
+  "rmachielse/ember-enum": {
+    "owner": "rmachielse",
+    "repo": "ember-enum"
+  },
+  "jsonapi-suite/ember-data-extensions": {
+    "owner": "jsonapi-suite",
+    "repo": "ember-data-extensions"
+  },
+  "dylanmensaert/ember-rollback-relationships": {
+    "owner": "dylanmensaert",
+    "repo": "ember-rollback-relationships"
+  },
+  "knownasilya/ember-data-tasks": {
+    "owner": "knownasilya",
+    "repo": "ember-data-tasks"
+  },
+  "ef4/ember-resource-metadata": {
+    "owner": "ef4",
+    "repo": "ember-resource-metadata"
+  },
+  "clairton/ember-moment-transform": {
+    "owner": "clairton",
+    "repo": "ember-moment-transform"
+  },
+  "Netflix/ember-batch-request": {
+    "owner": "Netflix",
+    "repo": "ember-batch-request"
+  },
+  "skaterdav85/ember-data-updating-json-api-relationships": {
+    "owner": "skaterdav85",
+    "repo": "ember-data-updating-json-api-relationships"
+  },
+  "offirgolan/ember-data-copyable": {
+    "owner": "offirgolan",
+    "repo": "ember-data-copyable"
+  },
+  "rmmmp/ember-computed-query": {
+    "owner": "rmmmp",
+    "repo": "ember-computed-query"
+  },
+  "miguelcobain/ember-data-cascade-delete": {
+    "owner": "miguelcobain",
+    "repo": "ember-data-cascade-delete"
+  },
+  "paulyoder/ember-data-date-only-transform": {
+    "owner": "paulyoder",
+    "repo": "ember-data-date-only-transform"
+  },
+  "onehilltech/ember-blueprint-data": {
+    "owner": "onehilltech",
+    "repo": "ember-blueprint-data"
+  },
+  "LevelbossMike/ember-deploy-s3": {
+    "owner": "LevelbossMike",
+    "repo": "ember-deploy-s3"
+  },
+  "lifegadget/ui-list": {
+    "owner": "lifegadget",
+    "repo": "ui-list"
+  },
+  "Addepar/ember-table": {
+    "owner": "Addepar",
+    "repo": "ember-table"
+  },
+  "crodriguez1a/ember-sort-filter-table": {
+    "owner": "crodriguez1a",
+    "repo": "ember-sort-filter-table"
+  },
+  "Fabriquartz/ember-railio-grid": {
+    "owner": "Fabriquartz",
+    "repo": "ember-railio-grid"
+  },
+  "imdt/ember-imdt-table": {
+    "owner": "imdt",
+    "repo": "ember-imdt-table"
+  },
+  "offirgolan/ember-light-table": {
+    "owner": "offirgolan",
+    "repo": "ember-light-table"
+  },
+  "mu-semtech/ember-data-table": {
+    "owner": "mu-semtech",
+    "repo": "ember-data-table"
+  },
+  "MyPureCloud/fixtable-ember": {
+    "owner": "MyPureCloud",
+    "repo": "fixtable-ember"
+  },
+  "tubitak-bilgem-yte/ember-contextual-table": {
+    "owner": "tubitak-bilgem-yte",
+    "repo": "ember-contextual-table"
+  },
+  "chauhansudhir/ember-cli-simple-table": {
+    "owner": "chauhansudhir",
+    "repo": "ember-cli-simple-table"
+  },
+  "baroquon/ember-keyboard-navigable-list": {
+    "owner": "baroquon",
+    "repo": "ember-keyboard-navigable-list"
+  },
+  "sergiferran/ember-simple-table": {
+    "owner": "sergiferran",
+    "repo": "ember-simple-table"
+  },
+  "eNkru/ember-material-table": {
+    "owner": "eNkru",
+    "repo": "ember-material-table"
+  },
+  "badmacstone/fabulous-table": {
+    "owner": "badmacstone",
+    "repo": "fabulous-table"
+  },
+  "buschtoens/ember-light-table-cell-type-multi-value": {
+    "owner": "buschtoens",
+    "repo": "ember-light-table-cell-type-multi-value"
+  },
+  "rajasegar/ember-a11y-datatable": {
+    "owner": "rajasegar",
+    "repo": "ember-a11y-datatable"
+  },
+  "BellGasp/ember-table-data": {
+    "owner": "BellGasp",
+    "repo": "ember-table-data"
+  },
+  "shayanypn/ember-awesome-datatable": {
+    "owner": "shayanypn",
+    "repo": "ember-awesome-datatable"
+  },
+  "gte451f/ember-cli-table-pagination": {
+    "owner": "gte451f",
+    "repo": "ember-cli-table-pagination"
+  },
+  "zalando-incubator/ember-dressy-table": {
+    "owner": "zalando-incubator",
+    "repo": "ember-dressy-table"
+  },
+  "BrunoSalgado1985/ember-powerful-table": {
+    "owner": "BrunoSalgado1985",
+    "repo": "ember-powerful-table"
+  },
+  "ember-dyna-table/ember-dyna-table": {
+    "owner": "ember-dyna-table",
+    "repo": "ember-dyna-table"
+  },
+  "abcum/ember-gridlist": {
+    "owner": "abcum",
+    "repo": "ember-gridlist"
+  },
+  "foxnewsnetwork/ember-large-list": {
+    "owner": "foxnewsnetwork",
+    "repo": "ember-large-list"
+  },
+  "freshbooks/ember-responsive": {
+    "owner": "freshbooks",
+    "repo": "ember-responsive"
+  },
+  "isleofcode/ember-cordova-keyboard": {
+    "owner": "isleofcode",
+    "repo": "ember-cordova-keyboard"
+  },
+  "isleofcode/ember-cordova-splash": {
+    "owner": "isleofcode",
+    "repo": "ember-cordova-splash"
+  },
+  "jelhan/ember-cordova-nfc": {
+    "owner": "jelhan",
+    "repo": "ember-cordova-nfc"
+  },
+  "stonecircle/ember-cli-notifications": {
+    "owner": "stonecircle",
+    "repo": "ember-cli-notifications"
+  },
+  "bbooth/ember-cli-sweet-alert": {
+    "owner": "bbooth",
+    "repo": "ember-cli-sweet-alert"
+  },
+  "IgorKvasn/ember-notifyme": {
+    "owner": "IgorKvasn",
+    "repo": "ember-notifyme"
+  },
+  "eliksir/ember-notification-center": {
+    "owner": "eliksir",
+    "repo": "ember-notification-center"
+  },
+  "vmpowerio/ember-notification-hub": {
+    "owner": "vmpowerio",
+    "repo": "ember-notification-hub"
+  },
+  "ykaragol/ember-growl-notification": {
+    "owner": "ykaragol",
+    "repo": "ember-growl-notification"
+  },
+  "rajasegar/ember-awesome-notifications": {
+    "owner": "rajasegar",
+    "repo": "ember-awesome-notifications"
+  },
+  "scottwernervt/ember-notifier": {
+    "owner": "scottwernervt",
+    "repo": "ember-notifier"
+  },
+  "softlayer/sl-ember-components": {
+    "owner": "softlayer",
+    "repo": "sl-ember-components"
+  },
+  "lifegadget/ui-input": {
+    "owner": "lifegadget",
+    "repo": "ui-input"
+  },
+  "lozjackson/ember-ui-components": {
+    "owner": "lozjackson",
+    "repo": "ember-ui-components"
+  },
+  "busybusy/webapp-busy-components": {
+    "owner": "busybusy",
+    "repo": "webapp-busy-components"
+  },
+  "patricklx/ember-bscomponents": {
+    "owner": "patricklx",
+    "repo": "ember-bscomponents"
+  },
+  "healthsparq/ember-radical": {
+    "owner": "healthsparq",
+    "repo": "ember-radical"
+  },
+  "BellGasp/ember-dashboard-controls": {
+    "owner": "BellGasp",
+    "repo": "ember-dashboard-controls"
+  },
+  "socialwifi/ember-adminlte-components": {
+    "owner": "socialwifi",
+    "repo": "ember-adminlte-components"
+  },
+  "busy-web/components": {
+    "owner": "busy-web",
+    "repo": "components"
+  },
+  "repositive/ui-library": {
+    "owner": "repositive",
+    "repo": "ui-library"
+  },
+  "coUrbanize/courb-common-ui": {
+    "owner": "coUrbanize",
+    "repo": "courb-common-ui"
+  },
+  "Semantic-Org/Semantic-UI-Ember": {
+    "owner": "Semantic-Org",
+    "repo": "Semantic-UI-Ember"
+  },
+  "mike-north/ember-material-lite": {
+    "owner": "mike-north",
+    "repo": "ember-material-lite"
+  },
+  "rsschermer/ember-spinner-button": {
+    "owner": "rsschermer",
+    "repo": "ember-spinner-button"
+  },
+  "rajasegar/ember-progress-button": {
+    "owner": "rajasegar",
+    "repo": "ember-progress-button"
+  },
+  "rajasegar/ember-loading-button": {
+    "owner": "rajasegar",
+    "repo": "ember-loading-button"
+  },
+  "Gavant/gavant-ember-loading-button": {
+    "owner": "Gavant",
+    "repo": "gavant-ember-loading-button"
+  },
+  "kellyselden/ember-async-action-container": {
+    "owner": "kellyselden",
+    "repo": "ember-async-action-container"
+  },
+  "knownasilya/ember-cli-toggle": {
+    "owner": "knownasilya",
+    "repo": "ember-cli-toggle"
+  },
+  "rsschermer/ember-multiselect-checkboxes": {
+    "owner": "rsschermer",
+    "repo": "ember-multiselect-checkboxes"
+  },
+  "stonecircle/ember-radio-buttons": {
+    "owner": "stonecircle",
+    "repo": "ember-radio-buttons"
+  },
+  "kennethkalmer/ember-cli-nouislider": {
+    "owner": "kennethkalmer",
+    "repo": "ember-cli-nouislider"
+  },
+  "parablesoft/ember-cli-states-select": {
+    "owner": "parablesoft",
+    "repo": "ember-cli-states-select"
+  },
+  "jakkor/ember-advanced-form": {
+    "owner": "jakkor",
+    "repo": "ember-advanced-form"
+  },
+  "thefrontside/emberx-range-input": {
+    "owner": "thefrontside",
+    "repo": "emberx-range-input"
+  },
+  "AnnotationSro/ember-mobile-inputs": {
+    "owner": "AnnotationSro",
+    "repo": "ember-mobile-inputs"
+  },
+  "benoror/ember-formly": {
+    "owner": "benoror",
+    "repo": "ember-formly"
+  },
+  "eflexsystems/ember-cli-toggle": {
+    "owner": "eflexsystems",
+    "repo": "ember-cli-toggle"
+  },
+  "parablesoft/ember-icon-radio-buttons": {
+    "owner": "parablesoft",
+    "repo": "ember-icon-radio-buttons"
+  },
+  "cybertoothca/ember-cli-textarea-autosize": {
+    "owner": "cybertoothca",
+    "repo": "ember-cli-textarea-autosize"
+  },
+  "IliasDeros/ember-ds-inline-edit": {
+    "owner": "IliasDeros",
+    "repo": "ember-ds-inline-edit"
+  },
+  "britishgas-engineering/bg-button-group": {
+    "owner": "britishgas-engineering",
+    "repo": "bg-button-group"
+  },
+  "ngouy/ember-multi-input": {
+    "owner": "ngouy",
+    "repo": "ember-multi-input"
+  },
+  "ember-sparks/button-spark": {
+    "owner": "ember-sparks",
+    "repo": "button-spark"
+  },
+  "ember-sparks/input-spark": {
+    "owner": "ember-sparks",
+    "repo": "input-spark"
+  },
+  "ember-sparks/toggle-spark": {
+    "owner": "ember-sparks",
+    "repo": "toggle-spark"
+  },
+  "quipuapp/ember-task-button": {
+    "owner": "quipuapp",
+    "repo": "ember-task-button"
+  },
+  "cybertoothca/ember-cli-date-textbox": {
+    "owner": "cybertoothca",
+    "repo": "ember-cli-date-textbox"
+  },
+  "cybertoothca/ember-cli-text-field-mixins": {
+    "owner": "cybertoothca",
+    "repo": "ember-cli-text-field-mixins"
+  },
+  "cybertoothca/ember-cli-text-support-mixins": {
+    "owner": "cybertoothca",
+    "repo": "ember-cli-text-support-mixins"
+  },
+  "code-corps/ember-stripe-elements": {
+    "owner": "code-corps",
+    "repo": "ember-stripe-elements"
+  },
+  "knownasilya/ember-toggle": {
+    "owner": "knownasilya",
+    "repo": "ember-toggle"
+  },
+  "Socivo/ember-cli-intl-tel-input": {
+    "owner": "Socivo",
+    "repo": "ember-cli-intl-tel-input"
+  },
+  "rajasegar/ember-stylish-buttons": {
+    "owner": "rajasegar",
+    "repo": "ember-stylish-buttons"
+  },
+  "martinic/ember-cli-markdown-editor": {
+    "owner": "martinic",
+    "repo": "ember-cli-markdown-editor"
+  },
+  "knownasilya/ember-template-input": {
+    "owner": "knownasilya",
+    "repo": "ember-template-input"
+  },
+  "jmohasin/mn-numeric-input": {
+    "owner": "jmohasin",
+    "repo": "mn-numeric-input"
+  },
+  "rajasegar/ember-smart-input": {
+    "owner": "rajasegar",
+    "repo": "ember-smart-input"
+  },
+  "rajasegar/ember-aria-multi-thumb-slider": {
+    "owner": "rajasegar",
+    "repo": "ember-aria-multi-thumb-slider"
+  },
+  "chauhansudhir/ember-cli-switch": {
+    "owner": "chauhansudhir",
+    "repo": "ember-cli-switch"
+  },
+  "rajasegar/ember-aria-slider": {
+    "owner": "rajasegar",
+    "repo": "ember-aria-slider"
+  },
+  "yontxu/ember-floating-mobile-buttons": {
+    "owner": "yontxu",
+    "repo": "ember-floating-mobile-buttons"
+  },
+  "rajasegar/ember-aria-checkbox": {
+    "owner": "rajasegar",
+    "repo": "ember-aria-checkbox"
+  },
+  "marxsk/ember-dynamic-fields": {
+    "owner": "marxsk",
+    "repo": "ember-dynamic-fields"
+  },
+  "balinterdi/ember-cancelable-button": {
+    "owner": "balinterdi",
+    "repo": "ember-cancelable-button"
+  },
+  "buschtoens/ember-radio-bar": {
+    "owner": "buschtoens",
+    "repo": "ember-radio-bar"
+  },
+  "terrancebryant/ember-basic-button": {
+    "owner": "terrancebryant",
+    "repo": "ember-basic-button"
+  },
+  "abcum/ember-editables": {
+    "owner": "abcum",
+    "repo": "ember-editables"
+  },
+  "unchartedsoftware/ember-tokenfield": {
+    "owner": "unchartedsoftware",
+    "repo": "ember-tokenfield"
+  },
+  "RVenkatesh/Ember-slider": {
+    "owner": "RVenkatesh",
+    "repo": "Ember-slider"
+  },
+  "johnotander/ember-remarkable": {
+    "owner": "johnotander",
+    "repo": "ember-remarkable"
+  },
+  "Robdel12/markdown-code-highlighting": {
+    "owner": "Robdel12",
+    "repo": "markdown-code-highlighting"
+  },
+  "very-geek/ember-refined-remarkable": {
+    "owner": "very-geek",
+    "repo": "ember-refined-remarkable"
+  },
+  "cybertoothca/ember-cli-marked-down": {
+    "owner": "cybertoothca",
+    "repo": "ember-cli-marked-down"
+  },
+  "BBVAEngineering/ember-cli-markdown-codefences": {
+    "owner": "BBVAEngineering",
+    "repo": "ember-cli-markdown-codefences"
+  },
+  "thefrontside/emberx-file-input": {
+    "owner": "thefrontside",
+    "repo": "emberx-file-input"
+  },
+  "alexdiliberto/ember-filepond": {
+    "owner": "alexdiliberto",
+    "repo": "ember-filepond"
+  },
+  "ollar/images-drop-area-component": {
+    "owner": "ollar",
+    "repo": "images-drop-area-component"
+  },
+  "minutebase/ember-time-field": {
+    "owner": "minutebase",
+    "repo": "ember-time-field"
+  },
+  "aesopwolf/ember-cli-mask": {
+    "owner": "aesopwolf",
+    "repo": "ember-cli-mask"
+  },
+  "networkteam/ember-cli-maskedinput": {
+    "owner": "networkteam",
+    "repo": "ember-cli-maskedinput"
+  },
+  "text-mask/ember-text-mask-addons": {
+    "owner": "text-mask",
+    "repo": "ember-text-mask-addons"
+  },
+  "ahmetemrekilinc/ember-mask-input": {
+    "owner": "ahmetemrekilinc",
+    "repo": "ember-mask-input"
+  },
+  "cdatehortuab/ember-intl-tel-input": {
+    "owner": "cdatehortuab",
+    "repo": "ember-intl-tel-input"
+  },
+  "ember-furnace/ember-cli-furnace-i18n": {
+    "owner": "ember-furnace",
+    "repo": "ember-cli-furnace-i18n"
+  },
+  "xcambar/ember-cli-crowdin": {
+    "owner": "xcambar",
+    "repo": "ember-cli-crowdin"
+  },
+  "AmilKey/ember-i18n-iso-countries": {
+    "owner": "AmilKey",
+    "repo": "ember-i18n-iso-countries"
+  },
+  "pragatheeswarans/ember-bundle-i18n": {
+    "owner": "pragatheeswarans",
+    "repo": "ember-bundle-i18n"
+  },
+  "affinity-engine/affinity-engine-translator-ember-intl": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-translator-ember-intl"
+  },
+  "vivekmunde/ember-i18n-loader": {
+    "owner": "vivekmunde",
+    "repo": "ember-i18n-loader"
+  },
+  "ecraft/ember-i18n-fetch-translations": {
+    "owner": "ecraft",
+    "repo": "ember-i18n-fetch-translations"
+  },
+  "luketheobscure/ember-pseudolocalize": {
+    "owner": "luketheobscure",
+    "repo": "ember-pseudolocalize"
+  },
+  "yapplabs/ember-modal-dialog": {
+    "owner": "yapplabs",
+    "repo": "ember-modal-dialog"
+  },
+  "pzuraq/liquid-tether": {
+    "owner": "pzuraq",
+    "repo": "liquid-tether"
+  },
+  "sethbrasile/ember-remodal": {
+    "owner": "sethbrasile",
+    "repo": "ember-remodal"
+  },
+  "AnnotationSro/ember-confirm-dialog": {
+    "owner": "AnnotationSro",
+    "repo": "ember-confirm-dialog"
+  },
+  "dbbk/ember-routable-modal": {
+    "owner": "dbbk",
+    "repo": "ember-routable-modal"
+  },
+  "parablesoft/email-modal": {
+    "owner": "parablesoft",
+    "repo": "email-modal"
+  },
+  "CrushedPixel/ember-semantic-proper-modals": {
+    "owner": "CrushedPixel",
+    "repo": "ember-semantic-proper-modals"
+  },
+  "abcum/ember-modals": {
+    "owner": "abcum",
+    "repo": "ember-modals"
+  },
+  "lozjackson/ember-svg-shapes": {
+    "owner": "lozjackson",
+    "repo": "ember-svg-shapes"
+  },
+  "runspired/ember-async-image": {
+    "owner": "runspired",
+    "repo": "ember-async-image"
+  },
+  "Ludu/ember-blur-up": {
+    "owner": "Ludu",
+    "repo": "ember-blur-up"
+  },
+  "khornberg/ember-letter-avatar": {
+    "owner": "khornberg",
+    "repo": "ember-letter-avatar"
+  },
+  "davidbilling/ember-cli-cloudinary-light": {
+    "owner": "davidbilling",
+    "repo": "ember-cli-cloudinary-light"
+  },
+  "vivekmunde/ember-m-image": {
+    "owner": "vivekmunde",
+    "repo": "ember-m-image"
+  },
+  "mayko780/ember-image-scrubber": {
+    "owner": "mayko780",
+    "repo": "ember-image-scrubber"
+  },
+  "eflexsystems/ember-image-drop": {
+    "owner": "eflexsystems",
+    "repo": "ember-image-drop"
+  },
+  "marucjmar/ember-light-gallery": {
+    "owner": "marucjmar",
+    "repo": "ember-light-gallery"
+  },
+  "kiwiupover/ember-lazy-image-loader": {
+    "owner": "kiwiupover",
+    "repo": "ember-lazy-image-loader"
+  },
+  "mharris717/ember-drag-drop": {
+    "owner": "mharris717",
+    "repo": "ember-drag-drop"
+  },
+  "lozjackson/ember-drop-zone": {
+    "owner": "lozjackson",
+    "repo": "ember-drop-zone"
+  },
+  "BellGasp/ember-drag-drop-multiple": {
+    "owner": "BellGasp",
+    "repo": "ember-drag-drop-multiple"
+  },
+  "ollar/draggable-mixin": {
+    "owner": "ollar",
+    "repo": "draggable-mixin"
+  },
+  "ebryn/ember-ckeditor": {
+    "owner": "ebryn",
+    "repo": "ember-ckeditor"
+  },
+  "marucjmar/ember-cli-tinymce": {
+    "owner": "marucjmar",
+    "repo": "ember-cli-tinymce"
+  },
+  "smith-carson/ember-simplemde": {
+    "owner": "smith-carson",
+    "repo": "ember-simplemde"
+  },
+  "kolybasov/ember-medium-editor": {
+    "owner": "kolybasov",
+    "repo": "ember-medium-editor"
+  },
+  "patricksrobertson/simple-mde": {
+    "owner": "patricksrobertson",
+    "repo": "simple-mde"
+  },
+  "lblod/ember-contenteditable-editor": {
+    "owner": "lblod",
+    "repo": "ember-contenteditable-editor"
+  },
+  "indexiatech/ember-idx-wysiwyg": {
+    "owner": "indexiatech",
+    "repo": "ember-idx-wysiwyg"
+  },
+  "mike-north/ember-monaco": {
+    "owner": "mike-north",
+    "repo": "ember-monaco"
+  },
+  "rsschermer/ember-rl-dropdown": {
+    "owner": "rsschermer",
+    "repo": "ember-rl-dropdown"
+  },
+  "jasonkriss/ember-scroll-to": {
+    "owner": "jasonkriss",
+    "repo": "ember-scroll-to"
+  },
+  "selvagsz/ember-carousel": {
+    "owner": "selvagsz",
+    "repo": "ember-carousel"
+  },
+  "laantorchaweb/ember-cli-slick": {
+    "owner": "laantorchaweb",
+    "repo": "ember-cli-slick"
+  },
+  "embermap/ember-collapsible-panel": {
+    "owner": "embermap",
+    "repo": "ember-collapsible-panel"
+  },
+  "knownasilya/ember-palette": {
+    "owner": "knownasilya",
+    "repo": "ember-palette"
+  },
+  "vvinayak-ddbang/ember-cli-collapsible-panel": {
+    "owner": "vvinayak-ddbang",
+    "repo": "ember-cli-collapsible-panel"
+  },
+  "lolmaus/ember-scroll-to-mk2": {
+    "owner": "lolmaus",
+    "repo": "ember-scroll-to-mk2"
+  },
+  "null-null-null/ember-progress-bar": {
+    "owner": "null-null-null",
+    "repo": "ember-progress-bar"
+  },
+  "tsubik/ember-side-menu": {
+    "owner": "tsubik",
+    "repo": "ember-side-menu"
+  },
+  "echobind/ember-links-with-follower": {
+    "owner": "echobind",
+    "repo": "ember-links-with-follower"
+  },
+  "patience-tema-baron/ember-perfect-scrollbar": {
+    "owner": "patience-tema-baron",
+    "repo": "ember-perfect-scrollbar"
+  },
+  "null-null-null/ember-expanding-sidebars": {
+    "owner": "null-null-null",
+    "repo": "ember-expanding-sidebars"
+  },
+  "patience-tema-baron/ember-flex-menu": {
+    "owner": "patience-tema-baron",
+    "repo": "ember-flex-menu"
+  },
+  "cbroeren/ember-context-menu": {
+    "owner": "cbroeren",
+    "repo": "ember-context-menu"
+  },
+  "lifegadget/ui-navigation": {
+    "owner": "lifegadget",
+    "repo": "ui-navigation"
+  },
+  "cardstack/squishable-container": {
+    "owner": "cardstack",
+    "repo": "squishable-container"
+  },
+  "Ticketfly/ember-ticketfly-accordion": {
+    "owner": "Ticketfly",
+    "repo": "ember-ticketfly-accordion"
+  },
+  "offirgolan/ember-burger-menu": {
+    "owner": "offirgolan",
+    "repo": "ember-burger-menu"
+  },
+  "affinity-engine/affinity-engine-menu-bar": {
+    "owner": "affinity-engine",
+    "repo": "affinity-engine-menu-bar"
+  },
+  "gowthamrm/ember-scroll-progress": {
+    "owner": "gowthamrm",
+    "repo": "ember-scroll-progress"
+  },
+  "rajasegar/ember-responsive-tabs": {
+    "owner": "rajasegar",
+    "repo": "ember-responsive-tabs"
+  },
+  "n1ru4l/ember-card-stacks": {
+    "owner": "n1ru4l",
+    "repo": "ember-card-stacks"
+  },
+  "Oreoz/ember-vertical-timeline": {
+    "owner": "Oreoz",
+    "repo": "ember-vertical-timeline"
+  },
+  "rajasegar/ember-slide-push-menu": {
+    "owner": "rajasegar",
+    "repo": "ember-slide-push-menu"
+  },
+  "cafreeman/ember-swipe": {
+    "owner": "cafreeman",
+    "repo": "ember-swipe"
+  },
+  "BellGasp/ember-bs4-collapsible-panel": {
+    "owner": "BellGasp",
+    "repo": "ember-bs4-collapsible-panel"
+  },
+  "rajasegar/ember-aria-switch": {
+    "owner": "rajasegar",
+    "repo": "ember-aria-switch"
+  },
+  "crhayes/ember-slides": {
+    "owner": "crhayes",
+    "repo": "ember-slides"
+  },
+  "michalsnik/ember-fake-content": {
+    "owner": "michalsnik",
+    "repo": "ember-fake-content"
+  },
+  "michalsnik/ember-content-placeholders": {
+    "owner": "michalsnik",
+    "repo": "ember-content-placeholders"
+  },
+  "vasilionjea/ember-a11y-accordion": {
+    "owner": "vasilionjea",
+    "repo": "ember-a11y-accordion"
+  },
+  "Gavant/gavant-ember-button-link": {
+    "owner": "Gavant",
+    "repo": "gavant-ember-button-link"
+  },
+  "mrfisher8432/ember-cool-tabs": {
+    "owner": "mrfisher8432",
+    "repo": "ember-cool-tabs"
+  },
+  "rajmichaels/ember-context-menu": {
+    "owner": "rajmichaels",
+    "repo": "ember-context-menu"
+  },
+  "rajasegar/ember-aria-accordion": {
+    "owner": "rajasegar",
+    "repo": "ember-aria-accordion"
+  },
+  "padhyeashu/ember-carousel": {
+    "owner": "padhyeashu",
+    "repo": "ember-carousel"
+  },
+  "surkus/ember-cli-slick": {
+    "owner": "surkus",
+    "repo": "ember-cli-slick"
+  },
+  "karthikaruna/ember-telephone-keypad": {
+    "owner": "karthikaruna",
+    "repo": "ember-telephone-keypad"
+  },
+  "adfinis-sygroup/ember-document-merge-service": {
+    "owner": "adfinis-sygroup",
+    "repo": "ember-document-merge-service"
+  },
+  "uchihamalolan/ember-emojipalette": {
+    "owner": "uchihamalolan",
+    "repo": "ember-emojipalette"
+  },
+  "johnotander/ember-cli-gravatar": {
+    "owner": "johnotander",
+    "repo": "ember-cli-gravatar"
+  },
+  "freshbooks/initials-avatar": {
+    "owner": "freshbooks",
+    "repo": "initials-avatar"
+  },
+  "hstry/ember-html5-audio": {
+    "owner": "hstry",
+    "repo": "ember-html5-audio"
+  },
+  "PXLbros/ember-cli-youtube-modal": {
+    "owner": "PXLbros",
+    "repo": "ember-cli-youtube-modal"
+  },
+  "ceb10n/ember-cli-clappr": {
+    "owner": "ceb10n",
+    "repo": "ember-cli-clappr"
+  },
+  "this-dot/ember-background-video": {
+    "owner": "this-dot",
+    "repo": "ember-background-video"
+  },
+  "nypublicradio/nypr-audio-services": {
+    "owner": "nypublicradio",
+    "repo": "nypr-audio-services"
+  },
+  "cometaworks/ember-cli-bing-map": {
+    "owner": "cometaworks",
+    "repo": "ember-cli-bing-map"
+  },
+  "knownasilya/google-maps-zoom": {
+    "owner": "knownasilya",
+    "repo": "google-maps-zoom"
+  },
+  "asennikov/ember-g-map": {
+    "owner": "asennikov",
+    "repo": "ember-g-map"
+  },
+  "canufeel/ember-leaflet-layer-control": {
+    "owner": "canufeel",
+    "repo": "ember-leaflet-layer-control"
+  },
+  "willviles/ember-leaflet-heatmap": {
+    "owner": "willviles",
+    "repo": "ember-leaflet-heatmap"
+  },
+  "stratumn/ember-mapexplorer": {
+    "owner": "stratumn",
+    "repo": "ember-mapexplorer"
+  },
+  "StevenHeinrich/ember-leaflet-draw": {
+    "owner": "StevenHeinrich",
+    "repo": "ember-leaflet-draw"
+  },
+  "dio-el-claire/ember-leaflet-heatmap-layer": {
+    "owner": "dio-el-claire",
+    "repo": "ember-leaflet-heatmap-layer"
+  },
+  "dio-el-claire/ember-leaflet-google-mutant-layer": {
+    "owner": "dio-el-claire",
+    "repo": "ember-leaflet-google-mutant-layer"
+  },
+  "dhdemerson/ember-leaflet-iiif-tile-layer": {
+    "owner": "dhdemerson",
+    "repo": "ember-leaflet-iiif-tile-layer"
+  },
+  "MLHale/ember-heatmap": {
+    "owner": "MLHale",
+    "repo": "ember-heatmap"
+  },
+  "transitland/ember-leaflet-polyline-decorator": {
+    "owner": "transitland",
+    "repo": "ember-leaflet-polyline-decorator"
+  },
+  "NYCPlanning/ember-mapbox-composer": {
+    "owner": "NYCPlanning",
+    "repo": "ember-mapbox-composer"
+  },
+  "201-created/ember-cli-fake-server": {
+    "owner": "201-created",
+    "repo": "ember-cli-fake-server"
+  },
+  "offirgolan/ember-data-mirage": {
+    "owner": "offirgolan",
+    "repo": "ember-data-mirage"
+  },
+  "johnotander/ember-linkify": {
+    "owner": "johnotander",
+    "repo": "ember-linkify"
+  },
+  "bmeurant/ember-array-contains-helper": {
+    "owner": "bmeurant",
+    "repo": "ember-array-contains-helper"
+  },
+  "HeroicEric/ember-markdown-it": {
+    "owner": "HeroicEric",
+    "repo": "ember-markdown-it"
+  },
+  "EmberSherpa/ember-reactive-helpers": {
+    "owner": "EmberSherpa",
+    "repo": "ember-reactive-helpers"
+  },
+  "tzellman/ember-fakerjs": {
+    "owner": "tzellman",
+    "repo": "ember-fakerjs"
+  },
+  "nabaz/ember-truncate-text": {
+    "owner": "nabaz",
+    "repo": "ember-truncate-text"
+  },
+  "romulomachado/ember-cli-string-helpers": {
+    "owner": "romulomachado",
+    "repo": "ember-cli-string-helpers"
+  },
+  "FutoRicky/ember-number-to-words": {
+    "owner": "FutoRicky",
+    "repo": "ember-number-to-words"
+  },
+  "BBVAEngineering/ember-route-helpers": {
+    "owner": "BBVAEngineering",
+    "repo": "ember-route-helpers"
+  },
+  "scottwernervt/ember-cli-group-by": {
+    "owner": "scottwernervt",
+    "repo": "ember-cli-group-by"
+  },
+  "buschtoens/ember-collect-helper": {
+    "owner": "buschtoens",
+    "repo": "ember-collect-helper"
+  },
+  "thoov/ember-invoke": {
+    "owner": "thoov",
+    "repo": "ember-invoke"
+  },
+  "rennomarcus/ember-cli-markdown-it": {
+    "owner": "rennomarcus",
+    "repo": "ember-cli-markdown-it"
+  },
+  "cybertoothca/ember-helper-locale-number": {
+    "owner": "cybertoothca",
+    "repo": "ember-helper-locale-number"
+  },
+  "konradjurk/ember-text-highlight": {
+    "owner": "konradjurk",
+    "repo": "ember-text-highlight"
+  },
+  "ef4/ember-css-url": {
+    "owner": "ef4",
+    "repo": "ember-css-url"
+  },
+  "abcum/ember-helpers": {
+    "owner": "abcum",
+    "repo": "ember-helpers"
+  },
+  "tildeio/ember-element-helper": {
+    "owner": "tildeio",
+    "repo": "ember-element-helper"
+  },
+  "taras/ember-import": {
+    "owner": "taras",
+    "repo": "ember-import"
+  },
+  "mrryanjohnston/ember-service-function-helper": {
+    "owner": "mrryanjohnston",
+    "repo": "ember-service-function-helper"
+  },
+  "chadian/ember-query-param-helpers": {
+    "owner": "chadian",
+    "repo": "ember-query-param-helpers"
+  },
+  "tstormk/ember-cli-with-relative-path": {
+    "owner": "tstormk",
+    "repo": "ember-cli-with-relative-path"
+  },
+  "tstormk/ember-cli-route-exists": {
+    "owner": "tstormk",
+    "repo": "ember-cli-route-exists"
+  },
+  "lifegadget/ui-icon": {
+    "owner": "lifegadget",
+    "repo": "ui-icon"
+  },
+  "martndemus/ember-font-awesome": {
+    "owner": "martndemus",
+    "repo": "ember-font-awesome"
+  },
+  "lifegadget/ui-flag": {
+    "owner": "lifegadget",
+    "repo": "ui-flag"
+  },
+  "kpfefferle/ember-octicons": {
+    "owner": "kpfefferle",
+    "repo": "ember-octicons"
+  },
+  "James1x0/ember-cli-emoji": {
+    "owner": "James1x0",
+    "repo": "ember-cli-emoji"
+  },
+  "limit-zero/ember-entypo": {
+    "owner": "limit-zero",
+    "repo": "ember-entypo"
+  },
+  "cspanring/ember-font-awesome": {
+    "owner": "cspanring",
+    "repo": "ember-font-awesome"
+  },
+  "omarestrella/ember-emoji": {
+    "owner": "omarestrella",
+    "repo": "ember-emoji"
+  },
+  "cwhittl/ember-file-icons": {
+    "owner": "cwhittl",
+    "repo": "ember-file-icons"
+  },
+  "pvnguyen123/ember-cli-feather-icons": {
+    "owner": "pvnguyen123",
+    "repo": "ember-cli-feather-icons"
+  },
+  "ember-a11y/a11y-announcer": {
+    "owner": "ember-a11y",
+    "repo": "a11y-announcer"
+  },
+  "ember-a11y/ember-a11y": {
+    "owner": "ember-a11y",
+    "repo": "ember-a11y"
+  },
+  "MelSumner/ember-a11y-landmarks": {
+    "owner": "MelSumner",
+    "repo": "ember-a11y-landmarks"
+  },
+  "Vestorly/ember-cli-infinite-scroll": {
+    "owner": "Vestorly",
+    "repo": "ember-cli-infinite-scroll"
+  },
+  "abulsayyad123/ember-infinite-list": {
+    "owner": "abulsayyad123",
+    "repo": "ember-infinite-list"
+  },
+  "patience-tema-baron/ember-get-config": {
+    "owner": "patience-tema-baron",
+    "repo": "ember-get-config"
+  },
+  "rajasegar/ember-addon-starterkit": {
+    "owner": "rajasegar",
+    "repo": "ember-addon-starterkit"
+  },
+  "duizendnegen/ember-cli-deploy-azure-blob": {
+    "owner": "duizendnegen",
+    "repo": "ember-cli-deploy-azure-blob"
+  },
+  "duizendnegen/ember-cli-deploy-azure-tables": {
+    "owner": "duizendnegen",
+    "repo": "ember-cli-deploy-azure-tables"
+  },
+  "dschmidt/ember-cli-deploy-cp": {
+    "owner": "dschmidt",
+    "repo": "ember-cli-deploy-cp"
+  },
+  "dschmidt/ember-cli-deploy-sentry": {
+    "owner": "dschmidt",
+    "repo": "ember-cli-deploy-sentry"
+  },
+  "minutebase/ember-cli-deploy-git-tag": {
+    "owner": "minutebase",
+    "repo": "ember-cli-deploy-git-tag"
+  },
+  "martinic/ember-cli-deploy-couchdb": {
+    "owner": "martinic",
+    "repo": "ember-cli-deploy-couchdb"
+  },
+  "green-arrow/ember-cli-deploy-ssh-index": {
+    "owner": "green-arrow",
+    "repo": "ember-cli-deploy-ssh-index"
+  },
+  "michaljach/ember-cli-deploy-scp": {
+    "owner": "michaljach",
+    "repo": "ember-cli-deploy-scp"
+  },
+  "Gaurav0/ember-cli-deploy-s3-pack": {
+    "owner": "Gaurav0",
+    "repo": "ember-cli-deploy-s3-pack"
+  },
+  "simplabs/ember-cli-deploy-webhooks": {
+    "owner": "simplabs",
+    "repo": "ember-cli-deploy-webhooks"
+  },
+  "envoy/ember-cli-deploy-gcs-index": {
+    "owner": "envoy",
+    "repo": "ember-cli-deploy-gcs-index"
+  },
+  "ibroadfo/ember-cli-deploy-firebase": {
+    "owner": "ibroadfo",
+    "repo": "ember-cli-deploy-firebase"
+  },
+  "knownasilya/ember-cli-deploy-gcloud-storage": {
+    "owner": "knownasilya",
+    "repo": "ember-cli-deploy-gcloud-storage"
+  },
+  "EmberSherpa/ember-cli-deploy-gcloud": {
+    "owner": "EmberSherpa",
+    "repo": "ember-cli-deploy-gcloud"
+  },
+  "Sweet-Bob/ember-cli-deploy-rsync-another": {
+    "owner": "Sweet-Bob",
+    "repo": "ember-cli-deploy-rsync-another"
+  },
+  "gabz75/ember-cli-deploy-redis-publish": {
+    "owner": "gabz75",
+    "repo": "ember-cli-deploy-redis-publish"
+  },
+  "aklkv/ember-cli-deploy-raygun": {
+    "owner": "aklkv",
+    "repo": "ember-cli-deploy-raygun"
+  },
+  "achambers/ember-cli-deploy-git-revision-data": {
+    "owner": "achambers",
+    "repo": "ember-cli-deploy-git-revision-data"
+  },
+  "kayako/ember-cli-deploy-github-deployment-status": {
+    "owner": "kayako",
+    "repo": "ember-cli-deploy-github-deployment-status"
+  },
+  "joebartels/ember-cli-deploy-sh": {
+    "owner": "joebartels",
+    "repo": "ember-cli-deploy-sh"
+  },
+  "IvyApp/ember-cli-deploy-pusher": {
+    "owner": "IvyApp",
+    "repo": "ember-cli-deploy-pusher"
+  },
+  "wytlytningNZ/ember-cli-deploy-fastboot-api-lambda": {
+    "owner": "wytlytningNZ",
+    "repo": "ember-cli-deploy-fastboot-api-lambda"
+  },
+  "MartinMalinda/ember-cli-deploy-composer": {
+    "owner": "MartinMalinda",
+    "repo": "ember-cli-deploy-composer"
+  },
+  "sescobb27/ember-cli-deploy-redis-publish-revision": {
+    "owner": "sescobb27",
+    "repo": "ember-cli-deploy-redis-publish-revision"
+  },
+  "vestorly/ember-cli-deploy-versioning": {
+    "owner": "vestorly",
+    "repo": "ember-cli-deploy-versioning"
+  },
+  "martinic/ember-cli-deploy-sftp": {
+    "owner": "martinic",
+    "repo": "ember-cli-deploy-sftp"
+  },
+  "deepthought97/ember-cli-deploy-zip": {
+    "owner": "deepthought97",
+    "repo": "ember-cli-deploy-zip"
+  },
+  "felixkiss/ember-cli-deploy-ssh-execute": {
+    "owner": "felixkiss",
+    "repo": "ember-cli-deploy-ssh-execute"
+  },
+  "dfreeman/ember-cli-deploy-git-ci": {
+    "owner": "dfreeman",
+    "repo": "ember-cli-deploy-git-ci"
+  },
+  "makepanic/ember-cli-deploy-maven": {
+    "owner": "makepanic",
+    "repo": "ember-cli-deploy-maven"
+  },
+  "GerritSommer/ember-cli-deploy-docker-hub": {
+    "owner": "GerritSommer",
+    "repo": "ember-cli-deploy-docker-hub"
+  },
+  "econlab/ember-cli-deploy-firebase": {
+    "owner": "econlab",
+    "repo": "ember-cli-deploy-firebase"
+  },
+  "upsilon-it/ember-cli-deploy-fastboot-lambda": {
+    "owner": "upsilon-it",
+    "repo": "ember-cli-deploy-fastboot-lambda"
+  },
+  "bgentry/ember-cli-deploy-rollbar-sourcemap": {
+    "owner": "bgentry",
+    "repo": "ember-cli-deploy-rollbar-sourcemap"
+  },
+  "patience-tema-baron/ember-keyboard": {
+    "owner": "patience-tema-baron",
+    "repo": "ember-keyboard"
+  },
+  "timjcook/ember-cli-keyboard-nav": {
+    "owner": "timjcook",
+    "repo": "ember-cli-keyboard-nav"
+  },
+  "abcum/ember-hotkey": {
+    "owner": "abcum",
+    "repo": "ember-hotkey"
+  },
+  "cph/ember-list-keyboard-navigator": {
+    "owner": "cph",
+    "repo": "ember-list-keyboard-navigator"
+  },
+  "rwjblue/ember-debug-handlers-polyfill": {
+    "owner": "rwjblue",
+    "repo": "ember-debug-handlers-polyfill"
+  },
+  "rwjblue/ember-getowner-polyfill": {
+    "owner": "rwjblue",
+    "repo": "ember-getowner-polyfill"
+  },
+  "workmanw/ember-string-ishtmlsafe-polyfill": {
+    "owner": "workmanw",
+    "repo": "ember-string-ishtmlsafe-polyfill"
+  },
+  "rwjblue/ember-runtime-enumerable-includes-polyfill": {
+    "owner": "rwjblue",
+    "repo": "ember-runtime-enumerable-includes-polyfill"
+  },
+  "cafreeman/ember-let-polyfill": {
+    "owner": "cafreeman",
+    "repo": "ember-let-polyfill"
+  },
+  "rwjblue/ember-angle-bracket-invocation-polyfill": {
+    "owner": "rwjblue",
+    "repo": "ember-angle-bracket-invocation-polyfill"
+  },
+  "rwjblue/ember-named-arguments-polyfill": {
+    "owner": "rwjblue",
+    "repo": "ember-named-arguments-polyfill"
+  },
+  "miguelcobain/ember-cli-element-closest-polyfill": {
+    "owner": "miguelcobain",
+    "repo": "ember-cli-element-closest-polyfill"
+  },
+  "miguelcobain/ember-cli-matchmedia-polyfill": {
+    "owner": "miguelcobain",
+    "repo": "ember-cli-matchmedia-polyfill"
+  },
+  "loadimpact/ember-cli-promise-polyfill": {
+    "owner": "loadimpact",
+    "repo": "ember-cli-promise-polyfill"
+  },
+  "miguelcobain/ember-cli-requestanimationframe-polyfill": {
+    "owner": "miguelcobain",
+    "repo": "ember-cli-requestanimationframe-polyfill"
+  },
+  "pzuraq/ember-native-class-polyfill": {
+    "owner": "pzuraq",
+    "repo": "ember-native-class-polyfill"
+  },
+  "emberjs/ember-2-legacy": {
+    "owner": "emberjs",
+    "repo": "ember-2-legacy"
+  },
+  "lupestro/ember-copy": {
+    "owner": "lupestro",
+    "repo": "ember-copy"
+  },
+  "cibernox/ember-cpm": {
+    "owner": "cibernox",
+    "repo": "ember-cpm"
+  },
+  "HeroicEric/ember-group-by": {
+    "owner": "HeroicEric",
+    "repo": "ember-group-by"
+  },
+  "lazybensch/ember-cli-filter-by-query": {
+    "owner": "lazybensch",
+    "repo": "ember-cli-filter-by-query"
+  },
+  "ivanvanderbyl/ember-computed-style": {
+    "owner": "ivanvanderbyl",
+    "repo": "ember-computed-style"
+  },
+  "Simply360/ember-cartesian-product": {
+    "owner": "Simply360",
+    "repo": "ember-cartesian-product"
+  },
+  "courajs/ember-dynamic-alias": {
+    "owner": "courajs",
+    "repo": "ember-dynamic-alias"
+  },
+  "shamcode/ember-abstract-macro": {
+    "owner": "shamcode",
+    "repo": "ember-abstract-macro"
+  },
+  "onechiporenko/ember-model-original-attributes": {
+    "owner": "onechiporenko",
+    "repo": "ember-model-original-attributes"
+  },
+  "onehilltech/ember-cli-input-helpers": {
+    "owner": "onehilltech",
+    "repo": "ember-cli-input-helpers"
+  },
+  "klclee/ember-cli-mp": {
+    "owner": "klclee",
+    "repo": "ember-cli-mp"
+  },
+  "poteto/ember-metrics": {
+    "owner": "poteto",
+    "repo": "ember-metrics"
+  },
+  "sas1ni69/ember-cli-gtm": {
+    "owner": "sas1ni69",
+    "repo": "ember-cli-gtm"
+  },
+  "kiwiupover/ember-dashboard": {
+    "owner": "kiwiupover",
+    "repo": "ember-dashboard"
+  },
+  "TailorBrands/ember-cli-fbq": {
+    "owner": "TailorBrands",
+    "repo": "ember-cli-fbq"
+  },
+  "cibernox/ember-metrics-chameleon-adapter": {
+    "owner": "cibernox",
+    "repo": "ember-metrics-chameleon-adapter"
+  },
+  "vastec/ember-cli-multi-google-analytics": {
+    "owner": "vastec",
+    "repo": "ember-cli-multi-google-analytics"
+  },
+  "byrnedo/ember-hotjar": {
+    "owner": "byrnedo",
+    "repo": "ember-hotjar"
+  },
+  "acquia/ember-logging-amplitude": {
+    "owner": "acquia",
+    "repo": "ember-logging-amplitude"
+  },
+  "jlami/ember-cli-analytics-statcounter": {
+    "owner": "jlami",
+    "repo": "ember-cli-analytics-statcounter"
+  },
+  "sutori/ember-cli-profitwell": {
+    "owner": "sutori",
+    "repo": "ember-cli-profitwell"
+  },
+  "moltin/ember-cli-mautic": {
+    "owner": "moltin",
+    "repo": "ember-cli-mautic"
+  },
+  "grimbonious/ember-metrics-amplify": {
+    "owner": "grimbonious",
+    "repo": "ember-metrics-amplify"
+  },
+  "km-smith/ember-cli-piwik": {
+    "owner": "km-smith",
+    "repo": "ember-cli-piwik"
+  },
+  "cspanring/ember-metrics": {
+    "owner": "cspanring",
+    "repo": "ember-metrics"
+  },
+  "jcbvm/ember-api-requests": {
+    "owner": "jcbvm",
+    "repo": "ember-api-requests"
+  },
+  "lifeart/ember-jsonp": {
+    "owner": "lifeart",
+    "repo": "ember-jsonp"
+  },
+  "adopted-ember-addons/ember-impagination": {
+    "owner": "adopted-ember-addons",
+    "repo": "ember-impagination"
+  },
+  "twbrandt/ember-simple-pagination": {
+    "owner": "twbrandt",
+    "repo": "ember-simple-pagination"
+  },
+  "mikeu/ember-pagination-links": {
+    "owner": "mikeu",
+    "repo": "ember-pagination-links"
+  },
+  "sir-dunxalot/ember-new-relic": {
+    "owner": "sir-dunxalot",
+    "repo": "ember-new-relic"
+  },
+  "upsilon-it/ember-rollbar": {
+    "owner": "upsilon-it",
+    "repo": "ember-rollbar"
+  },
+  "Gavant/ember-error-logger": {
+    "owner": "Gavant",
+    "repo": "ember-error-logger"
+  },
+  "appaloosa-store/ember-cli-bugsnag-reporter": {
+    "owner": "appaloosa-store",
+    "repo": "ember-cli-bugsnag-reporter"
+  },
+  "poteto/ember-api-feature-flags": {
+    "owner": "poteto",
+    "repo": "ember-api-feature-flags"
+  },
+  "camhux/ember-cli-flagpole": {
+    "owner": "camhux",
+    "repo": "ember-cli-flagpole"
+  },
+  "PrinceCornNM/ember-algolia": {
+    "owner": "PrinceCornNM",
+    "repo": "ember-algolia"
+  },
+  "grimbonious/ember-cli-amplify": {
+    "owner": "grimbonious",
+    "repo": "ember-cli-amplify"
+  },
+  "ember-engines/ember-engines": {
+    "owner": "ember-engines",
+    "repo": "ember-engines"
+  },
+  "thefrontside/ember-let": {
+    "owner": "thefrontside",
+    "repo": "ember-let"
+  },
+  "ciena-blueplanet/ember-spread": {
+    "owner": "ciena-blueplanet",
+    "repo": "ember-spread"
+  },
+  "workmanw/ember-diff-attrs": {
+    "owner": "workmanw",
+    "repo": "ember-diff-attrs"
+  },
+  "mmun/ember-component-attributes": {
+    "owner": "mmun",
+    "repo": "ember-component-attributes"
+  },
+  "rwjblue/sparkles-component": {
+    "owner": "rwjblue",
+    "repo": "sparkles-component"
+  },
+  "lifeart/hooked-components": {
+    "owner": "lifeart",
+    "repo": "hooked-components"
+  },
+  "twaite/ember-hooks": {
+    "owner": "twaite",
+    "repo": "ember-hooks"
+  },
+  "ynnoj/ember-material-icons": {
+    "owner": "ynnoj",
+    "repo": "ember-material-icons"
+  },
+  "sauce-consultants/ember-sauce-material-design": {
+    "owner": "sauce-consultants",
+    "repo": "ember-sauce-material-design"
+  },
+  "aonawale/ember-material-components": {
+    "owner": "aonawale",
+    "repo": "ember-material-components"
+  },
+  "Appchance/ember-cached-shoe": {
+    "owner": "Appchance",
+    "repo": "ember-cached-shoe"
+  },
+  "ef4/prember": {
+    "owner": "ef4",
+    "repo": "prember"
+  },
+  "izelnakri/ember-cli-fastboot": {
+    "owner": "izelnakri",
+    "repo": "ember-cli-fastboot"
+  },
+  "kaliber5/ember-fastboot-form-rehydration": {
+    "owner": "kaliber5",
+    "repo": "ember-fastboot-form-rehydration"
+  },
+  "foxnewsnetwork/ember-immutable": {
+    "owner": "foxnewsnetwork",
+    "repo": "ember-immutable"
+  },
+  "MammothHR/ember-cli-ahoy": {
+    "owner": "MammothHR",
+    "repo": "ember-cli-ahoy"
+  },
+  "Exelord/ember-md5": {
+    "owner": "Exelord",
+    "repo": "ember-md5"
+  },
+  "Exelord/ember-jwt-decode": {
+    "owner": "Exelord",
+    "repo": "ember-jwt-decode"
+  },
+  "IcaliaLabs/ember-post-robot": {
+    "owner": "IcaliaLabs",
+    "repo": "ember-post-robot"
+  },
+  "systembugtj/ember-highlightjs": {
+    "owner": "systembugtj",
+    "repo": "ember-highlightjs"
+  },
+  "ming-codes/ember-regl": {
+    "owner": "ming-codes",
+    "repo": "ember-regl"
+  },
+  "Exelord/ember-js-modules": {
+    "owner": "Exelord",
+    "repo": "ember-js-modules"
+  },
+  "kellyselden/ember-defer": {
+    "owner": "kellyselden",
+    "repo": "ember-defer"
+  },
+  "navyuginfo/ember-seo-meta-tags": {
+    "owner": "navyuginfo",
+    "repo": "ember-seo-meta-tags"
+  },
+  "abcum/ember-headers": {
+    "owner": "abcum",
+    "repo": "ember-headers"
+  },
+  "izelnakri/mber-head": {
+    "owner": "izelnakri",
+    "repo": "mber-head"
+  },
+  "surkus/ember-cli-document-title": {
+    "owner": "surkus",
+    "repo": "ember-cli-document-title"
+  }
+}
